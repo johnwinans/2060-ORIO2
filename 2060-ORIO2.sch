@@ -15,17 +15,6 @@ Comment4 ""
 $EndDescr
 Text Notes 17300 15875 0    39   Italic 0
 Copyright (C) 2020 John Winans\n\nThis documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\n\nYou may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, \nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.  Please see the CERN OHL v.1.2 for applicable conditions\n\nIf you chose to manufacture products based on this design, please notify me (see license section 4.2) via john@winans.org\n
-$Comp
-L Graphic:Logo_Open_Hardware_Small LOGO11
-U 1 1 5ECC6939
-P 21250 15650
-F 0 "LOGO11" H 21250 15925 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 21250 15425 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 21250 15650 50  0001 C CNN
-F 3 "~" H 21250 15650 50  0001 C CNN
-	1    21250 15650
-	1    0    0    -1  
-$EndComp
 Text Notes 17300 15225 0    50   ~ 10
 https://github.com/johnwinans/2060-ORIO2
 Text Notes 10150 4600 0    79   ~ 16
@@ -51,38 +40,6 @@ Text Label 11650 4300 0    50   ~ 0
 SCL1
 Text Label 11650 4200 0    50   ~ 0
 SDA1
-$Comp
-L Device:R R?
-U 1 1 5ED20822
-P 11200 4200
-AR Path="/5BBE5CCD/5ED20822" Ref="R?"  Part="1" 
-AR Path="/5ED20822" Ref="R23"  Part="1" 
-AR Path="/5CF9559A/5ED20822" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5ED20822" Ref="R?"  Part="1" 
-F 0 "R23" V 11150 4400 50  0000 C CNN
-F 1 "2K2" V 11200 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11130 4200 50  0001 C CNN
-F 3 "~" H 11200 4200 50  0001 C CNN
-F 4 "311-2.20KHRCT-ND" H 11200 4200 50  0001 C CNN "Digi-Key_PN"
-	1    11200 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5ED20829
-P 11200 4300
-AR Path="/5BBE5CCD/5ED20829" Ref="R?"  Part="1" 
-AR Path="/5ED20829" Ref="R24"  Part="1" 
-AR Path="/5CF9559A/5ED20829" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5ED20829" Ref="R?"  Part="1" 
-F 0 "R24" V 11150 4500 50  0000 C CNN
-F 1 "2K2" V 11200 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11130 4300 50  0001 C CNN
-F 3 "~" H 11200 4300 50  0001 C CNN
-F 4 "311-2.20KHRCT-ND" H 11200 4300 50  0001 C CNN "Digi-Key_PN"
-	1    11200 4300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	11350 4300 12200 4300
 Wire Wire Line
@@ -119,40 +76,8 @@ F 3 "" H 16250 5900 50  0001 C CNN
 	1    16250 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5ED208E8
-P 17100 7750
-AR Path="/5BBE5CCD/5ED208E8" Ref="R?"  Part="1" 
-AR Path="/5ED208E8" Ref="R26"  Part="1" 
-AR Path="/5CF9559A/5ED208E8" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5ED208E8" Ref="R?"  Part="1" 
-F 0 "R26" V 17000 7750 50  0000 C CNN
-F 1 "3K3" V 17100 7750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17030 7750 50  0001 C CNN
-F 3 "~" H 17100 7750 50  0001 C CNN
-F 4 "311-3.30KHRCT-ND" H 17100 7750 50  0001 C CNN "Digi-Key_PN"
-	1    17100 7750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	16950 7750 16900 7750
-$Comp
-L Device:R R?
-U 1 1 5ED208F2
-P 16700 7750
-AR Path="/5BBE5CCD/5ED208F2" Ref="R?"  Part="1" 
-AR Path="/5ED208F2" Ref="R25"  Part="1" 
-AR Path="/5CF9559A/5ED208F2" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5ED208F2" Ref="R?"  Part="1" 
-F 0 "R25" V 16600 7750 50  0000 C CNN
-F 1 "33K" V 16700 7750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16630 7750 50  0001 C CNN
-F 3 "~" H 16700 7750 50  0001 C CNN
-F 4 "311-33.0KHRCT-ND" H 16700 7750 50  0001 C CNN "Digi-Key_PN"
-	1    16700 7750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	16900 7550 16900 7750
 Connection ~ 16900 7750
@@ -217,110 +142,6 @@ Text Label 15200 5350 0    50   ~ 0
 SOL_6
 Text Label 15200 5450 0    50   ~ 0
 SOL_7
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5EDF97F2
-P 15750 16300
-AR Path="/5ECC13DB/5EDF97F2" Ref="H?"  Part="1" 
-AR Path="/5EDF97F2" Ref="H17"  Part="1" 
-F 0 "H17" H 15850 16346 50  0000 L CNN
-F 1 "MountingHole" H 15850 16255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 15750 16300 50  0001 C CNN
-F 3 "~" H 15750 16300 50  0001 C CNN
-	1    15750 16300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5EDF97F8
-P 15750 16100
-AR Path="/5ECC13DB/5EDF97F8" Ref="H?"  Part="1" 
-AR Path="/5EDF97F8" Ref="H15"  Part="1" 
-F 0 "H15" H 15850 16146 50  0000 L CNN
-F 1 "MountingHole" H 15850 16055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 15750 16100 50  0001 C CNN
-F 3 "~" H 15750 16100 50  0001 C CNN
-	1    15750 16100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5EDF97FE
-P 15750 15900
-AR Path="/5ECC13DB/5EDF97FE" Ref="H?"  Part="1" 
-AR Path="/5EDF97FE" Ref="H13"  Part="1" 
-F 0 "H13" H 15850 15946 50  0000 L CNN
-F 1 "MountingHole" H 15850 15855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 15750 15900 50  0001 C CNN
-F 3 "~" H 15750 15900 50  0001 C CNN
-	1    15750 15900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5EDF9804
-P 15750 15700
-AR Path="/5ECC13DB/5EDF9804" Ref="H?"  Part="1" 
-AR Path="/5EDF9804" Ref="H11"  Part="1" 
-F 0 "H11" H 15850 15746 50  0000 L CNN
-F 1 "MountingHole" H 15850 15655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 15750 15700 50  0001 C CNN
-F 3 "~" H 15750 15700 50  0001 C CNN
-	1    15750 15700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5EE36DD2
-P 16550 16300
-AR Path="/5ECC13DB/5EE36DD2" Ref="H?"  Part="1" 
-AR Path="/5EE36DD2" Ref="H18"  Part="1" 
-F 0 "H18" H 16650 16346 50  0000 L CNN
-F 1 "MountingHole" H 16650 16255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 16550 16300 50  0001 C CNN
-F 3 "~" H 16550 16300 50  0001 C CNN
-	1    16550 16300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5EE36DD8
-P 16550 16100
-AR Path="/5ECC13DB/5EE36DD8" Ref="H?"  Part="1" 
-AR Path="/5EE36DD8" Ref="H16"  Part="1" 
-F 0 "H16" H 16650 16146 50  0000 L CNN
-F 1 "MountingHole" H 16650 16055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 16550 16100 50  0001 C CNN
-F 3 "~" H 16550 16100 50  0001 C CNN
-	1    16550 16100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5EE36DDE
-P 16550 15900
-AR Path="/5ECC13DB/5EE36DDE" Ref="H?"  Part="1" 
-AR Path="/5EE36DDE" Ref="H14"  Part="1" 
-F 0 "H14" H 16650 15946 50  0000 L CNN
-F 1 "MountingHole" H 16650 15855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 16550 15900 50  0001 C CNN
-F 3 "~" H 16550 15900 50  0001 C CNN
-	1    16550 15900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 5EE36DE4
-P 16550 15700
-AR Path="/5ECC13DB/5EE36DE4" Ref="H?"  Part="1" 
-AR Path="/5EE36DE4" Ref="H12"  Part="1" 
-F 0 "H12" H 16650 15746 50  0000 L CNN
-F 1 "MountingHole" H 16650 15655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 16550 15700 50  0001 C CNN
-F 3 "~" H 16550 15700 50  0001 C CNN
-	1    16550 15700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 8000 1850 8000
 Wire Wire Line
@@ -374,91 +195,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 5950 2850 5950
 $Comp
-L FPGA_Lattice:ICE40HX4K-TQ144 U?
-U 1 1 5FB178A5
-P 1750 2900
-AR Path="/5F66828B/5FB178A5" Ref="U?"  Part="1" 
-AR Path="/5FB178A5" Ref="U11"  Part="1" 
-F 0 "U11" H 1400 1350 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 1400 1250 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 2750 1000 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 750 5400 50  0001 C CNN
-F 4 "220-1572-ND" H 1750 2900 50  0001 C CNN "Digi-Key_PN"
-F 5 "ICE40HX4K-TQ144" H 1750 2900 50  0001 C CNN "MPN"
-F 6 "IC FPGA 107 I/O 144TQFP" H 1750 2900 50  0001 C CNN "Description"
-F 7 "Lattice Semiconductor Corporation" H 1750 2900 50  0001 C CNN "Manufacturer"
-	1    1750 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L FPGA_Lattice:ICE40HX4K-TQ144 U?
-U 2 1 5FB178AD
-P 3150 2800
-AR Path="/5F66828B/5FB178AD" Ref="U?"  Part="2" 
-AR Path="/5FB178AD" Ref="U11"  Part="2" 
-F 0 "U11" H 2800 1150 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 2800 1050 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 4150 900 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 2150 5300 50  0001 C CNN
-F 4 "220-1572-ND" H 3150 2800 50  0001 C CNN "Digi-Key_PN"
-F 5 "ICE40HX4K-TQ144" H 3150 2800 50  0001 C CNN "MPN"
-F 6 "IC FPGA 107 I/O 144TQFP" H 3150 2800 50  0001 C CNN "Description"
-F 7 "Lattice Semiconductor Corporation" H 3150 2800 50  0001 C CNN "Manufacturer"
-	2    3150 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L FPGA_Lattice:ICE40HX4K-TQ144 U?
-U 3 1 5FB178B5
-P 6100 3300
-AR Path="/5F66828B/5FB178B5" Ref="U?"  Part="3" 
-AR Path="/5FB178B5" Ref="U11"  Part="3" 
-F 0 "U11" H 5750 2150 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 5750 2050 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 7100 1400 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 5100 5800 50  0001 C CNN
-F 4 "220-1572-ND" H 6100 3300 50  0001 C CNN "Digi-Key_PN"
-F 5 "ICE40HX4K-TQ144" H 6100 3300 50  0001 C CNN "MPN"
-F 6 "IC FPGA 107 I/O 144TQFP" H 6100 3300 50  0001 C CNN "Description"
-F 7 "Lattice Semiconductor Corporation" H 6100 3300 50  0001 C CNN "Manufacturer"
-	3    6100 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L FPGA_Lattice:ICE40HX4K-TQ144 U?
-U 4 1 5FB178BD
-P 4600 2800
-AR Path="/5F66828B/5FB178BD" Ref="U?"  Part="4" 
-AR Path="/5FB178BD" Ref="U11"  Part="4" 
-F 0 "U11" H 4250 1150 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 4250 1050 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 5600 900 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 3600 5300 50  0001 C CNN
-F 4 "220-1572-ND" H 4600 2800 50  0001 C CNN "Digi-Key_PN"
-F 5 "ICE40HX4K-TQ144" H 4600 2800 50  0001 C CNN "MPN"
-F 6 "IC FPGA 107 I/O 144TQFP" H 4600 2800 50  0001 C CNN "Description"
-F 7 "Lattice Semiconductor Corporation" H 4600 2800 50  0001 C CNN "Manufacturer"
-	4    4600 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L FPGA_Lattice:ICE40HX4K-TQ144 U?
-U 5 1 5FB178C5
-P 8600 2700
-AR Path="/5F66828B/5FB178C5" Ref="U?"  Part="5" 
-AR Path="/5FB178C5" Ref="U11"  Part="5" 
-F 0 "U11" H 8100 2050 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 7800 1900 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 9600 800 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7600 5200 50  0001 C CNN
-F 4 "220-1572-ND" H 8600 2700 50  0001 C CNN "Digi-Key_PN"
-F 5 "ICE40HX4K-TQ144" H 8600 2700 50  0001 C CNN "MPN"
-F 6 "IC FPGA 107 I/O 144TQFP" H 8600 2700 50  0001 C CNN "Description"
-F 7 "Lattice Semiconductor Corporation" H 8600 2700 50  0001 C CNN "Manufacturer"
-	5    8600 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FB178CB
 P 8600 3650
@@ -489,160 +225,7 @@ F 3 "" H 8450 1300 50  0001 C CNN
 	1    8450 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB178E0
-P 2300 5400
-AR Path="/5F66828B/5FB178E0" Ref="C?"  Part="1" 
-AR Path="/5FB178E0" Ref="C18"  Part="1" 
-F 0 "C18" H 2415 5446 50  0000 L CNN
-F 1 ".1uF" H 2415 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 5250 50  0001 C CNN
-F 3 "~" H 2300 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 2300 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 2300 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 2300 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 2300 5400 50  0001 C CNN "Manufacturer"
-	1    2300 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB178E6
-P 2700 5400
-AR Path="/5F66828B/5FB178E6" Ref="C?"  Part="1" 
-AR Path="/5FB178E6" Ref="C19"  Part="1" 
-F 0 "C19" H 2815 5446 50  0000 L CNN
-F 1 ".1uF" H 2815 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 5250 50  0001 C CNN
-F 3 "~" H 2700 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 2700 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 2700 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 2700 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 2700 5400 50  0001 C CNN "Manufacturer"
-	1    2700 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB178EC
-P 3100 5400
-AR Path="/5F66828B/5FB178EC" Ref="C?"  Part="1" 
-AR Path="/5FB178EC" Ref="C20"  Part="1" 
-F 0 "C20" H 3215 5446 50  0000 L CNN
-F 1 ".1uF" H 3215 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3138 5250 50  0001 C CNN
-F 3 "~" H 3100 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 3100 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 3100 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 3100 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 3100 5400 50  0001 C CNN "Manufacturer"
-	1    3100 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB178F2
-P 3500 5400
-AR Path="/5F66828B/5FB178F2" Ref="C?"  Part="1" 
-AR Path="/5FB178F2" Ref="C21"  Part="1" 
-F 0 "C21" H 3615 5446 50  0000 L CNN
-F 1 ".1uF" H 3615 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3538 5250 50  0001 C CNN
-F 3 "~" H 3500 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 3500 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 3500 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 3500 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 3500 5400 50  0001 C CNN "Manufacturer"
-	1    3500 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB178F8
-P 3900 5400
-AR Path="/5F66828B/5FB178F8" Ref="C?"  Part="1" 
-AR Path="/5FB178F8" Ref="C22"  Part="1" 
-F 0 "C22" H 4015 5446 50  0000 L CNN
-F 1 ".1uF" H 4015 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3938 5250 50  0001 C CNN
-F 3 "~" H 3900 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 3900 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 3900 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 3900 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 3900 5400 50  0001 C CNN "Manufacturer"
-	1    3900 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB178FE
-P 4300 5400
-AR Path="/5F66828B/5FB178FE" Ref="C?"  Part="1" 
-AR Path="/5FB178FE" Ref="C23"  Part="1" 
-F 0 "C23" H 4415 5446 50  0000 L CNN
-F 1 ".1uF" H 4415 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4338 5250 50  0001 C CNN
-F 3 "~" H 4300 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 4300 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 4300 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 4300 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 4300 5400 50  0001 C CNN "Manufacturer"
-	1    4300 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB17904
-P 4700 5400
-AR Path="/5F66828B/5FB17904" Ref="C?"  Part="1" 
-AR Path="/5FB17904" Ref="C24"  Part="1" 
-F 0 "C24" H 4815 5446 50  0000 L CNN
-F 1 ".1uF" H 4815 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4738 5250 50  0001 C CNN
-F 3 "~" H 4700 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 4700 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 4700 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 4700 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 4700 5400 50  0001 C CNN "Manufacturer"
-	1    4700 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB1790A
-P 5100 5400
-AR Path="/5F66828B/5FB1790A" Ref="C?"  Part="1" 
-AR Path="/5FB1790A" Ref="C25"  Part="1" 
-F 0 "C25" H 5215 5446 50  0000 L CNN
-F 1 ".1uF" H 5215 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5138 5250 50  0001 C CNN
-F 3 "~" H 5100 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 5100 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 5100 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 5100 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 5100 5400 50  0001 C CNN "Manufacturer"
-	1    5100 5400
-	1    0    0    -1  
-$EndComp
 NoConn ~ 8500 2000
-$Comp
-L Device:D_ALT D?
-U 1 1 5FB17911
-P 8700 1250
-AR Path="/5F66828B/5FB17911" Ref="D?"  Part="1" 
-AR Path="/5FB17911" Ref="D11"  Part="1" 
-F 0 "D11" V 8746 1171 50  0000 R CNN
-F 1 "1N4448WSF-7" V 8655 1171 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 1250 50  0001 C CNN
-F 3 "~" H 8700 1250 50  0001 C CNN
-F 4 "DIODE GEN PURP 80V 250MA SOD323" H 8700 1250 50  0001 C CNN "Description"
-F 5 "1N4448HWS-FDICT-ND" H 8700 1250 50  0001 C CNN "Digi-Key_PN"
-F 6 "1N4448HWS-7-F" H 8700 1250 50  0001 C CNN "MPN"
-F 7 "Diodes Incorporated" H 8700 1250 50  0001 C CNN "Manufacturer"
-	1    8700 1250
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5FB17917
@@ -654,23 +237,6 @@ F 1 "+3V3" H 8715 1223 50  0000 C CNN
 F 2 "" H 8700 1050 50  0001 C CNN
 F 3 "" H 8700 1050 50  0001 C CNN
 	1    8700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB1791D
-P 9250 1350
-AR Path="/5F66828B/5FB1791D" Ref="C?"  Part="1" 
-AR Path="/5FB1791D" Ref="C11"  Part="1" 
-F 0 "C11" H 9365 1396 50  0000 L CNN
-F 1 ".1uF" H 9365 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9288 1200 50  0001 C CNN
-F 3 "~" H 9250 1350 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 9250 1350 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 9250 1350 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 9250 1350 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 9250 1350 50  0001 C CNN "Manufacturer"
-	1    9250 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -688,57 +254,6 @@ F 3 "" H 9250 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 1550 9250 1500
-$Comp
-L Device:C C?
-U 1 1 5FB1792A
-P 10100 2150
-AR Path="/5F66828B/5FB1792A" Ref="C?"  Part="1" 
-AR Path="/5FB1792A" Ref="C14"  Part="1" 
-F 0 "C14" H 10215 2196 50  0000 L CNN
-F 1 ".1uF" H 10215 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10138 2000 50  0001 C CNN
-F 3 "~" H 10100 2150 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 10100 2150 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 10100 2150 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 10100 2150 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 10100 2150 50  0001 C CNN "Manufacturer"
-	1    10100 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB17932
-P 10550 2150
-AR Path="/5F66828B/5FB17932" Ref="C?"  Part="1" 
-AR Path="/5FB17932" Ref="C15"  Part="1" 
-F 0 "C15" H 10665 2196 50  0000 L CNN
-F 1 "10uF" H 10665 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10588 2000 50  0001 C CNN
-F 3 "~" H 10550 2150 50  0001 C CNN
-F 4 "1276-1119-1-ND" H 10550 2150 50  0001 C CNN "Digi-Key_PN"
-F 5 "CL10A106MQ8NNNC" H 10550 2150 50  0001 C CNN "MPN"
-F 6 "CAP CER 10UF 6.3V X5R 0603" H 10550 2150 50  0001 C CNN "Description"
-F 7 "Samsung Electro-Mechanics" H 10550 2150 50  0001 C CNN "Manufacturer"
-	1    10550 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FB17938
-P 11000 2000
-AR Path="/5F66828B/5FB17938" Ref="R?"  Part="1" 
-AR Path="/5FB17938" Ref="R14"  Part="1" 
-F 0 "R14" V 10900 2000 50  0000 C CNN
-F 1 "100" V 11000 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 2000 50  0001 C CNN
-F 3 "~" H 11000 2000 50  0001 C CNN
-F 4 "RES SMD 100 OHM 1% 1/10W 0603" H 11000 2000 50  0001 C CNN "Description"
-F 5 "311-100HRCT-ND" H 11000 2000 50  0001 C CNN "Digi-Key_PN"
-F 6 "RC0603FR-07100RL" H 11000 2000 50  0001 C CNN "MPN"
-F 7 "Yageo" H 11000 2000 50  0001 C CNN "Manufacturer"
-	1    11000 2000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10850 2000 10550 2000
 Connection ~ 10550 2000
@@ -748,57 +263,6 @@ Wire Wire Line
 	11150 2000 11300 2000
 Wire Wire Line
 	6100 900  6100 1900
-$Comp
-L Device:C C?
-U 1 1 5FB17943
-P 10100 1600
-AR Path="/5F66828B/5FB17943" Ref="C?"  Part="1" 
-AR Path="/5FB17943" Ref="C12"  Part="1" 
-F 0 "C12" H 10215 1646 50  0000 L CNN
-F 1 ".1uF" H 10215 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10138 1450 50  0001 C CNN
-F 3 "~" H 10100 1600 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 10100 1600 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 10100 1600 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 10100 1600 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 10100 1600 50  0001 C CNN "Manufacturer"
-	1    10100 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB1794B
-P 10550 1600
-AR Path="/5F66828B/5FB1794B" Ref="C?"  Part="1" 
-AR Path="/5FB1794B" Ref="C13"  Part="1" 
-F 0 "C13" H 10665 1646 50  0000 L CNN
-F 1 "10uF" H 10665 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10588 1450 50  0001 C CNN
-F 3 "~" H 10550 1600 50  0001 C CNN
-F 4 "1276-1119-1-ND" H 10550 1600 50  0001 C CNN "Digi-Key_PN"
-F 5 "CL10A106MQ8NNNC" H 10550 1600 50  0001 C CNN "MPN"
-F 6 "CAP CER 10UF 6.3V X5R 0603" H 10550 1600 50  0001 C CNN "Description"
-F 7 "Samsung Electro-Mechanics" H 10550 1600 50  0001 C CNN "Manufacturer"
-	1    10550 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FB17951
-P 11000 1450
-AR Path="/5F66828B/5FB17951" Ref="R?"  Part="1" 
-AR Path="/5FB17951" Ref="R11"  Part="1" 
-F 0 "R11" V 10900 1450 50  0000 C CNN
-F 1 "100" V 11000 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 1450 50  0001 C CNN
-F 3 "~" H 11000 1450 50  0001 C CNN
-F 4 "RES SMD 100 OHM 1% 1/10W 0603" H 11000 1450 50  0001 C CNN "Description"
-F 5 "311-100HRCT-ND" H 11000 1450 50  0001 C CNN "Digi-Key_PN"
-F 6 "RC0603FR-07100RL" H 11000 1450 50  0001 C CNN "MPN"
-F 7 "Yageo" H 11000 1450 50  0001 C CNN "Manufacturer"
-	1    11000 1450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10850 1450 10550 1450
 Connection ~ 10550 1450
@@ -861,74 +325,6 @@ Wire Wire Line
 	8300 1100 8300 2000
 Wire Wire Line
 	9000 3400 9000 3500
-$Comp
-L Device:C C?
-U 1 1 5FB17978
-P 5900 5400
-AR Path="/5F66828B/5FB17978" Ref="C?"  Part="1" 
-AR Path="/5FB17978" Ref="C26"  Part="1" 
-F 0 "C26" H 6015 5446 50  0000 L CNN
-F 1 ".1uF" H 6015 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5938 5250 50  0001 C CNN
-F 3 "~" H 5900 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 5900 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 5900 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 5900 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 5900 5400 50  0001 C CNN "Manufacturer"
-	1    5900 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB1797E
-P 6300 5400
-AR Path="/5F66828B/5FB1797E" Ref="C?"  Part="1" 
-AR Path="/5FB1797E" Ref="C27"  Part="1" 
-F 0 "C27" H 6415 5446 50  0000 L CNN
-F 1 ".1uF" H 6415 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6338 5250 50  0001 C CNN
-F 3 "~" H 6300 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 6300 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 6300 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 6300 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 6300 5400 50  0001 C CNN "Manufacturer"
-	1    6300 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB17984
-P 6700 5400
-AR Path="/5F66828B/5FB17984" Ref="C?"  Part="1" 
-AR Path="/5FB17984" Ref="C28"  Part="1" 
-F 0 "C28" H 6815 5446 50  0000 L CNN
-F 1 ".1uF" H 6815 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 5250 50  0001 C CNN
-F 3 "~" H 6700 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 6700 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 6700 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 6700 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 6700 5400 50  0001 C CNN "Manufacturer"
-	1    6700 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB1798A
-P 7100 5400
-AR Path="/5F66828B/5FB1798A" Ref="C?"  Part="1" 
-AR Path="/5FB1798A" Ref="C29"  Part="1" 
-F 0 "C29" H 7215 5446 50  0000 L CNN
-F 1 ".1uF" H 7215 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7138 5250 50  0001 C CNN
-F 3 "~" H 7100 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 7100 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 7100 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 7100 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 7100 5400 50  0001 C CNN "Manufacturer"
-	1    7100 5400
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5FB17990
@@ -1049,23 +445,6 @@ $EndComp
 Connection ~ 3700 5550
 Wire Wire Line
 	3700 5550 3900 5550
-$Comp
-L Device:R R?
-U 1 1 5FB179D4
-P 9800 2700
-AR Path="/5F66828B/5FB179D4" Ref="R?"  Part="1" 
-AR Path="/5FB179D4" Ref="R20"  Part="1" 
-F 0 "R20" V 9700 2700 50  0000 C CNN
-F 1 "10K" V 9800 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9730 2700 50  0001 C CNN
-F 3 "~" H 9800 2700 50  0001 C CNN
-F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 9800 2700 50  0001 C CNN "Description"
-F 5 "311-10.0KHRCT-ND" H 9800 2700 50  0001 C CNN "Digi-Key_PN"
-F 6 "RC0603FR-0710KL" H 9800 2700 50  0001 C CNN "MPN"
-F 7 "Yageo" H 9800 2700 50  0001 C CNN "Manufacturer"
-	1    9800 2700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9300 2700 9650 2700
 $Comp
@@ -1189,66 +568,6 @@ Wire Wire Line
 Text Label 3600 4300 0    50   ~ 0
 IOL_25B
 $Comp
-L Regulator_Linear:AZ1117-3.3 U?
-U 1 1 5FB17AD6
-P 7300 10550
-AR Path="/5D1A4D20/5FB17AD6" Ref="U?"  Part="1" 
-AR Path="/5FB17AD6" Ref="U18"  Part="1" 
-AR Path="/5CF9559A/5FB17AD6" Ref="U?"  Part="1" 
-AR Path="/5E2D04E3/5FB17AD6" Ref="U?"  Part="1" 
-AR Path="/5F66828B/5FB17AD6" Ref="U?"  Part="1" 
-F 0 "U18" H 7300 10800 50  0000 C CNN
-F 1 "AZ1117CH-3.3TRG1" H 7350 10700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7300 10800 50  0001 C CIN
-F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 7300 10550 50  0001 C CNN
-F 4 "AZ1117CH-3.3TRG1DICT-ND" H 7300 10550 50  0001 C CNN "Digi-Key_PN"
-F 5 "AZ1117CH-3.3TRG1" H 7300 10550 50  0001 C CNN "MPN"
-F 6 "IC REG LINEAR 3.3V 800MA SOT223" H 7300 10550 50  0001 C CNN "Description"
-F 7 "Diodes Incorporated" H 7300 10550 50  0001 C CNN "Manufacturer"
-	1    7300 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB17ADE
-P 6700 10700
-AR Path="/5D1A4D20/5FB17ADE" Ref="C?"  Part="1" 
-AR Path="/5FB17ADE" Ref="C54"  Part="1" 
-AR Path="/5CF9559A/5FB17ADE" Ref="C?"  Part="1" 
-AR Path="/5E2D04E3/5FB17ADE" Ref="C?"  Part="1" 
-AR Path="/5F66828B/5FB17ADE" Ref="C?"  Part="1" 
-F 0 "C54" H 6815 10791 50  0000 L CNN
-F 1 "10uF" H 6815 10700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 10550 50  0001 C CNN
-F 3 "~" H 6700 10700 50  0001 C CNN
-F 4 "1276-1119-1-ND" H 6700 10700 50  0001 C CNN "Digi-Key_PN"
-F 5 "CL10A106MQ8NNNC" H 6700 10700 50  0001 C CNN "MPN"
-F 6 "CAP CER 10UF 6.3V X5R 0603" H 6700 10700 50  0001 C CNN "Description"
-F 7 "Samsung Electro-Mechanics" H 6700 10700 50  0001 C CNN "Manufacturer"
-	1    6700 10700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB17AE6
-P 7750 10700
-AR Path="/5D1A4D20/5FB17AE6" Ref="C?"  Part="1" 
-AR Path="/5FB17AE6" Ref="C55"  Part="1" 
-AR Path="/5CF9559A/5FB17AE6" Ref="C?"  Part="1" 
-AR Path="/5E2D04E3/5FB17AE6" Ref="C?"  Part="1" 
-AR Path="/5F66828B/5FB17AE6" Ref="C?"  Part="1" 
-F 0 "C55" H 7865 10791 50  0000 L CNN
-F 1 "22uF" H 7865 10700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 10550 50  0001 C CNN
-F 3 "~" H 7750 10700 50  0001 C CNN
-F 4 "1276-2868-1-ND" H 7750 10700 50  0001 C CNN "Digi-Key_PN"
-F 5 "CL10A226MQ8NRNE" H 7750 10700 50  0001 C CNN "MPN"
-F 6 "CAP CER 22UF 6.3V X5R 0603" H 7750 10700 50  0001 C CNN "Description"
-F 7 "Samsung Electro-Mechanics" H 7750 10700 50  0001 C CNN "Manufacturer"
-	1    7750 10700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FB17AEC
 P 7700 10850
@@ -1297,66 +616,6 @@ Connection ~ 6700 10550
 Wire Wire Line
 	6700 10550 7000 10550
 $Comp
-L Regulator_Linear:AZ1117-3.3 U?
-U 1 1 5FB17B04
-P 7300 11250
-AR Path="/5D1A4D20/5FB17B04" Ref="U?"  Part="1" 
-AR Path="/5FB17B04" Ref="U19"  Part="1" 
-AR Path="/5CF9559A/5FB17B04" Ref="U?"  Part="1" 
-AR Path="/5E2D04E3/5FB17B04" Ref="U?"  Part="1" 
-AR Path="/5F66828B/5FB17B04" Ref="U?"  Part="1" 
-F 0 "U19" H 7300 11500 50  0000 C CNN
-F 1 "AZ1117CH-1.2" H 7350 11400 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7300 11500 50  0001 C CIN
-F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 7300 11250 50  0001 C CNN
-F 4 "AZ1117CH-1.2TRG1DICT-ND" H 7300 11250 50  0001 C CNN "Digi-Key_PN"
-F 5 "AZ1117CH-1.2TRG1" H 7300 11250 50  0001 C CNN "MPN"
-F 6 "IC REG LINEAR 1.2V 800MA SOT223" H 7300 11250 50  0001 C CNN "Description"
-F 7 "Diodes Incorporated" H 7300 11250 50  0001 C CNN "Manufacturer"
-	1    7300 11250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB17B0C
-P 6700 11400
-AR Path="/5D1A4D20/5FB17B0C" Ref="C?"  Part="1" 
-AR Path="/5FB17B0C" Ref="C56"  Part="1" 
-AR Path="/5CF9559A/5FB17B0C" Ref="C?"  Part="1" 
-AR Path="/5E2D04E3/5FB17B0C" Ref="C?"  Part="1" 
-AR Path="/5F66828B/5FB17B0C" Ref="C?"  Part="1" 
-F 0 "C56" H 6815 11491 50  0000 L CNN
-F 1 "10uF" H 6815 11400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 11250 50  0001 C CNN
-F 3 "~" H 6700 11400 50  0001 C CNN
-F 4 "1276-1119-1-ND" H 6700 11400 50  0001 C CNN "Digi-Key_PN"
-F 5 "CL10A106MQ8NNNC" H 6700 11400 50  0001 C CNN "MPN"
-F 6 "CAP CER 10UF 6.3V X5R 0603" H 6700 11400 50  0001 C CNN "Description"
-F 7 "Samsung Electro-Mechanics" H 6700 11400 50  0001 C CNN "Manufacturer"
-	1    6700 11400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB17B14
-P 7750 11400
-AR Path="/5D1A4D20/5FB17B14" Ref="C?"  Part="1" 
-AR Path="/5FB17B14" Ref="C57"  Part="1" 
-AR Path="/5CF9559A/5FB17B14" Ref="C?"  Part="1" 
-AR Path="/5E2D04E3/5FB17B14" Ref="C?"  Part="1" 
-AR Path="/5F66828B/5FB17B14" Ref="C?"  Part="1" 
-F 0 "C57" H 7865 11491 50  0000 L CNN
-F 1 "22uF" H 7865 11400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 11250 50  0001 C CNN
-F 3 "~" H 7750 11400 50  0001 C CNN
-F 4 "1276-2868-1-ND" H 7750 11400 50  0001 C CNN "Digi-Key_PN"
-F 5 "CL10A226MQ8NRNE" H 7750 11400 50  0001 C CNN "MPN"
-F 6 "CAP CER 22UF 6.3V X5R 0603" H 7750 11400 50  0001 C CNN "Description"
-F 7 "Samsung Electro-Mechanics" H 7750 11400 50  0001 C CNN "Manufacturer"
-	1    7750 11400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FB17B1A
 P 7700 11550
@@ -1399,28 +658,6 @@ F 1 "+1V2" H 8015 11423 50  0000 C CNN
 F 2 "" H 8000 11250 50  0001 C CNN
 F 3 "" H 8000 11250 50  0001 C CNN
 	1    8000 11250
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Oscillators:XLH536025_000000I Y?
-U 1 1 5FB17BF5
-P 6900 1150
-AR Path="/5F66828B/5FB17BF5" Ref="Y?"  Part="1" 
-AR Path="/5FB17BF5" Ref="Y11"  Part="1" 
-F 0 "Y11" H 7150 900 60  0000 L CNN
-F 1 "XLH536025_000000I" H 7150 800 60  0000 L CNN
-F 2 "jb-footprint:Oscillator_XLH536025.000000I" H 7100 1350 60  0001 L CNN
-F 3 "https://www.idt.com/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet" H 7100 1450 60  0001 L CNN
-F 4 "631-1156-1-ND" H 7100 1550 60  0001 L CNN "Digi-Key_PN"
-F 5 "XLH536025.000000I" H 7100 1650 60  0001 L CNN "MPN"
-F 6 "Crystals, Oscillators, Resonators" H 7100 1750 60  0001 L CNN "Category"
-F 7 "Oscillators" H 7100 1850 60  0001 L CNN "Family"
-F 8 "https://www.idt.com/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet" H 7100 1950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/idt-integrated-device-technology-inc/XLH536025.000000I/631-1156-1-ND/2074684" H 7100 2050 60  0001 L CNN "DK_Detail_Page"
-F 10 "XTAL OSC XO 25.0000MHZ HCMOS SMD" H 7100 2150 60  0001 L CNN "Description"
-F 11 "IDT, Integrated Device Technology Inc" H 7100 2250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7100 2350 60  0001 L CNN "Status"
-	1    6900 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1514,23 +751,6 @@ $EndComp
 Connection ~ 3700 900 
 Wire Wire Line
 	3700 900  4600 900 
-$Comp
-L Device:C C?
-U 1 1 5FB17C67
-P 1900 5400
-AR Path="/5F66828B/5FB17C67" Ref="C?"  Part="1" 
-AR Path="/5FB17C67" Ref="C17"  Part="1" 
-F 0 "C17" H 2015 5446 50  0000 L CNN
-F 1 ".1uF" H 2015 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 5250 50  0001 C CNN
-F 3 "~" H 1900 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 1900 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 1900 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 1900 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 1900 5400 50  0001 C CNN "Manufacturer"
-	1    1900 5400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1900 5250 2300 5250
 Connection ~ 2300 5250
@@ -1584,23 +804,6 @@ Wire Wire Line
 	13800 2150 14400 2150
 Text Label 7550 1250 2    50   ~ 0
 IOB_81
-$Comp
-L Device:C C?
-U 1 1 5FB17C86
-P 1500 5400
-AR Path="/5F66828B/5FB17C86" Ref="C?"  Part="1" 
-AR Path="/5FB17C86" Ref="C16"  Part="1" 
-F 0 "C16" H 1615 5446 50  0000 L CNN
-F 1 ".1uF" H 1615 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1538 5250 50  0001 C CNN
-F 3 "~" H 1500 5400 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 1500 5400 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 1500 5400 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 1500 5400 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 1500 5400 50  0001 C CNN "Manufacturer"
-	1    1500 5400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1900 5250 1500 5250
 Connection ~ 1900 5250
@@ -1617,19 +820,6 @@ Wire Wire Line
 	16700 2250 17300 2250
 Wire Wire Line
 	16700 2450 17300 2450
-$Comp
-L JWlib:RaspberryPI-B+header J?
-U 1 1 5FB17C9D
-P 16200 2050
-AR Path="/5F66828B/5FB17C9D" Ref="J?"  Part="1" 
-AR Path="/5FB17C9D" Ref="J11"  Part="1" 
-F 0 "J11" H 16200 3115 50  0000 C CNN
-F 1 "RaspberryPI-B+header" H 16200 3024 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 16200 2550 50  0001 C CNN
-F 3 "" H 16200 2550 50  0001 C CNN
-	1    16200 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	16700 2550 17300 2550
 Wire Wire Line
@@ -1804,50 +994,6 @@ Connection ~ 10450 1750
 Wire Wire Line
 	10450 1750 10550 1750
 $Comp
-L dk_Tactile-Switches:1825910-6 S?
-U 1 1 5FB17EE9
-P 8500 4550
-AR Path="/5F66828B/5FB17EE9" Ref="S?"  Part="1" 
-AR Path="/5FB17EE9" Ref="S11"  Part="1" 
-F 0 "S11" H 8500 4897 60  0000 C CNN
-F 1 "1825910-6" H 8500 4791 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 8700 4750 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8700 4850 60  0001 L CNN
-F 4 "450-1650-ND" H 8700 4950 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-6" H 8700 5050 60  0001 L CNN "MPN"
-F 6 "Switches" H 8700 5150 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 8700 5250 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8700 5350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 8700 5450 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 8700 5550 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 8700 5650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8700 5750 60  0001 L CNN "Status"
-	1    8500 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Tactile-Switches:1825910-6 S?
-U 1 1 5FB17EF8
-P 8500 5200
-AR Path="/5F66828B/5FB17EF8" Ref="S?"  Part="1" 
-AR Path="/5FB17EF8" Ref="S12"  Part="1" 
-F 0 "S12" H 8500 5547 60  0000 C CNN
-F 1 "1825910-6" H 8500 5441 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 8700 5400 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8700 5500 60  0001 L CNN
-F 4 "450-1650-ND" H 8700 5600 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-6" H 8700 5700 60  0001 L CNN "MPN"
-F 6 "Switches" H 8700 5800 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 8700 5900 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8700 6000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 8700 6100 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 8700 6200 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 8700 6300 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8700 6400 60  0001 L CNN "Status"
-	1    8500 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FB17EFE
 P 8850 5400
@@ -1875,72 +1021,6 @@ Text Label 7850 4450 0    50   ~ 0
 PB0
 Text Label 7850 5100 0    50   ~ 0
 PB1
-$Comp
-L Connector_Generic:Conn_01x08 J21
-U 1 1 61B14A91
-P 20450 9500
-F 0 "J21" V 20450 9900 50  0000 L CNN
-F 1 "Conn_01x08" H 20530 9401 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 20450 9500 50  0001 C CNN
-F 3 "~" H 20450 9500 50  0001 C CNN
-	1    20450 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J22
-U 1 1 61B1558E
-P 20850 9500
-F 0 "J22" V 20850 9900 50  0000 L CNN
-F 1 "Conn_01x08" H 20930 9401 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 20850 9500 50  0001 C CNN
-F 3 "~" H 20850 9500 50  0001 C CNN
-	1    20850 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J16
-U 1 1 61BE85A8
-P 13500 7650
-F 0 "J16" V 13500 8150 50  0000 L CNN
-F 1 "Conn_01x10" H 13580 7551 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 13500 7650 50  0001 C CNN
-F 3 "~" H 13500 7650 50  0001 C CNN
-	1    13500 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J18
-U 1 1 61BE85AE
-P 14650 7650
-F 0 "J18" V 14650 8150 50  0000 L CNN
-F 1 "Conn_01x10" H 14730 7551 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 14650 7650 50  0001 C CNN
-F 3 "~" H 14650 7650 50  0001 C CNN
-	1    14650 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J19
-U 1 1 61BE85B4
-P 15050 7650
-F 0 "J19" V 15050 8150 50  0000 L CNN
-F 1 "Conn_01x10" H 15130 7551 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 15050 7650 50  0001 C CNN
-F 3 "~" H 15050 7650 50  0001 C CNN
-	1    15050 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J17
-U 1 1 61C64EDF
-P 14250 7650
-F 0 "J17" V 14250 8150 50  0000 L CNN
-F 1 "Conn_01x10" H 14330 7551 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 14250 7650 50  0001 C CNN
-F 3 "~" H 14250 7650 50  0001 C CNN
-	1    14250 7650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20650 9200 20650 9300
 Connection ~ 20650 9300
@@ -2085,28 +1165,6 @@ Wire Wire Line
 	14450 8050 14450 8150
 Text Label 16800 4750 0    50   ~ 0
 SOLENOID_0
-$Comp
-L jb-symbol:ULN2803ADWR Q?
-U 1 1 5ED208E1
-P 16550 5550
-AR Path="/5ECC13DB/5ED208E1" Ref="Q?"  Part="1" 
-AR Path="/5ED208E1" Ref="Q11"  Part="1" 
-F 0 "Q11" H 16200 6637 60  0000 C CNN
-F 1 "ULN2803ADWR" H 16200 6531 60  0000 C CNN
-F 2 "digikey-footprints:SOIC-18_W7.5mm" H 16750 5750 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fuln2803a" H 16750 5850 60  0001 L CNN
-F 4 "296-15777-1-ND" H 16750 5950 60  0001 L CNN "Digi-Key_PN"
-F 5 "ULN2803ADWR" H 16750 6050 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16750 6150 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Arrays" H 16750 6250 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fuln2803a" H 16750 6350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/ULN2803ADWR/296-15777-1-ND/598088" H 16750 6450 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS 8NPN DARL 50V 0.5A 18SO" H 16750 6550 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 16750 6650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16750 6750 60  0001 L CNN "Status"
-	1    16550 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	16750 4750 17300 4750
 Wire Wire Line
@@ -2123,36 +1181,6 @@ Wire Wire Line
 	16750 5350 17300 5350
 Wire Wire Line
 	17300 5450 16750 5450
-$Comp
-L Device:R_Pack08 RN13
-U 1 1 647E83C5
-P 9750 11150
-F 0 "RN13" V 10250 11150 50  0000 C CNN
-F 1 "330" V 10150 11150 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 10225 11150 50  0001 C CNN
-F 3 "~" H 9750 11150 50  0001 C CNN
-F 4 "RES ARRAY 8 RES 330 OHM 1506" H 9750 11150 50  0001 C CNN "Description"
-F 5 "Y1331CT-ND" H 9750 11150 50  0001 C CNN "Digi-Key_PN"
-F 6 "EXB-2HV331JV" H 9750 11150 50  0001 C CNN "MPN"
-F 7 "Panasonic Electronic Components" H 9750 11150 50  0001 C CNN "Manufacturer"
-	1    9750 11150
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN12
-U 1 1 64D4C6BE
-P 9750 10050
-F 0 "RN12" V 10250 10050 50  0000 C CNN
-F 1 "330" V 10150 10050 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 10225 10050 50  0001 C CNN
-F 3 "~" H 9750 10050 50  0001 C CNN
-F 4 "RES ARRAY 8 RES 330 OHM 1506" H 9750 10050 50  0001 C CNN "Description"
-F 5 "Y1331CT-ND" H 9750 10050 50  0001 C CNN "Digi-Key_PN"
-F 6 "EXB-2HV331JV" H 9750 10050 50  0001 C CNN "MPN"
-F 7 "Panasonic Electronic Components" H 9750 10050 50  0001 C CNN "Manufacturer"
-	1    9750 10050
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	13100 13050 13450 13050
 Wire Wire Line
@@ -2187,44 +1215,6 @@ Text Notes 10050 14700 0    79   ~ 16
 5V Tolerant DIN
 Text Notes 2450 12800 0    79   ~ 16
 5V @ 3A
-$Comp
-L Device:R R?
-U 1 1 601B6326
-P 3800 12450
-AR Path="/5BBE5CCD/601B6326" Ref="R?"  Part="1" 
-AR Path="/601B6326" Ref="R48"  Part="1" 
-AR Path="/5CF9559A/601B6326" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/601B6326" Ref="R?"  Part="1" 
-F 0 "R48" V 3700 12450 50  0000 C CNN
-F 1 "10K" V 3800 12450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 12450 50  0001 C CNN
-F 3 "~" H 3800 12450 50  0001 C CNN
-F 4 "311-10.0KHRCT-ND" H 3800 12450 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 10K OHM 1% 1/10W 0603" H 3800 12450 50  0001 C CNN "Description"
-F 6 "RC0603FR-0710KL" H 3800 12450 50  0001 C CNN "MPN"
-F 7 "Yageo" H 3800 12450 50  0001 C CNN "Manufacturer"
-	1    3800 12450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 601B6549
-P 3800 12050
-AR Path="/5BBE5CCD/601B6549" Ref="R?"  Part="1" 
-AR Path="/601B6549" Ref="R47"  Part="1" 
-AR Path="/5CF9559A/601B6549" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/601B6549" Ref="R?"  Part="1" 
-F 0 "R47" V 3700 12050 50  0000 C CNN
-F 1 "73K2" V 3800 12050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 12050 50  0001 C CNN
-F 3 "~" H 3800 12050 50  0001 C CNN
-F 4 "311-73.2KHRCT-ND" H 3800 12050 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 73.2K OHM 1% 1/10W 0603" H 3800 12050 50  0001 C CNN "Description"
-F 6 "RC0603FR-0773K2L" H 3800 12050 50  0001 C CNN "MPN"
-F 7 "Yageo" H 3800 12050 50  0001 C CNN "Manufacturer"
-	1    3800 12050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 12200 3800 12300
 Connection ~ 3800 12200
@@ -2242,27 +1232,6 @@ $EndComp
 Wire Wire Line
 	3800 12700 3800 12600
 $Comp
-L Device:C C?
-U 1 1 604A6D8D
-P 4200 12150
-AR Path="/5BBE5CCD/604A6D8D" Ref="C?"  Part="1" 
-AR Path="/604A6D8D" Ref="C65"  Part="1" 
-AR Path="/5CF9559A/604A6D8D" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/604A6D8D" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/604A6D8D" Ref="C?"  Part="1" 
-AR Path="/5F51430C/604A6D8D" Ref="C?"  Part="1" 
-F 0 "C65" H 4315 12196 50  0000 L CNN
-F 1 "22uF" H 4315 12105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4238 12000 50  0001 C CNN
-F 3 "~" H 4200 12150 50  0001 C CNN
-F 4 "490-10746-1-ND" H 4600 11900 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 22UF 10V X5R 0805" H 4200 12150 50  0001 C CNN "Description"
-F 6 "GRM21BR61A226ME44L" H 4200 12150 50  0001 C CNN "MPN"
-F 7 "Murata Electronics" H 4200 12150 50  0001 C CNN "Manufacturer"
-	1    4200 12150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR088
 U 1 1 604AA254
 P 4200 12700
@@ -2279,42 +1248,9 @@ Wire Wire Line
 	4200 12000 4200 11750
 Wire Wire Line
 	3800 11750 3800 11900
-$Comp
-L Device:L L12
-U 1 1 605A5E7B
-P 3600 11750
-AR Path="/605A5E7B" Ref="L12"  Part="1" 
-AR Path="/5DFE66B1/605A5E7B" Ref="L?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/605A5E7B" Ref="L?"  Part="1" 
-AR Path="/5F51430C/605A5E7B" Ref="L?"  Part="1" 
-F 0 "L12" V 3800 11800 50  0000 C CNN
-F 1 "4.7uH" V 3700 11750 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 3600 11750 50  0001 C CNN
-F 3 "~" H 3600 11750 50  0001 C CNN
-F 4 "SRN6045TA-4R7MCT-ND" V 3700 11550 50  0001 C CNN "Digi-Key_PN"
-F 5 "SRN6045TA-4R7M" H 3600 11750 50  0001 C CNN "MPN"
-F 6 "FIXED IND 4.7UH 4.5A 26 MOHM SMD" H 3600 11750 50  0001 C CNN "Description"
-F 7 "Bourns Inc." H 3600 11750 50  0001 C CNN "Manufacturer"
-	1    3600 11750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3750 11750 3800 11750
 Connection ~ 3800 11750
-$Comp
-L JWlib:TPS563231 U20
-U 1 1 5EE748C2
-P 2400 11750
-F 0 "U20" H 2400 12117 50  0000 C CNN
-F 1 "TPS563231" H 2400 12026 50  0000 C CNN
-F 2 "jb-footprint:SOT-563" H 2450 11500 50  0001 L CNN
-F 3 "" H 2400 11750 50  0001 C CNN
-F 4 "Buck, 3A, 17V" H 2400 11750 50  0001 C CNN "Description"
-F 5 "296-TPS563231DRLRCT-ND" H 2400 11750 50  0001 C CNN "Digi-Key_PN"
-F 6 "TPS563231DRLR" H 2400 11750 50  0001 C CNN "MPN"
-	1    2400 11750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2800 11850 2950 11850
 Wire Wire Line
@@ -2346,27 +1282,6 @@ Wire Wire Line
 	2000 11650 1650 11650
 Connection ~ 2000 11650
 $Comp
-L Device:C C?
-U 1 1 5F2DACB6
-P 4700 12150
-AR Path="/5BBE5CCD/5F2DACB6" Ref="C?"  Part="1" 
-AR Path="/5F2DACB6" Ref="C66"  Part="1" 
-AR Path="/5CF9559A/5F2DACB6" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/5F2DACB6" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/5F2DACB6" Ref="C?"  Part="1" 
-AR Path="/5F51430C/5F2DACB6" Ref="C?"  Part="1" 
-F 0 "C66" H 4815 12196 50  0000 L CNN
-F 1 "22uF" H 4815 12105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 12000 50  0001 C CNN
-F 3 "~" H 4700 12150 50  0001 C CNN
-F 4 "490-10746-1-ND" H 5100 11900 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 22UF 10V X5R 0805" H 4700 12150 50  0001 C CNN "Description"
-F 6 "GRM21BR61A226ME44L" H 4700 12150 50  0001 C CNN "MPN"
-F 7 "Murata Electronics" H 4700 12150 50  0001 C CNN "Manufacturer"
-	1    4700 12150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR089
 U 1 1 5F2DACBC
 P 4700 12700
@@ -2381,23 +1296,6 @@ Wire Wire Line
 	4700 12700 4700 12300
 Wire Wire Line
 	4700 12000 4700 11750
-$Comp
-L Device:C C?
-U 1 1 5F357E7D
-P 5200 12150
-AR Path="/5F66828B/5F357E7D" Ref="C?"  Part="1" 
-AR Path="/5F357E7D" Ref="C67"  Part="1" 
-F 0 "C67" H 5315 12196 50  0000 L CNN
-F 1 ".1uF" H 5315 12105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5238 12000 50  0001 C CNN
-F 3 "~" H 5200 12150 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 5200 12150 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 5200 12150 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 5200 12150 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 5200 12150 50  0001 C CNN "Manufacturer"
-	1    5200 12150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 11750 4700 11750
 Connection ~ 4200 11750
@@ -2417,49 +1315,11 @@ F 3 "" H 5200 12700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 12700 5200 12300
-$Comp
-L Device:C C?
-U 1 1 5F457E3C
-P 3100 11600
-AR Path="/5F66828B/5F457E3C" Ref="C?"  Part="1" 
-AR Path="/5F457E3C" Ref="C58"  Part="1" 
-F 0 "C58" H 3215 11646 50  0000 L CNN
-F 1 ".1uF" H 3215 11555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3138 11450 50  0001 C CNN
-F 3 "~" H 3100 11600 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 3100 11600 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 3100 11600 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 3100 11600 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 3100 11600 50  0001 C CNN "Manufacturer"
-	1    3100 11600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2800 11750 3100 11750
 Connection ~ 3100 11750
 Wire Wire Line
 	3100 11750 3450 11750
-$Comp
-L Device:C C?
-U 1 1 5F45962D
-P 1650 12150
-AR Path="/5BBE5CCD/5F45962D" Ref="C?"  Part="1" 
-AR Path="/5F45962D" Ref="C64"  Part="1" 
-AR Path="/5CF9559A/5F45962D" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/5F45962D" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/5F45962D" Ref="C?"  Part="1" 
-AR Path="/5F51430C/5F45962D" Ref="C?"  Part="1" 
-F 0 "C64" H 1765 12196 50  0000 L CNN
-F 1 "10uF" H 1765 12105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1688 12000 50  0001 C CNN
-F 3 "~" H 1650 12150 50  0001 C CNN
-F 4 "587-2985-1-ND" H 2050 11900 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 10UF 25V X5R 0805" H 1650 12150 50  0001 C CNN "Description"
-F 6 "TMK212BBJ106KG-T" H 1650 12150 50  0001 C CNN "MPN"
-F 7 "Taiyo Yuden" H 1650 12150 50  0001 C CNN "Manufacturer"
-	1    1650 12150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR086
 U 1 1 5F459633
@@ -2479,23 +1339,6 @@ Connection ~ 1650 11650
 Wire Wire Line
 	1650 11650 1200 11650
 $Comp
-L Device:C C?
-U 1 1 5F646C66
-P 1200 12150
-AR Path="/5F66828B/5F646C66" Ref="C?"  Part="1" 
-AR Path="/5F646C66" Ref="C63"  Part="1" 
-F 0 "C63" H 1315 12196 50  0000 L CNN
-F 1 ".1uF" H 1315 12105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1238 12000 50  0001 C CNN
-F 3 "~" H 1200 12150 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 1200 12150 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 1200 12150 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 1200 12150 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 1200 12150 50  0001 C CNN "Manufacturer"
-	1    1200 12150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR085
 U 1 1 5F646C6D
 P 1200 12700
@@ -2513,23 +1356,6 @@ Wire Wire Line
 Connection ~ 1200 11650
 Wire Wire Line
 	1200 11650 750  11650
-$Comp
-L JWlib:TBL001-500-02GY-2GY J?
-U 1 1 5F7564DB
-P 1400 15750
-AR Path="/5F51430C/5F7564DB" Ref="J?"  Part="1" 
-AR Path="/5F7564DB" Ref="J35"  Part="1" 
-F 0 "J35" H 1450 15250 50  0000 C CNN
-F 1 "TBL001-500-02GY-2GY" H 1400 15350 50  0000 C CNN
-F 2 "jb-footprint:TBL001-500-02GY-2GY" H 1300 16550 50  0001 C CNN
-F 3 "" H 1300 16550 50  0001 C CNN
-F 4 "102-6360-ND" H 1400 15750 50  0001 C CNN "Digi-Key_PN"
-F 5 "TERMINAL BLOCK, SCREWLESS, 5.00" H 1400 15750 50  0001 C CNN "Description"
-F 6 "TBL001-500-02GY-2GY" H 1400 15750 50  0001 C CNN "MPN"
-F 7 "CUI Devices" H 1400 15750 50  0001 C CNN "Manufacturer"
-	1    1400 15750
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR0119
 U 1 1 5F7564E1
@@ -2563,23 +1389,6 @@ Text Notes 1900 16150 0    79   ~ 16
 12V Battery
 Wire Wire Line
 	1700 15700 1950 15700
-$Comp
-L Device:D_ALT D?
-U 1 1 5F7564F1
-P 2100 15700
-AR Path="/5F51430C/5F7564F1" Ref="D?"  Part="1" 
-AR Path="/5F7564F1" Ref="D21"  Part="1" 
-F 0 "D21" H 2100 15550 50  0000 C CNN
-F 1 "D_ALT" H 2100 15575 50  0001 C CNN
-F 2 "Diode_SMD:D_SMC" H 2100 15700 50  0001 C CNN
-F 3 "~" H 2100 15700 50  0001 C CNN
-F 4 "S10KCV7GCT-ND " H 2100 15700 50  0001 C CNN "Digi-Key_PN"
-F 5 "DIODE GEN PURP 800V 10A DO214AB" H 2100 15700 50  0001 C CNN "Description"
-F 6 "S10KC V7G" H 2100 15700 50  0001 C CNN "MPN"
-F 7 "Taiwan Semiconductor Corporation" H 2100 15700 50  0001 C CNN "Manufacturer"
-	1    2100 15700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2250 15700 2300 15700
 Text Notes 2050 15900 0    50   ~ 0
@@ -2623,44 +1432,6 @@ F 3 "~" H 5150 11750 50  0001 C CNN
 	1    5150 11750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5EE09C9C
-P 3850 14400
-AR Path="/5BBE5CCD/5EE09C9C" Ref="R?"  Part="1" 
-AR Path="/5EE09C9C" Ref="R50"  Part="1" 
-AR Path="/5CF9559A/5EE09C9C" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5EE09C9C" Ref="R?"  Part="1" 
-F 0 "R50" V 3750 14400 50  0000 C CNN
-F 1 "10K" V 3850 14400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 14400 50  0001 C CNN
-F 3 "~" H 3850 14400 50  0001 C CNN
-F 4 "311-10.0KHRCT-ND" H 3850 14400 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 10K OHM 1% 1/10W 0603" H 3850 14400 50  0001 C CNN "Description"
-F 6 "RC0603FR-0710KL" H 3850 14400 50  0001 C CNN "MPN"
-F 7 "Yageo" H 3850 14400 50  0001 C CNN "Manufacturer"
-	1    3850 14400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5EE09CA3
-P 3850 14000
-AR Path="/5BBE5CCD/5EE09CA3" Ref="R?"  Part="1" 
-AR Path="/5EE09CA3" Ref="R49"  Part="1" 
-AR Path="/5CF9559A/5EE09CA3" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5EE09CA3" Ref="R?"  Part="1" 
-F 0 "R49" V 3750 14000 50  0000 C CNN
-F 1 "90K" V 3850 14000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 14000 50  0001 C CNN
-F 3 "~" H 3850 14000 50  0001 C CNN
-F 4 "RMCF0603FT90K9CT-ND" H 3850 14000 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES 90.9K OHM 1% 1/10W 0603" H 3850 14000 50  0001 C CNN "Description"
-F 6 "RMCF0603FT90K9" H 3850 14000 50  0001 C CNN "MPN"
-F 7 "Stackpole Electronics Inc" H 3850 14000 50  0001 C CNN "Manufacturer"
-	1    3850 14000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 14150 3850 14250
 Connection ~ 3850 14150
@@ -2678,27 +1449,6 @@ $EndComp
 Wire Wire Line
 	3850 14650 3850 14550
 $Comp
-L Device:C C?
-U 1 1 5EE09CB3
-P 4250 14100
-AR Path="/5BBE5CCD/5EE09CB3" Ref="C?"  Part="1" 
-AR Path="/5EE09CB3" Ref="C75"  Part="1" 
-AR Path="/5CF9559A/5EE09CB3" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/5EE09CB3" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/5EE09CB3" Ref="C?"  Part="1" 
-AR Path="/5F51430C/5EE09CB3" Ref="C?"  Part="1" 
-F 0 "C75" H 4365 14146 50  0000 L CNN
-F 1 "22uF" H 4365 14055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4288 13950 50  0001 C CNN
-F 3 "~" H 4250 14100 50  0001 C CNN
-F 4 "490-10746-1-ND" H 4650 13850 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 22UF 10V X5R 0805" H 4250 14100 50  0001 C CNN "Description"
-F 6 "GRM21BR61A226ME44L" H 4250 14100 50  0001 C CNN "MPN"
-F 7 "Murata Electronics" H 4250 14100 50  0001 C CNN "Manufacturer"
-	1    4250 14100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0110
 U 1 1 5EE09CB9
 P 4250 14650
@@ -2715,42 +1465,9 @@ Wire Wire Line
 	4250 13950 4250 13700
 Wire Wire Line
 	3850 13700 3850 13850
-$Comp
-L Device:L L13
-U 1 1 5EE09CC5
-P 3650 13700
-AR Path="/5EE09CC5" Ref="L13"  Part="1" 
-AR Path="/5DFE66B1/5EE09CC5" Ref="L?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/5EE09CC5" Ref="L?"  Part="1" 
-AR Path="/5F51430C/5EE09CC5" Ref="L?"  Part="1" 
-F 0 "L13" V 3850 13750 50  0000 C CNN
-F 1 "4.7uH" V 3750 13700 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 3650 13700 50  0001 C CNN
-F 3 "~" H 3650 13700 50  0001 C CNN
-F 4 "SRN6045TA-4R7MCT-ND" V 3750 13500 50  0001 C CNN "Digi-Key_PN"
-F 5 "SRN6045TA-4R7M" H 3650 13700 50  0001 C CNN "MPN"
-F 6 "FIXED IND 4.7UH 4.5A 26 MOHM SMD" H 3650 13700 50  0001 C CNN "Description"
-F 7 "Bourns Inc." H 3650 13700 50  0001 C CNN "Manufacturer"
-	1    3650 13700
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3800 13700 3850 13700
 Connection ~ 3850 13700
-$Comp
-L JWlib:TPS563231 U25
-U 1 1 5EE09CCD
-P 2450 13700
-F 0 "U25" H 2450 14067 50  0000 C CNN
-F 1 "TPS563231" H 2450 13976 50  0000 C CNN
-F 2 "jb-footprint:SOT-563" H 2500 13450 50  0001 L CNN
-F 3 "" H 2450 13700 50  0001 C CNN
-F 4 "Buck, 3A, 17V" H 2450 13700 50  0001 C CNN "Description"
-F 5 "296-TPS563231DRLRCT-ND" H 2450 13700 50  0001 C CNN "Digi-Key_PN"
-F 6 "TPS563231DRLR" H 2450 13700 50  0001 C CNN "MPN"
-	1    2450 13700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 13800 3000 13800
 Wire Wire Line
@@ -2782,27 +1499,6 @@ Wire Wire Line
 	2050 13600 1700 13600
 Connection ~ 2050 13600
 $Comp
-L Device:C C?
-U 1 1 5EE09CE4
-P 4750 14100
-AR Path="/5BBE5CCD/5EE09CE4" Ref="C?"  Part="1" 
-AR Path="/5EE09CE4" Ref="C76"  Part="1" 
-AR Path="/5CF9559A/5EE09CE4" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/5EE09CE4" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/5EE09CE4" Ref="C?"  Part="1" 
-AR Path="/5F51430C/5EE09CE4" Ref="C?"  Part="1" 
-F 0 "C76" H 4865 14146 50  0000 L CNN
-F 1 "22uF" H 4865 14055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 13950 50  0001 C CNN
-F 3 "~" H 4750 14100 50  0001 C CNN
-F 4 "490-10746-1-ND" H 5150 13850 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 22UF 10V X5R 0805" H 4750 14100 50  0001 C CNN "Description"
-F 6 "GRM21BR61A226ME44L" H 4750 14100 50  0001 C CNN "MPN"
-F 7 "Murata Electronics" H 4750 14100 50  0001 C CNN "Manufacturer"
-	1    4750 14100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0111
 U 1 1 5EE09CEA
 P 4750 14650
@@ -2817,23 +1513,6 @@ Wire Wire Line
 	4750 14650 4750 14250
 Wire Wire Line
 	4750 13950 4750 13700
-$Comp
-L Device:C C?
-U 1 1 5EE09CF2
-P 5250 14100
-AR Path="/5F66828B/5EE09CF2" Ref="C?"  Part="1" 
-AR Path="/5EE09CF2" Ref="C77"  Part="1" 
-F 0 "C77" H 5365 14146 50  0000 L CNN
-F 1 ".1uF" H 5365 14055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5288 13950 50  0001 C CNN
-F 3 "~" H 5250 14100 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 5250 14100 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 5250 14100 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 5250 14100 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 5250 14100 50  0001 C CNN "Manufacturer"
-	1    5250 14100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 13700 4750 13700
 Wire Wire Line
@@ -2855,49 +1534,11 @@ F 3 "" H 5250 14650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 14650 5250 14250
-$Comp
-L Device:C C?
-U 1 1 5EE09D04
-P 3150 13550
-AR Path="/5F66828B/5EE09D04" Ref="C?"  Part="1" 
-AR Path="/5EE09D04" Ref="C72"  Part="1" 
-F 0 "C72" H 3265 13596 50  0000 L CNN
-F 1 ".1uF" H 3265 13505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3188 13400 50  0001 C CNN
-F 3 "~" H 3150 13550 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 3150 13550 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 3150 13550 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 3150 13550 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 3150 13550 50  0001 C CNN "Manufacturer"
-	1    3150 13550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 13700 3150 13700
 Connection ~ 3150 13700
 Wire Wire Line
 	3150 13700 3500 13700
-$Comp
-L Device:C C?
-U 1 1 5EE09D0E
-P 1700 14100
-AR Path="/5BBE5CCD/5EE09D0E" Ref="C?"  Part="1" 
-AR Path="/5EE09D0E" Ref="C74"  Part="1" 
-AR Path="/5CF9559A/5EE09D0E" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/5EE09D0E" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/5EE09D0E" Ref="C?"  Part="1" 
-AR Path="/5F51430C/5EE09D0E" Ref="C?"  Part="1" 
-F 0 "C74" H 1815 14146 50  0000 L CNN
-F 1 "10uF" H 1815 14055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1738 13950 50  0001 C CNN
-F 3 "~" H 1700 14100 50  0001 C CNN
-F 4 "587-2985-1-ND" H 2100 13850 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 10UF 25V X5R 0805" H 1700 14100 50  0001 C CNN "Description"
-F 6 "TMK212BBJ106KG-T" H 1700 14100 50  0001 C CNN "MPN"
-F 7 "Taiyo Yuden" H 1700 14100 50  0001 C CNN "Manufacturer"
-	1    1700 14100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5EE09D14
@@ -2916,23 +1557,6 @@ Wire Wire Line
 Connection ~ 1700 13600
 Wire Wire Line
 	1700 13600 1250 13600
-$Comp
-L Device:C C?
-U 1 1 5EE09D1E
-P 1250 14100
-AR Path="/5F66828B/5EE09D1E" Ref="C?"  Part="1" 
-AR Path="/5EE09D1E" Ref="C73"  Part="1" 
-F 0 "C73" H 1365 14146 50  0000 L CNN
-F 1 ".1uF" H 1365 14055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1288 13950 50  0001 C CNN
-F 3 "~" H 1250 14100 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 1250 14100 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 1250 14100 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 1250 14100 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 1250 14100 50  0001 C CNN "Manufacturer"
-	1    1250 14100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5EE09D24
@@ -2977,126 +1601,6 @@ F 3 "~" H 5200 13700 50  0001 C CNN
 	1    5200 13700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:LED_ALT D12
-U 1 1 5F1AC810
-P 2200 5850
-F 0 "D12" H 2050 5900 50  0000 C CNN
-F 1 "LED_ALT" H 2193 5976 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 5850 50  0001 C CNN
-F 3 "~" H 2200 5850 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 2200 5850 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 2200 5850 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 2200 5850 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 2200 5850 50  0001 C CNN "Manufacturer"
-	1    2200 5850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_ALT D13
-U 1 1 5F22F715
-P 2500 5950
-F 0 "D13" H 2400 6000 50  0000 C CNN
-F 1 "LED_ALT" H 2493 6076 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 5950 50  0001 C CNN
-F 3 "~" H 2500 5950 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 2500 5950 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 2500 5950 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 2500 5950 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 2500 5950 50  0001 C CNN "Manufacturer"
-	1    2500 5950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_ALT D14
-U 1 1 5F230819
-P 2200 6050
-F 0 "D14" H 2100 6100 50  0000 C CNN
-F 1 "LED_ALT" H 2193 6176 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 6050 50  0001 C CNN
-F 3 "~" H 2200 6050 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 2200 6050 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 2200 6050 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 2200 6050 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 2200 6050 50  0001 C CNN "Manufacturer"
-	1    2200 6050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_ALT D15
-U 1 1 5F230F1F
-P 2500 6150
-F 0 "D15" H 2400 6200 50  0000 C CNN
-F 1 "LED_ALT" H 2493 6276 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 6150 50  0001 C CNN
-F 3 "~" H 2500 6150 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 2500 6150 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 2500 6150 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 2500 6150 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 2500 6150 50  0001 C CNN "Manufacturer"
-	1    2500 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_ALT D16
-U 1 1 5F2318B0
-P 2200 6250
-F 0 "D16" H 2100 6300 50  0000 C CNN
-F 1 "LED_ALT" H 2193 6376 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 6250 50  0001 C CNN
-F 3 "~" H 2200 6250 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 2200 6250 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 2200 6250 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 2200 6250 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 2200 6250 50  0001 C CNN "Manufacturer"
-	1    2200 6250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_ALT D17
-U 1 1 5F231DF3
-P 2500 6350
-F 0 "D17" H 2400 6400 50  0000 C CNN
-F 1 "LED_ALT" H 2493 6476 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 6350 50  0001 C CNN
-F 3 "~" H 2500 6350 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 2500 6350 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 2500 6350 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 2500 6350 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 2500 6350 50  0001 C CNN "Manufacturer"
-	1    2500 6350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_ALT D18
-U 1 1 5F23355D
-P 2200 6450
-F 0 "D18" H 2100 6500 50  0000 C CNN
-F 1 "LED_ALT" H 2193 6576 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 6450 50  0001 C CNN
-F 3 "~" H 2200 6450 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 2200 6450 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 2200 6450 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 2200 6450 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 2200 6450 50  0001 C CNN "Manufacturer"
-	1    2200 6450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_ALT D19
-U 1 1 5F233C70
-P 2500 6550
-F 0 "D19" H 2400 6600 50  0000 C CNN
-F 1 "LED_ALT" H 2493 6676 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 6550 50  0001 C CNN
-F 3 "~" H 2500 6550 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 2500 6550 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 2500 6550 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 2500 6550 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 2500 6550 50  0001 C CNN "Manufacturer"
-	1    2500 6550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2350 6450 2850 6450
 Wire Wire Line
@@ -3105,21 +1609,6 @@ Wire Wire Line
 	2350 6050 2850 6050
 Wire Wire Line
 	2350 5850 2850 5850
-$Comp
-L Device:R_Pack08 RN11
-U 1 1 636D3EC2
-P 3050 6250
-F 0 "RN11" V 2433 6250 50  0000 C CNN
-F 1 "330" V 2524 6250 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 3525 6250 50  0001 C CNN
-F 3 "~" H 3050 6250 50  0001 C CNN
-F 4 "RES ARRAY 8 RES 330 OHM 1506" H 3050 6250 50  0001 C CNN "Description"
-F 5 "Y1331CT-ND" H 3050 6250 50  0001 C CNN "Digi-Key_PN"
-F 6 "EXB-2HV331JV" H 3050 6250 50  0001 C CNN "MPN"
-F 7 "Panasonic Electronic Components" H 3050 6250 50  0001 C CNN "Manufacturer"
-	1    3050 6250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	16750 5550 17700 5550
 Text Notes 8100 5800 0    79   ~ 16
@@ -3188,21 +1677,6 @@ Wire Wire Line
 	14400 13000 14500 13000
 Text GLabel 20400 12050 2    50   Input ~ 0
 VCC_PWM
-$Comp
-L jb-symbol:SN74LVC4245AN U22
-U 1 1 61DBD3C3
-P 18700 12500
-F 0 "U22" H 18300 12850 60  0000 C CNN
-F 1 "SN74LVC4245AN" V 18600 12100 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 18900 12700 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 18900 12800 60  0001 L CNN
-F 4 "1727-2878-ND" H 18900 12900 60  0001 L CNN "Digi-Key_PN"
-F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 18700 12500 50  0001 C CNN "Description"
-F 6 "74LVC4245APW,112" H 18700 12500 50  0001 C CNN "MPN"
-F 7 "Nexperia USA Inc." H 18700 12500 50  0001 C CNN "Manufacturer"
-	1    18700 12500
-	-1   0    0    -1  
-$EndComp
 Text GLabel 19500 11900 2    50   Input ~ 0
 VCC_IO
 Wire Wire Line
@@ -3225,40 +1699,6 @@ F 3 "" H 18650 11800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	18650 11900 18650 12000
-$Comp
-L Device:C C?
-U 1 1 623CC549
-P 18100 12050
-AR Path="/5F66828B/623CC549" Ref="C?"  Part="1" 
-AR Path="/623CC549" Ref="C61"  Part="1" 
-F 0 "C61" H 18215 12096 50  0000 L CNN
-F 1 ".1uF" H 18215 12005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18138 11900 50  0001 C CNN
-F 3 "~" H 18100 12050 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 18100 12050 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 18100 12050 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 18100 12050 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 18100 12050 50  0001 C CNN "Manufacturer"
-	1    18100 12050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 623CCCE6
-P 19350 12050
-AR Path="/5F66828B/623CCCE6" Ref="C?"  Part="1" 
-AR Path="/623CCCE6" Ref="C62"  Part="1" 
-F 0 "C62" H 19465 12096 50  0000 L CNN
-F 1 ".1uF" H 19465 12005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19388 11900 50  0001 C CNN
-F 3 "~" H 19350 12050 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19350 12050 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19350 12050 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19350 12050 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19350 12050 50  0001 C CNN "Manufacturer"
-	1    19350 12050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR082
 U 1 1 624EC116
@@ -3339,21 +1779,6 @@ $EndComp
 Connection ~ 18750 13800
 Wire Wire Line
 	18750 13800 18700 13800
-$Comp
-L jb-symbol:SN74LVC4245AN U13
-U 1 1 62FD7AB8
-P 9500 7300
-F 0 "U13" H 9800 6400 60  0000 C CNN
-F 1 "SN74LVC4245AN" V 9400 6900 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 9700 7500 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 9700 7600 60  0001 L CNN
-F 4 "1727-2878-ND" H 9700 7700 60  0001 L CNN "Digi-Key_PN"
-F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 9500 7300 50  0001 C CNN "Description"
-F 6 "74LVC4245APW,112" H 9500 7300 50  0001 C CNN "MPN"
-F 7 "Nexperia USA Inc." H 9500 7300 50  0001 C CNN "Manufacturer"
-	1    9500 7300
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9750 6900 9750 6700
 $Comp
@@ -3374,40 +1799,6 @@ F 3 "" H 9450 6600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9450 6700 9450 6800
-$Comp
-L Device:C C?
-U 1 1 62FD7AC6
-P 8900 6850
-AR Path="/5F66828B/62FD7AC6" Ref="C?"  Part="1" 
-AR Path="/62FD7AC6" Ref="C32"  Part="1" 
-F 0 "C32" H 9015 6896 50  0000 L CNN
-F 1 ".1uF" H 9015 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8938 6700 50  0001 C CNN
-F 3 "~" H 8900 6850 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 8900 6850 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 8900 6850 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 8900 6850 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 8900 6850 50  0001 C CNN "Manufacturer"
-	1    8900 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62FD7ACC
-P 10150 6850
-AR Path="/5F66828B/62FD7ACC" Ref="C?"  Part="1" 
-AR Path="/62FD7ACC" Ref="C33"  Part="1" 
-F 0 "C33" H 10265 6896 50  0000 L CNN
-F 1 ".1uF" H 10265 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10188 6700 50  0001 C CNN
-F 3 "~" H 10150 6850 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 10150 6850 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 10150 6850 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 10150 6850 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 10150 6850 50  0001 C CNN "Manufacturer"
-	1    10150 6850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR040
 U 1 1 62FD7AD2
@@ -3502,21 +1893,6 @@ $EndComp
 Connection ~ 9550 8600
 Wire Wire Line
 	9550 8600 9500 8600
-$Comp
-L jb-symbol:SN74LVC4245AN U12
-U 1 1 63081012
-P 7550 7300
-F 0 "U12" H 7900 6400 60  0000 C CNN
-F 1 "SN74LVC4245AN" V 7450 6900 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7750 7500 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 7750 7600 60  0001 L CNN
-F 4 "1727-2878-ND" H 7750 7700 60  0001 L CNN "Digi-Key_PN"
-F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 7550 7300 50  0001 C CNN "Description"
-F 6 "74LVC4245APW,112" H 7550 7300 50  0001 C CNN "MPN"
-F 7 "Nexperia USA Inc." H 7550 7300 50  0001 C CNN "Manufacturer"
-	1    7550 7300
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7800 6900 7800 6700
 $Comp
@@ -3537,40 +1913,6 @@ F 3 "" H 7500 6600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 6700 7500 6800
-$Comp
-L Device:C C?
-U 1 1 63081020
-P 6950 6850
-AR Path="/5F66828B/63081020" Ref="C?"  Part="1" 
-AR Path="/63081020" Ref="C30"  Part="1" 
-F 0 "C30" H 7065 6896 50  0000 L CNN
-F 1 ".1uF" H 7065 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6988 6700 50  0001 C CNN
-F 3 "~" H 6950 6850 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 6950 6850 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 6950 6850 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 6950 6850 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 6950 6850 50  0001 C CNN "Manufacturer"
-	1    6950 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 63081026
-P 8200 6850
-AR Path="/5F66828B/63081026" Ref="C?"  Part="1" 
-AR Path="/63081026" Ref="C31"  Part="1" 
-F 0 "C31" H 8315 6896 50  0000 L CNN
-F 1 ".1uF" H 8315 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8238 6700 50  0001 C CNN
-F 3 "~" H 8200 6850 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 8200 6850 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 8200 6850 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 8200 6850 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 8200 6850 50  0001 C CNN "Manufacturer"
-	1    8200 6850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR038
 U 1 1 6308102C
@@ -3756,40 +2098,6 @@ $EndComp
 Wire Wire Line
 	11500 6700 11500 6800
 $Comp
-L Device:C C?
-U 1 1 639B43CC
-P 10950 6850
-AR Path="/5F66828B/639B43CC" Ref="C?"  Part="1" 
-AR Path="/639B43CC" Ref="C34"  Part="1" 
-F 0 "C34" H 11065 6896 50  0000 L CNN
-F 1 ".1uF" H 11065 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10988 6700 50  0001 C CNN
-F 3 "~" H 10950 6850 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 10950 6850 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 10950 6850 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 10950 6850 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 10950 6850 50  0001 C CNN "Manufacturer"
-	1    10950 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 639B43D2
-P 12200 6850
-AR Path="/5F66828B/639B43D2" Ref="C?"  Part="1" 
-AR Path="/639B43D2" Ref="C35"  Part="1" 
-F 0 "C35" H 12315 6896 50  0000 L CNN
-F 1 ".1uF" H 12315 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12238 6700 50  0001 C CNN
-F 3 "~" H 12200 6850 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 12200 6850 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 12200 6850 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 12200 6850 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 12200 6850 50  0001 C CNN "Manufacturer"
-	1    12200 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR042
 U 1 1 639B43D8
 P 12200 7050
@@ -3886,41 +2194,8 @@ Wire Wire Line
 	16400 9100 16400 8850
 Wire Wire Line
 	16400 8650 16150 8650
-$Comp
-L Device:R R?
-U 1 1 63C02E3E
-P 16550 8650
-AR Path="/5BBE5CCD/63C02E3E" Ref="R?"  Part="1" 
-AR Path="/63C02E3E" Ref="R27"  Part="1" 
-AR Path="/5CF9559A/63C02E3E" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/63C02E3E" Ref="R?"  Part="1" 
-F 0 "R27" V 16450 8650 50  0000 C CNN
-F 1 "2K2" V 16550 8650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16480 8650 50  0001 C CNN
-F 3 "~" H 16550 8650 50  0001 C CNN
-F 4 "311-2.20KHRCT-ND" H 16550 8650 50  0001 C CNN "Digi-Key_PN"
-	1    16550 8650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	16700 8650 16700 9100
-$Comp
-L Device:C C?
-U 1 1 63CC8E1E
-P 15850 9000
-AR Path="/5F66828B/63CC8E1E" Ref="C?"  Part="1" 
-AR Path="/63CC8E1E" Ref="C37"  Part="1" 
-F 0 "C37" H 15965 9046 50  0000 L CNN
-F 1 ".1uF" H 15965 8955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15888 8850 50  0001 C CNN
-F 3 "~" H 15850 9000 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 15850 9000 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 15850 9000 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 15850 9000 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 15850 9000 50  0001 C CNN "Manufacturer"
-	1    15850 9000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15850 8850 16400 8850
 Connection ~ 16400 8850
@@ -3939,23 +2214,6 @@ F 3 "" H 15850 9200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15850 9200 15850 9150
-$Comp
-L Device:C C?
-U 1 1 63E57916
-P 17400 8800
-AR Path="/5F66828B/63E57916" Ref="C?"  Part="1" 
-AR Path="/63E57916" Ref="C36"  Part="1" 
-F 0 "C36" H 17515 8846 50  0000 L CNN
-F 1 "1uF" H 17515 8755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17438 8650 50  0001 C CNN
-F 3 "~" H 17400 8800 50  0001 C CNN
-F 4 "CAP CER 1UF 25V X5R 0603" H 17400 8800 50  0001 C CNN "Description"
-F 5 "1276-1102-1-ND" H 17400 8800 50  0001 C CNN "Digi-Key_PN"
-F 6 "CL10A105KA8NNNC" H 17400 8800 50  0001 C CNN "MPN"
-F 7 "Samsung Electro-Mechanics" H 17400 8800 50  0001 C CNN "Manufacturer"
-	1    17400 8800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR054
 U 1 1 63E5791C
@@ -3979,21 +2237,6 @@ Text Notes 9550 9050 0    79   ~ 16
 Quadrature VCC_IO input level shifter
 Text Notes 17050 14300 0    79   ~ 16
 PWM w/output level shifter
-$Comp
-L jb-symbol:SN74LVC4245AN U21
-U 1 1 645611A8
-P 16700 12500
-F 0 "U21" H 16300 12850 60  0000 C CNN
-F 1 "SN74LVC4245AN" V 16600 12100 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 16900 12700 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 16900 12800 60  0001 L CNN
-F 4 "1727-2878-ND" H 16900 12900 60  0001 L CNN "Digi-Key_PN"
-F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 16700 12500 50  0001 C CNN "Description"
-F 6 "74LVC4245APW,112" H 16700 12500 50  0001 C CNN "MPN"
-F 7 "Nexperia USA Inc." H 16700 12500 50  0001 C CNN "Manufacturer"
-	1    16700 12500
-	-1   0    0    -1  
-$EndComp
 Text GLabel 17500 11900 2    50   Input ~ 0
 VCC_IO
 Wire Wire Line
@@ -4016,40 +2259,6 @@ F 3 "" H 16650 11800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	16650 11900 16650 12000
-$Comp
-L Device:C C?
-U 1 1 645611B7
-P 16100 12050
-AR Path="/5F66828B/645611B7" Ref="C?"  Part="1" 
-AR Path="/645611B7" Ref="C59"  Part="1" 
-F 0 "C59" H 16215 12096 50  0000 L CNN
-F 1 ".1uF" H 16215 12005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 16138 11900 50  0001 C CNN
-F 3 "~" H 16100 12050 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 16100 12050 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 16100 12050 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 16100 12050 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 16100 12050 50  0001 C CNN "Manufacturer"
-	1    16100 12050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 645611BD
-P 17350 12050
-AR Path="/5F66828B/645611BD" Ref="C?"  Part="1" 
-AR Path="/645611BD" Ref="C60"  Part="1" 
-F 0 "C60" H 17465 12096 50  0000 L CNN
-F 1 ".1uF" H 17465 12005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17388 11900 50  0001 C CNN
-F 3 "~" H 17350 12050 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 17350 12050 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 17350 12050 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 17350 12050 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 17350 12050 50  0001 C CNN "Manufacturer"
-	1    17350 12050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR080
 U 1 1 645611C3
@@ -4189,44 +2398,6 @@ Wire Wire Line
 	16000 12600 16500 12600
 Text Label 16000 12600 0    50   ~ 0
 FPGA_PWM9
-$Comp
-L Device:R R?
-U 1 1 653C2950
-P 3750 10100
-AR Path="/5BBE5CCD/653C2950" Ref="R?"  Part="1" 
-AR Path="/653C2950" Ref="R37"  Part="1" 
-AR Path="/5CF9559A/653C2950" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/653C2950" Ref="R?"  Part="1" 
-F 0 "R37" V 3650 10100 50  0000 C CNN
-F 1 "10K" V 3750 10100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3680 10100 50  0001 C CNN
-F 3 "~" H 3750 10100 50  0001 C CNN
-F 4 "311-10.0KHRCT-ND" H 3750 10100 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 10K OHM 1% 1/10W 0603" H 3750 10100 50  0001 C CNN "Description"
-F 6 "RC0603FR-0710KL" H 3750 10100 50  0001 C CNN "MPN"
-F 7 "Yageo" H 3750 10100 50  0001 C CNN "Manufacturer"
-	1    3750 10100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 653C2957
-P 3750 9700
-AR Path="/5BBE5CCD/653C2957" Ref="R?"  Part="1" 
-AR Path="/653C2957" Ref="R36"  Part="1" 
-AR Path="/5CF9559A/653C2957" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/653C2957" Ref="R?"  Part="1" 
-F 0 "R36" V 3650 9700 50  0000 C CNN
-F 1 "45K3" V 3750 9700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3680 9700 50  0001 C CNN
-F 3 "~" H 3750 9700 50  0001 C CNN
-F 4 "RMCF0603FT45K3CT-ND" H 3750 9700 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES 45.3K OHM 1% 1/10W 0603" H 3750 9700 50  0001 C CNN "Description"
-F 6 "RMCF0603FT45K3" H 3750 9700 50  0001 C CNN "MPN"
-F 7 "Stackpole Electronics Inc" H 3750 9700 50  0001 C CNN "Manufacturer"
-	1    3750 9700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 9850 3750 9900
 Connection ~ 3750 9850
@@ -4244,27 +2415,6 @@ $EndComp
 Wire Wire Line
 	3750 10350 3750 10250
 $Comp
-L Device:C C?
-U 1 1 653C2967
-P 4150 9800
-AR Path="/5BBE5CCD/653C2967" Ref="C?"  Part="1" 
-AR Path="/653C2967" Ref="C48"  Part="1" 
-AR Path="/5CF9559A/653C2967" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/653C2967" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/653C2967" Ref="C?"  Part="1" 
-AR Path="/5F51430C/653C2967" Ref="C?"  Part="1" 
-F 0 "C48" H 4265 9846 50  0000 L CNN
-F 1 "22uF" H 4265 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4188 9650 50  0001 C CNN
-F 3 "~" H 4150 9800 50  0001 C CNN
-F 4 "490-10746-1-ND" H 4550 9550 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 22UF 10V X5R 0805" H 4150 9800 50  0001 C CNN "Description"
-F 6 "GRM21BR61A226ME44L" H 4150 9800 50  0001 C CNN "MPN"
-F 7 "Murata Electronics" H 4150 9800 50  0001 C CNN "Manufacturer"
-	1    4150 9800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR065
 U 1 1 653C296D
 P 4150 10350
@@ -4281,42 +2431,9 @@ Wire Wire Line
 	4150 9650 4150 9400
 Wire Wire Line
 	3750 9400 3750 9550
-$Comp
-L Device:L L11
-U 1 1 653C2978
-P 3550 9400
-AR Path="/653C2978" Ref="L11"  Part="1" 
-AR Path="/5DFE66B1/653C2978" Ref="L?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/653C2978" Ref="L?"  Part="1" 
-AR Path="/5F51430C/653C2978" Ref="L?"  Part="1" 
-F 0 "L11" V 3750 9450 50  0000 C CNN
-F 1 "4.7uH" V 3650 9400 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 3550 9400 50  0001 C CNN
-F 3 "~" H 3550 9400 50  0001 C CNN
-F 4 "SRN6045TA-4R7MCT-ND" V 3650 9200 50  0001 C CNN "Digi-Key_PN"
-F 5 "SRN6045TA-4R7M" H 3550 9400 50  0001 C CNN "MPN"
-F 6 "FIXED IND 4.7UH 4.5A 26 MOHM SMD" H 3550 9400 50  0001 C CNN "Description"
-F 7 "Bourns Inc." H 3550 9400 50  0001 C CNN "Manufacturer"
-	1    3550 9400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3700 9400 3750 9400
 Connection ~ 3750 9400
-$Comp
-L JWlib:TPS563231 U15
-U 1 1 653C2980
-P 2350 9400
-F 0 "U15" H 2350 9767 50  0000 C CNN
-F 1 "TPS563231" H 2350 9676 50  0000 C CNN
-F 2 "jb-footprint:SOT-563" H 2400 9150 50  0001 L CNN
-F 3 "" H 2350 9400 50  0001 C CNN
-F 4 "Buck, 3A, 17V" H 2350 9400 50  0001 C CNN "Description"
-F 5 "296-TPS563231DRLRCT-ND" H 2350 9400 50  0001 C CNN "Digi-Key_PN"
-F 6 "TPS563231DRLR" H 2350 9400 50  0001 C CNN "MPN"
-	1    2350 9400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2750 9500 2900 9500
 Wire Wire Line
@@ -4348,27 +2465,6 @@ Wire Wire Line
 	1950 9300 1600 9300
 Connection ~ 1950 9300
 $Comp
-L Device:C C?
-U 1 1 653C2997
-P 4650 9800
-AR Path="/5BBE5CCD/653C2997" Ref="C?"  Part="1" 
-AR Path="/653C2997" Ref="C49"  Part="1" 
-AR Path="/5CF9559A/653C2997" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/653C2997" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/653C2997" Ref="C?"  Part="1" 
-AR Path="/5F51430C/653C2997" Ref="C?"  Part="1" 
-F 0 "C49" H 4765 9846 50  0000 L CNN
-F 1 "22uF" H 4765 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 9650 50  0001 C CNN
-F 3 "~" H 4650 9800 50  0001 C CNN
-F 4 "490-10746-1-ND" H 5050 9550 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 22UF 10V X5R 0805" H 4650 9800 50  0001 C CNN "Description"
-F 6 "GRM21BR61A226ME44L" H 4650 9800 50  0001 C CNN "MPN"
-F 7 "Murata Electronics" H 4650 9800 50  0001 C CNN "Manufacturer"
-	1    4650 9800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR066
 U 1 1 653C299D
 P 4650 10350
@@ -4383,23 +2479,6 @@ Wire Wire Line
 	4650 10350 4650 9950
 Wire Wire Line
 	4650 9650 4650 9400
-$Comp
-L Device:C C?
-U 1 1 653C29A5
-P 5150 9800
-AR Path="/5F66828B/653C29A5" Ref="C?"  Part="1" 
-AR Path="/653C29A5" Ref="C50"  Part="1" 
-F 0 "C50" H 5265 9846 50  0000 L CNN
-F 1 ".1uF" H 5265 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5188 9650 50  0001 C CNN
-F 3 "~" H 5150 9800 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 5150 9800 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 5150 9800 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 5150 9800 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 5150 9800 50  0001 C CNN "Manufacturer"
-	1    5150 9800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4150 9400 4650 9400
 Wire Wire Line
@@ -4421,49 +2500,11 @@ F 3 "" H 5150 10350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5150 10350 5150 9950
-$Comp
-L Device:C C?
-U 1 1 653C29B7
-P 3050 9250
-AR Path="/5F66828B/653C29B7" Ref="C?"  Part="1" 
-AR Path="/653C29B7" Ref="C39"  Part="1" 
-F 0 "C39" H 3165 9296 50  0000 L CNN
-F 1 ".1uF" H 3165 9205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 9100 50  0001 C CNN
-F 3 "~" H 3050 9250 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 3050 9250 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 3050 9250 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 3050 9250 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 3050 9250 50  0001 C CNN "Manufacturer"
-	1    3050 9250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2750 9400 3050 9400
 Connection ~ 3050 9400
 Wire Wire Line
 	3050 9400 3400 9400
-$Comp
-L Device:C C?
-U 1 1 653C29C1
-P 1600 9800
-AR Path="/5BBE5CCD/653C29C1" Ref="C?"  Part="1" 
-AR Path="/653C29C1" Ref="C47"  Part="1" 
-AR Path="/5CF9559A/653C29C1" Ref="C?"  Part="1" 
-AR Path="/5DFE66B1/653C29C1" Ref="C?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/653C29C1" Ref="C?"  Part="1" 
-AR Path="/5F51430C/653C29C1" Ref="C?"  Part="1" 
-F 0 "C47" H 1715 9846 50  0000 L CNN
-F 1 "10uF" H 1715 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1638 9650 50  0001 C CNN
-F 3 "~" H 1600 9800 50  0001 C CNN
-F 4 "587-2985-1-ND" H 2000 9550 50  0001 C CNN "Digi-Key_PN"
-F 5 "CAP CER 10UF 25V X5R 0805" H 1600 9800 50  0001 C CNN "Description"
-F 6 "TMK212BBJ106KG-T" H 1600 9800 50  0001 C CNN "MPN"
-F 7 "Taiyo Yuden" H 1600 9800 50  0001 C CNN "Manufacturer"
-	1    1600 9800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR063
 U 1 1 653C29C7
@@ -4482,23 +2523,6 @@ Wire Wire Line
 Connection ~ 1600 9300
 Wire Wire Line
 	1600 9300 1150 9300
-$Comp
-L Device:C C?
-U 1 1 653C29D1
-P 1150 9800
-AR Path="/5F66828B/653C29D1" Ref="C?"  Part="1" 
-AR Path="/653C29D1" Ref="C46"  Part="1" 
-F 0 "C46" H 1265 9846 50  0000 L CNN
-F 1 ".1uF" H 1265 9755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1188 9650 50  0001 C CNN
-F 3 "~" H 1150 9800 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 1150 9800 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 1150 9800 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 1150 9800 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 1150 9800 50  0001 C CNN "Manufacturer"
-	1    1150 9800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR062
 U 1 1 653C29D7
@@ -4633,89 +2657,15 @@ Text Label 13650 8050 0    50   ~ 0
 QB8
 Text Label 13650 8150 0    50   ~ 0
 QB9
-$Comp
-L Device:R R?
-U 1 1 65C5BEC4
-P 3950 10100
-AR Path="/5BBE5CCD/65C5BEC4" Ref="R?"  Part="1" 
-AR Path="/65C5BEC4" Ref="R38"  Part="1" 
-AR Path="/5CF9559A/65C5BEC4" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/65C5BEC4" Ref="R?"  Part="1" 
-F 0 "R38" V 3850 10100 50  0000 C CNN
-F 1 "16K2" V 3950 10100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3880 10100 50  0001 C CNN
-F 3 "~" H 3950 10100 50  0001 C CNN
-F 4 "RMCF0603FT16K2CT-ND" H 3950 10100 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES 16.2K OHM 1% 1/10W 0603" H 3950 10100 50  0001 C CNN "Description"
-F 6 "RMCF0603FT16K2" H 3950 10100 50  0001 C CNN "MPN"
-F 7 "Stackpole Electronics Inc" H 3950 10100 50  0001 C CNN "Manufacturer"
-	1    3950 10100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3750 9900 3950 9900
 Connection ~ 3750 9900
 Wire Wire Line
 	3750 9900 3750 9950
-$Comp
-L Connector_Generic:Conn_01x02 J27
-U 1 1 65E4CFEC
-P 4250 10700
-F 0 "J27" H 4200 10800 50  0000 L CNN
-F 1 "Conn_01x02" H 4330 10601 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4250 10700 50  0001 C CNN
-F 3 "~" H 4250 10700 50  0001 C CNN
-	1    4250 10700
-	1    0    0    -1  
-$EndComp
 Text Notes 4400 10900 0    79   ~ 16
 Shunt J35 for 5V.\nRemove for 3.3V.
-$Comp
-L Connector_Generic:Conn_01x08 J33
-U 1 1 66B25361
-P 11250 13350
-F 0 "J33" V 11250 13700 50  0000 L CNN
-F 1 "Conn_01x08" H 11330 13251 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11250 13350 50  0001 C CNN
-F 3 "~" H 11250 13350 50  0001 C CNN
-	1    11250 13350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12750 9750 12750 10200
-$Comp
-L Connector_Generic:Conn_01x08 J34
-U 1 1 66C1ACDD
-P 13650 13350
-F 0 "J34" V 13650 13700 50  0000 L CNN
-F 1 "Conn_01x08" H 13730 13251 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 13650 13350 50  0001 C CNN
-F 3 "~" H 13650 13350 50  0001 C CNN
-	1    13650 13350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J24
-U 1 1 66C1BA45
-P 12550 10500
-F 0 "J24" V 12550 10850 50  0000 L CNN
-F 1 "Conn_01x08" H 12630 10401 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 12550 10500 50  0001 C CNN
-F 3 "~" H 12550 10500 50  0001 C CNN
-	1    12550 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J25
-U 1 1 66D029D9
-P 12950 10500
-F 0 "J25" V 12950 10850 50  0000 L CNN
-F 1 "Conn_01x08" H 13030 10401 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 12950 10500 50  0001 C CNN
-F 3 "~" H 12950 10500 50  0001 C CNN
-	1    12950 10500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12750 10200 12750 10300
 Connection ~ 12750 10200
@@ -4737,17 +2687,6 @@ Wire Wire Line
 Connection ~ 12750 10800
 Wire Wire Line
 	12750 10800 12750 10900
-$Comp
-L Connector_Generic:Conn_01x08 J31
-U 1 1 66DEC1D3
-P 14700 13300
-F 0 "J31" V 14700 13650 50  0000 L CNN
-F 1 "Conn_01x08" H 14780 13201 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 14700 13300 50  0001 C CNN
-F 3 "~" H 14700 13300 50  0001 C CNN
-	1    14700 13300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14500 13000 14500 13100
 Connection ~ 14500 13100
@@ -4768,28 +2707,6 @@ Wire Wire Line
 Connection ~ 14500 13600
 Wire Wire Line
 	14500 13600 14500 13700
-$Comp
-L Connector_Generic:Conn_01x08 J26
-U 1 1 66ED8104
-P 13350 10500
-F 0 "J26" V 13350 10850 50  0000 L CNN
-F 1 "Conn_01x08" H 13430 10401 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 13350 10500 50  0001 C CNN
-F 3 "~" H 13350 10500 50  0001 C CNN
-	1    13350 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J32
-U 1 1 66ED8AF0
-P 15100 13300
-F 0 "J32" V 15100 13650 50  0000 L CNN
-F 1 "Conn_01x08" H 15180 13201 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 15100 13300 50  0001 C CNN
-F 3 "~" H 15100 13300 50  0001 C CNN
-	1    15100 13300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14900 13700 14900 13900
 Wire Wire Line
@@ -4833,21 +2750,6 @@ Wire Wire Line
 Connection ~ 14900 13600
 Wire Wire Line
 	14900 13600 14900 13700
-$Comp
-L jb-symbol:SN74LVC4245AN U24
-U 1 1 67293961
-P 12700 13050
-F 0 "U24" H 12300 13400 60  0000 C CNN
-F 1 "SN74LVC4245AN" V 12600 12650 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 12900 13250 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 12900 13350 60  0001 L CNN
-F 4 "1727-2878-ND" H 12900 13450 60  0001 L CNN "Digi-Key_PN"
-F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 12700 13050 50  0001 C CNN "Description"
-F 6 "74LVC4245APW,112" H 12700 13050 50  0001 C CNN "MPN"
-F 7 "Nexperia USA Inc." H 12700 13050 50  0001 C CNN "Manufacturer"
-	1    12700 13050
-	-1   0    0    -1  
-$EndComp
 Text GLabel 13500 12450 2    50   Input ~ 0
 VCC_IO
 Wire Wire Line
@@ -4870,40 +2772,6 @@ F 3 "" H 12650 12350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12650 12450 12650 12550
-$Comp
-L Device:C C?
-U 1 1 67293970
-P 12100 12600
-AR Path="/5F66828B/67293970" Ref="C?"  Part="1" 
-AR Path="/67293970" Ref="C70"  Part="1" 
-F 0 "C70" H 12215 12646 50  0000 L CNN
-F 1 ".1uF" H 12215 12555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12138 12450 50  0001 C CNN
-F 3 "~" H 12100 12600 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 12100 12600 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 12100 12600 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 12100 12600 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 12100 12600 50  0001 C CNN "Manufacturer"
-	1    12100 12600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 67293976
-P 13350 12600
-AR Path="/5F66828B/67293976" Ref="C?"  Part="1" 
-AR Path="/67293976" Ref="C71"  Part="1" 
-F 0 "C71" H 13465 12646 50  0000 L CNN
-F 1 ".1uF" H 13465 12555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13388 12450 50  0001 C CNN
-F 3 "~" H 13350 12600 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 13350 12600 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 13350 12600 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 13350 12600 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 13350 12600 50  0001 C CNN "Manufacturer"
-	1    13350 12600
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR094
 U 1 1 6729397C
@@ -5017,21 +2885,6 @@ Wire Wire Line
 	13150 10900 13150 11100
 Connection ~ 13150 10900
 Connection ~ 14500 13000
-$Comp
-L jb-symbol:SN74LVC4245AN U23
-U 1 1 68220B40
-P 10250 13050
-F 0 "U23" H 9900 13400 60  0000 C CNN
-F 1 "SN74LVC4245AN" V 10150 12650 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 10450 13250 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 10450 13350 60  0001 L CNN
-F 4 "1727-2878-ND" H 10450 13450 60  0001 L CNN "Digi-Key_PN"
-F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 10250 13050 50  0001 C CNN "Description"
-F 6 "74LVC4245APW,112" H 10250 13050 50  0001 C CNN "MPN"
-F 7 "Nexperia USA Inc." H 10250 13050 50  0001 C CNN "Manufacturer"
-	1    10250 13050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10500 12650 10500 12450
 $Comp
@@ -5052,40 +2905,6 @@ F 3 "" H 10200 12350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10200 12450 10200 12550
-$Comp
-L Device:C C?
-U 1 1 68220B4E
-P 9650 12600
-AR Path="/5F66828B/68220B4E" Ref="C?"  Part="1" 
-AR Path="/68220B4E" Ref="C68"  Part="1" 
-F 0 "C68" H 9765 12646 50  0000 L CNN
-F 1 ".1uF" H 9765 12555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9688 12450 50  0001 C CNN
-F 3 "~" H 9650 12600 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 9650 12600 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 9650 12600 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 9650 12600 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 9650 12600 50  0001 C CNN "Manufacturer"
-	1    9650 12600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 68220B54
-P 10900 12600
-AR Path="/5F66828B/68220B54" Ref="C?"  Part="1" 
-AR Path="/68220B54" Ref="C69"  Part="1" 
-F 0 "C69" H 11015 12646 50  0000 L CNN
-F 1 ".1uF" H 11015 12555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10938 12450 50  0001 C CNN
-F 3 "~" H 10900 12600 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 10900 12600 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 10900 12600 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 10900 12600 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 10900 12600 50  0001 C CNN "Manufacturer"
-	1    10900 12600
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR092
 U 1 1 68220B5A
@@ -5295,66 +3114,6 @@ Connection ~ 3450 6550
 Wire Wire Line
 	3450 6550 3450 6600
 $Comp
-L Regulator_Linear:AZ1117-3.3 U?
-U 1 1 6AAF5324
-P 7300 9850
-AR Path="/5D1A4D20/6AAF5324" Ref="U?"  Part="1" 
-AR Path="/6AAF5324" Ref="U17"  Part="1" 
-AR Path="/5CF9559A/6AAF5324" Ref="U?"  Part="1" 
-AR Path="/5E2D04E3/6AAF5324" Ref="U?"  Part="1" 
-AR Path="/5F66828B/6AAF5324" Ref="U?"  Part="1" 
-F 0 "U17" H 7300 10100 50  0000 C CNN
-F 1 "AZ1117CH-3.3TRG1" H 7350 10000 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7300 10100 50  0001 C CIN
-F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 7300 9850 50  0001 C CNN
-F 4 "AZ1117CH-3.3TRG1DICT-ND" H 7300 9850 50  0001 C CNN "Digi-Key_PN"
-F 5 "AZ1117CH-3.3TRG1" H 7300 9850 50  0001 C CNN "MPN"
-F 6 "IC REG LINEAR 3.3V 800MA SOT223" H 7300 9850 50  0001 C CNN "Description"
-F 7 "Diodes Incorporated" H 7300 9850 50  0001 C CNN "Manufacturer"
-	1    7300 9850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6AAF532C
-P 6700 10000
-AR Path="/5D1A4D20/6AAF532C" Ref="C?"  Part="1" 
-AR Path="/6AAF532C" Ref="C52"  Part="1" 
-AR Path="/5CF9559A/6AAF532C" Ref="C?"  Part="1" 
-AR Path="/5E2D04E3/6AAF532C" Ref="C?"  Part="1" 
-AR Path="/5F66828B/6AAF532C" Ref="C?"  Part="1" 
-F 0 "C52" H 6815 10091 50  0000 L CNN
-F 1 "10uF" H 6815 10000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 9850 50  0001 C CNN
-F 3 "~" H 6700 10000 50  0001 C CNN
-F 4 "1276-1119-1-ND" H 6700 10000 50  0001 C CNN "Digi-Key_PN"
-F 5 "CL10A106MQ8NNNC" H 6700 10000 50  0001 C CNN "MPN"
-F 6 "CAP CER 10UF 6.3V X5R 0603" H 6700 10000 50  0001 C CNN "Description"
-F 7 "Samsung Electro-Mechanics" H 6700 10000 50  0001 C CNN "Manufacturer"
-	1    6700 10000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6AAF5334
-P 7750 10000
-AR Path="/5D1A4D20/6AAF5334" Ref="C?"  Part="1" 
-AR Path="/6AAF5334" Ref="C53"  Part="1" 
-AR Path="/5CF9559A/6AAF5334" Ref="C?"  Part="1" 
-AR Path="/5E2D04E3/6AAF5334" Ref="C?"  Part="1" 
-AR Path="/5F66828B/6AAF5334" Ref="C?"  Part="1" 
-F 0 "C53" H 7865 10091 50  0000 L CNN
-F 1 "22uF" H 7865 10000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 9850 50  0001 C CNN
-F 3 "~" H 7750 10000 50  0001 C CNN
-F 4 "1276-2868-1-ND" H 7750 10000 50  0001 C CNN "Digi-Key_PN"
-F 5 "CL10A226MQ8NRNE" H 7750 10000 50  0001 C CNN "MPN"
-F 6 "CAP CER 22UF 6.3V X5R 0603" H 7750 10000 50  0001 C CNN "Description"
-F 7 "Samsung Electro-Mechanics" H 7750 10000 50  0001 C CNN "Manufacturer"
-	1    7750 10000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 6AAF533A
 P 7700 10150
@@ -5424,43 +3183,11 @@ Text Label 9600 2700 2    50   ~ 0
 CDONE
 Text Label 7500 2900 0    50   ~ 0
 FPGA_SS
-$Comp
-L jb-symbol:AP3012 U26
-U 1 1 6D34B75C
-P 7400 15200
-F 0 "U26" H 7400 15525 50  0000 C CNN
-F 1 "AP3012" H 7400 15434 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7200 15450 50  0001 C CNN
-F 3 "" H 7200 15450 50  0001 C CNN
-F 4 "IC REG BOOST ADJ 500MA SOT23-5" H 7400 15200 50  0001 C CNN "Description"
-F 5 "AP3012KTR-G1DICT-ND" H 7400 15200 50  0001 C CNN "Digi-Key_PN"
-F 6 "AP3012KTR-G1" H 7400 15200 50  0001 C CNN "MPN"
-F 7 "Diodes Incorporated" H 7400 15200 50  0001 C CNN "Manufacturer"
-	1    7400 15200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 15200 6950 15200
 Wire Wire Line
 	6700 15300 6700 15200
 Connection ~ 6700 15200
-$Comp
-L Device:C C?
-U 1 1 6D34EE42
-P 6700 15450
-AR Path="/5F66828B/6D34EE42" Ref="C?"  Part="1" 
-AR Path="/6D34EE42" Ref="C78"  Part="1" 
-F 0 "C78" H 6815 15496 50  0000 L CNN
-F 1 "1uF" H 6815 15405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 15300 50  0001 C CNN
-F 3 "~" H 6700 15450 50  0001 C CNN
-F 4 "CAP CER 1UF 25V X5R 0603" H 6700 15450 50  0001 C CNN "Description"
-F 5 "1276-1102-1-ND" H 6700 15450 50  0001 C CNN "Digi-Key_PN"
-F 6 "CL10A105KA8NNNC" H 6700 15450 50  0001 C CNN "MPN"
-F 7 "Samsung Electro-Mechanics" H 6700 15450 50  0001 C CNN "Manufacturer"
-	1    6700 15450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0114
 U 1 1 6D34EE48
@@ -5494,25 +3221,6 @@ Wire Wire Line
 Connection ~ 6850 15200
 Wire Wire Line
 	6850 15200 6700 15200
-$Comp
-L Device:L L14
-U 1 1 6D72FFA2
-P 7450 14800
-AR Path="/6D72FFA2" Ref="L14"  Part="1" 
-AR Path="/5DFE66B1/6D72FFA2" Ref="L?"  Part="1" 
-AR Path="/5ECC13DB/5DFE66B1/6D72FFA2" Ref="L?"  Part="1" 
-AR Path="/5F51430C/6D72FFA2" Ref="L?"  Part="1" 
-F 0 "L14" V 7650 14850 50  0000 C CNN
-F 1 "10uH" V 7550 14800 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-40xx_HandSoldering" H 7450 14800 50  0001 C CNN
-F 3 "~" H 7450 14800 50  0001 C CNN
-F 4 "587-2376-1-ND" V 7550 14600 50  0001 C CNN "Digi-Key_PN"
-F 5 "NRG4026T100M" H 7450 14800 50  0001 C CNN "MPN"
-F 6 "FIXED IND 10UH 1.3A 85 MOHM SMD" H 7450 14800 50  0001 C CNN "Description"
-F 7 "Taiyo Yuden" H 7450 14800 50  0001 C CNN "Manufacturer"
-	1    7450 14800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6950 15200 6950 14800
 Wire Wire Line
@@ -5524,58 +3232,6 @@ Wire Wire Line
 	7600 14800 7950 14800
 Wire Wire Line
 	8200 15100 7950 15100
-$Comp
-L Device:D_Schottky_ALT D20
-U 1 1 6DA29F88
-P 8350 15100
-F 0 "D20" H 8350 14850 50  0000 C CNN
-F 1 "DB2460600L" H 8350 14950 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-128" H 8350 15100 50  0001 C CNN
-F 3 "~" H 8350 15100 50  0001 C CNN
-F 4 "DIODE SCHOTTKY 60V 3A TMINIP2" H 8350 15100 50  0001 C CNN "Description"
-F 5 "DB2460600LCT-ND" H 8350 15100 50  0001 C CNN "Digi-Key_PN"
-F 6 "DB2460600L" H 8350 15100 50  0001 C CNN "MPN"
-F 7 "Panasonic Electronic Components" H 8350 15100 50  0001 C CNN "Manufacturer"
-	1    8350 15100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6DE228ED
-P 8750 15650
-AR Path="/5BBE5CCD/6DE228ED" Ref="R?"  Part="1" 
-AR Path="/6DE228ED" Ref="R52"  Part="1" 
-AR Path="/5CF9559A/6DE228ED" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/6DE228ED" Ref="R?"  Part="1" 
-F 0 "R52" V 8650 15650 50  0000 C CNN
-F 1 "5K1" V 8750 15650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8680 15650 50  0001 C CNN
-F 3 "~" H 8750 15650 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 8750 15650 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 8750 15650 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 8750 15650 50  0001 C CNN "MPN"
-F 7 "Yageo" H 8750 15650 50  0001 C CNN "Manufacturer"
-	1    8750 15650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6DE228F4
-P 8750 15250
-AR Path="/5BBE5CCD/6DE228F4" Ref="R?"  Part="1" 
-AR Path="/6DE228F4" Ref="R51"  Part="1" 
-AR Path="/5CF9559A/6DE228F4" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/6DE228F4" Ref="R?"  Part="1" 
-F 0 "R51" V 8650 15250 50  0000 C CNN
-F 1 "92K82" V 8750 15250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8680 15250 50  0001 C CNN
-F 3 "~" H 8750 15250 50  0001 C CNN
-F 4 "RMCF0603FT90K9CT-ND" H 8750 15250 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES 90.9K OHM 1% 1/10W 0603" H 8750 15250 50  0001 C CNN "Description"
-F 6 "RMCF0603FT90K9" H 8750 15250 50  0001 C CNN "MPN"
-	1    8750 15250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 6DE228FC
@@ -5618,23 +3274,6 @@ F 3 "" H 7750 15650 50  0001 C CNN
 	1    7750 15650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 6E428459
-P 9000 15450
-AR Path="/5F66828B/6E428459" Ref="C?"  Part="1" 
-AR Path="/6E428459" Ref="C79"  Part="1" 
-F 0 "C79" H 9115 15496 50  0000 L CNN
-F 1 "1uF" H 9115 15405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9038 15300 50  0001 C CNN
-F 3 "~" H 9000 15450 50  0001 C CNN
-F 4 "CAP CER 1UF 25V X5R 0603" H 9000 15450 50  0001 C CNN "Description"
-F 5 "1276-1102-1-ND" H 9000 15450 50  0001 C CNN "Digi-Key_PN"
-F 6 "CL10A105KA8NNNC" H 9000 15450 50  0001 C CNN "MPN"
-F 7 "Samsung Electro-Mechanics" H 9000 15450 50  0001 C CNN "Manufacturer"
-	1    9000 15450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9000 15300 9000 15100
 Connection ~ 9000 15100
@@ -5657,63 +3296,6 @@ Text GLabel 9100 15100 2    50   Input ~ 0
 VCC_SOL_24
 Text Notes 7350 16100 0    79   ~ 16
 24V @ 500mA
-$Comp
-L Device:R R?
-U 1 1 5F1C0EAD
-P 14550 2150
-AR Path="/5BBE5CCD/5F1C0EAD" Ref="R?"  Part="1" 
-AR Path="/5F1C0EAD" Ref="R16"  Part="1" 
-AR Path="/5CF9559A/5F1C0EAD" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5F1C0EAD" Ref="R?"  Part="1" 
-F 0 "R16" V 14500 2350 50  0000 C CNN
-F 1 "33" V 14550 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14480 2150 50  0001 C CNN
-F 3 "~" H 14550 2150 50  0001 C CNN
-F 4 "311-33.0HRCT-ND" H 14550 2150 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 14550 2150 50  0001 C CNN "Description"
-F 6 "RC0603FR-0733RL" H 14550 2150 50  0001 C CNN "MPN"
-F 7 "Yageo" H 14550 2150 50  0001 C CNN "Manufacturer"
-	1    14550 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1C7710
-P 14550 2250
-AR Path="/5BBE5CCD/5F1C7710" Ref="R?"  Part="1" 
-AR Path="/5F1C7710" Ref="R17"  Part="1" 
-AR Path="/5CF9559A/5F1C7710" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5F1C7710" Ref="R?"  Part="1" 
-F 0 "R17" V 14500 2450 50  0000 C CNN
-F 1 "33" V 14550 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14480 2250 50  0001 C CNN
-F 3 "~" H 14550 2250 50  0001 C CNN
-F 4 "311-33.0HRCT-ND" H 14550 2250 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 14550 2250 50  0001 C CNN "Description"
-F 6 "RC0603FR-0733RL" H 14550 2250 50  0001 C CNN "MPN"
-F 7 "Yageo" H 14550 2250 50  0001 C CNN "Manufacturer"
-	1    14550 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1C79E5
-P 14550 2350
-AR Path="/5BBE5CCD/5F1C79E5" Ref="R?"  Part="1" 
-AR Path="/5F1C79E5" Ref="R18"  Part="1" 
-AR Path="/5CF9559A/5F1C79E5" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5F1C79E5" Ref="R?"  Part="1" 
-F 0 "R18" V 14500 2550 50  0000 C CNN
-F 1 "33" V 14550 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14480 2350 50  0001 C CNN
-F 3 "~" H 14550 2350 50  0001 C CNN
-F 4 "311-33.0HRCT-ND" H 14550 2350 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 14550 2350 50  0001 C CNN "Description"
-F 6 "RC0603FR-0733RL" H 14550 2350 50  0001 C CNN "MPN"
-F 7 "Yageo" H 14550 2350 50  0001 C CNN "Manufacturer"
-	1    14550 2350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	14700 2150 15700 2150
 Wire Wire Line
@@ -5726,25 +3308,6 @@ Text Label 15050 2250 0    50   ~ 0
 SPI_MISO
 Text Label 15050 2350 0    50   ~ 0
 SPI_SCLK
-$Comp
-L Device:R R?
-U 1 1 5F9D6AF9
-P 17650 2350
-AR Path="/5BBE5CCD/5F9D6AF9" Ref="R?"  Part="1" 
-AR Path="/5F9D6AF9" Ref="R19"  Part="1" 
-AR Path="/5CF9559A/5F9D6AF9" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5F9D6AF9" Ref="R?"  Part="1" 
-F 0 "R19" V 17600 2550 50  0000 C CNN
-F 1 "33" V 17650 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 2350 50  0001 C CNN
-F 3 "~" H 17650 2350 50  0001 C CNN
-F 4 "311-33.0HRCT-ND" H 17650 2350 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 17650 2350 50  0001 C CNN "Description"
-F 6 "RC0603FR-0733RL" H 17650 2350 50  0001 C CNN "MPN"
-F 7 "Yageo" H 17650 2350 50  0001 C CNN "Manufacturer"
-	1    17650 2350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	16700 2350 17500 2350
 Wire Wire Line
@@ -5755,25 +3318,6 @@ Text Label 17300 2950 2    50   ~ 0
 GPIO16
 Wire Wire Line
 	14400 1950 13800 1950
-$Comp
-L Device:R R?
-U 1 1 5F9D6526
-P 14550 1950
-AR Path="/5BBE5CCD/5F9D6526" Ref="R?"  Part="1" 
-AR Path="/5F9D6526" Ref="R12"  Part="1" 
-AR Path="/5CF9559A/5F9D6526" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5F9D6526" Ref="R?"  Part="1" 
-F 0 "R12" V 14600 1750 50  0000 C CNN
-F 1 "33" V 14550 1950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14480 1950 50  0001 C CNN
-F 3 "~" H 14550 1950 50  0001 C CNN
-F 4 "311-33.0HRCT-ND" H 14550 1950 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 14550 1950 50  0001 C CNN "Description"
-F 6 "RC0603FR-0733RL" H 14550 1950 50  0001 C CNN "MPN"
-F 7 "Yageo" H 14550 1950 50  0001 C CNN "Manufacturer"
-	1    14550 1950
-	0    -1   -1   0   
-$EndComp
 Text Label 17300 2050 2    50   ~ 0
 GPIO24
 Text Label 17300 1950 2    50   ~ 0
@@ -5795,42 +3339,8 @@ F 3 "" H 7050 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 3200 7150 3200
-$Comp
-L Device:R R?
-U 1 1 5FB179DA
-P 7300 3200
-AR Path="/5F66828B/5FB179DA" Ref="R?"  Part="1" 
-AR Path="/5FB179DA" Ref="R21"  Part="1" 
-F 0 "R21" V 7200 3200 50  0000 C CNN
-F 1 "10K" V 7300 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7230 3200 50  0001 C CNN
-F 3 "~" H 7300 3200 50  0001 C CNN
-F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 7300 3200 50  0001 C CNN "Description"
-F 5 "311-10.0KHRCT-ND" H 7300 3200 50  0001 C CNN "Digi-Key_PN"
-F 6 "RC0603FR-0710KL" H 7300 3200 50  0001 C CNN "MPN"
-F 7 "Yageo" H 7300 3200 50  0001 C CNN "Manufacturer"
-	1    7300 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7450 3200 8000 3200
-$Comp
-L Device:R R?
-U 1 1 5FB17AC4
-P 6750 3350
-AR Path="/5F66828B/5FB17AC4" Ref="R?"  Part="1" 
-AR Path="/5FB17AC4" Ref="R22"  Part="1" 
-F 0 "R22" V 6650 3350 50  0000 C CNN
-F 1 "10K" V 6750 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 3350 50  0001 C CNN
-F 3 "~" H 6750 3350 50  0001 C CNN
-F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 6750 3350 50  0001 C CNN "Description"
-F 5 "311-10.0KHRCT-ND" H 6750 3350 50  0001 C CNN "Digi-Key_PN"
-F 6 "RC0603FR-0710KL" H 6750 3350 50  0001 C CNN "MPN"
-F 7 "Yageo" H 6750 3350 50  0001 C CNN "Manufacturer"
-	1    6750 3350
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FB17ACC
@@ -5862,79 +3372,8 @@ Wire Wire Line
 	17800 2050 18400 2050
 Wire Wire Line
 	17800 1950 18400 1950
-$Comp
-L Device:R R?
-U 1 1 5F9D63AD
-P 17650 2050
-AR Path="/5BBE5CCD/5F9D63AD" Ref="R?"  Part="1" 
-AR Path="/5F9D63AD" Ref="R15"  Part="1" 
-AR Path="/5CF9559A/5F9D63AD" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5F9D63AD" Ref="R?"  Part="1" 
-F 0 "R15" V 17600 2250 50  0000 C CNN
-F 1 "33" V 17650 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 2050 50  0001 C CNN
-F 3 "~" H 17650 2050 50  0001 C CNN
-F 4 "311-33.0HRCT-ND" H 17650 2050 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 17650 2050 50  0001 C CNN "Description"
-F 6 "RC0603FR-0733RL" H 17650 2050 50  0001 C CNN "MPN"
-F 7 "Yageo" H 17650 2050 50  0001 C CNN "Manufacturer"
-	1    17650 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9D5A62
-P 17650 1950
-AR Path="/5BBE5CCD/5F9D5A62" Ref="R?"  Part="1" 
-AR Path="/5F9D5A62" Ref="R13"  Part="1" 
-AR Path="/5CF9559A/5F9D5A62" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5F9D5A62" Ref="R?"  Part="1" 
-F 0 "R13" V 17600 2150 50  0000 C CNN
-F 1 "33" V 17650 1950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 1950 50  0001 C CNN
-F 3 "~" H 17650 1950 50  0001 C CNN
-F 4 "311-33.0HRCT-ND" H 17650 1950 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 17650 1950 50  0001 C CNN "Description"
-F 6 "RC0603FR-0733RL" H 17650 1950 50  0001 C CNN "MPN"
-F 7 "Yageo" H 17650 1950 50  0001 C CNN "Manufacturer"
-	1    17650 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x16 J30
-U 1 1 60FE6676
-P 21150 13200
-F 0 "J30" V 21150 14000 50  0000 L CNN
-F 1 "Conn_01x16" H 21230 13101 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 21150 13200 50  0001 C CNN
-F 3 "~" H 21150 13200 50  0001 C CNN
-	1    21150 13200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20850 13000 20850 13100
-$Comp
-L Connector_Generic:Conn_01x16 J29
-U 1 1 60FE9CAA
-P 20550 13200
-F 0 "J29" V 20550 14000 50  0000 L CNN
-F 1 "Conn_01x16" H 20630 13101 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 20550 13200 50  0001 C CNN
-F 3 "~" H 20550 13200 50  0001 C CNN
-	1    20550 13200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x16 J28
-U 1 1 60FEA76D
-P 19850 13200
-F 0 "J28" V 19850 14000 50  0000 L CNN
-F 1 "Conn_01x16" H 19930 13101 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 19850 13200 50  0001 C CNN
-F 3 "~" H 19850 13200 50  0001 C CNN
-	1    19850 13200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20250 14000 20350 14000
 Wire Wire Line
@@ -6210,17 +3649,6 @@ Text Label 5100 3700 0    50   ~ 0
 LED_6
 Text Label 5100 3600 0    50   ~ 0
 LED_7
-$Comp
-L Connector_Generic:Conn_01x08 J23
-U 1 1 66A34264
-P 11750 10500
-F 0 "J23" V 11750 10900 50  0000 L CNN
-F 1 "Conn_01x08" H 11830 10401 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11750 10500 50  0001 C CNN
-F 3 "~" H 11750 10500 50  0001 C CNN
-	1    11750 10500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11550 10900 11150 10900
 Wire Wire Line
@@ -6460,23 +3888,6 @@ F 3 "" H 2700 8100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2700 7500 2700 7600
-$Comp
-L Switch:SW_DIP_x08 SW?
-U 1 1 5F3F6326
-P 2400 7700
-AR Path="/5ECC13DB/5F3F6326" Ref="SW?"  Part="1" 
-AR Path="/5F3F6326" Ref="SW11"  Part="1" 
-F 0 "SW11" H 2400 8367 50  0000 C CNN
-F 1 "SW_DIP_x08" H 2400 8276 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W7.62mm_P2.54mm_LowProfile" H 2400 7700 50  0001 C CNN
-F 3 "~" H 2400 7700 50  0001 C CNN
-F 4 "CT2108MS-ND" H 2400 7700 50  0001 C CNN "Digi-Key_PN"
-F 5 "SWITCH SLIDE DIP SPST 100MA 20V" H 2400 7700 50  0001 C CNN "Description"
-F 6 "210-8MS" H 2400 7700 50  0001 C CNN "MPN"
-F 7 "CTS Electrocomponents" H 2400 7700 50  0001 C CNN "Manufacturer"
-	1    2400 7700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 8000 2700 8100
 Wire Wire Line
@@ -6624,477 +4035,22 @@ Wire Wire Line
 	1250 2300 650  2300
 Text Label 650  2400 0    50   ~ 0
 ~ADC_CS
-$Comp
-L Analog_ADC:MCP3008 U16
-U 1 1 6349BCA7
-P 16600 9600
-F 0 "U16" H 16200 10200 50  0000 C CNN
-F 1 "MCP3008" H 16200 10100 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 16700 9700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 16700 9700 50  0001 C CNN
-F 4 "IC ADC 10BIT SAR 16SOIC" H 16600 9600 50  0001 C CNN "Description"
-F 5 "MCP3008-I/SL-ND" H 16600 9600 50  0001 C CNN "Digi-Key_PN"
-F 6 "MCP3008-I/SL" H 16600 9600 50  0001 C CNN "MPN"
-F 7 "Microchip Technology" H 16600 9600 50  0001 C CNN "Manufacturer"
-	1    16600 9600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6584C8AD
-P 18000 8900
-AR Path="/5BBE5CCD/6584C8AD" Ref="R?"  Part="1" 
-AR Path="/6584C8AD" Ref="R28"  Part="1" 
-AR Path="/5CF9559A/6584C8AD" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/6584C8AD" Ref="R?"  Part="1" 
-F 0 "R28" V 17950 9050 50  0000 C CNN
-F 1 "4K7" V 18000 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17930 8900 50  0001 C CNN
-F 3 "~" H 18000 8900 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18000 8900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18000 8900 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18000 8900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18000 8900 50  0001 C CNN "Manufacturer"
-	1    18000 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18000 8750 18000 8700
-$Comp
-L Device:R R?
-U 1 1 659753B2
-P 18100 8900
-AR Path="/5BBE5CCD/659753B2" Ref="R?"  Part="1" 
-AR Path="/659753B2" Ref="R29"  Part="1" 
-AR Path="/5CF9559A/659753B2" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/659753B2" Ref="R?"  Part="1" 
-F 0 "R29" V 18050 9050 50  0000 C CNN
-F 1 "4K7" V 18100 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18030 8900 50  0001 C CNN
-F 3 "~" H 18100 8900 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18100 8900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18100 8900 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18100 8900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18100 8900 50  0001 C CNN "Manufacturer"
-	1    18100 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18100 8750 18100 8700
-$Comp
-L Device:R R?
-U 1 1 65A93156
-P 18200 8900
-AR Path="/5BBE5CCD/65A93156" Ref="R?"  Part="1" 
-AR Path="/65A93156" Ref="R30"  Part="1" 
-AR Path="/5CF9559A/65A93156" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/65A93156" Ref="R?"  Part="1" 
-F 0 "R30" V 18150 9050 50  0000 C CNN
-F 1 "4K7" V 18200 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18130 8900 50  0001 C CNN
-F 3 "~" H 18200 8900 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18200 8900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18200 8900 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18200 8900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18200 8900 50  0001 C CNN "Manufacturer"
-	1    18200 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18200 8750 18200 8700
-$Comp
-L Device:R R?
-U 1 1 65BB1A7D
-P 18300 8900
-AR Path="/5BBE5CCD/65BB1A7D" Ref="R?"  Part="1" 
-AR Path="/65BB1A7D" Ref="R31"  Part="1" 
-AR Path="/5CF9559A/65BB1A7D" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/65BB1A7D" Ref="R?"  Part="1" 
-F 0 "R31" V 18250 9050 50  0000 C CNN
-F 1 "4K7" V 18300 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18230 8900 50  0001 C CNN
-F 3 "~" H 18300 8900 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18300 8900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18300 8900 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18300 8900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18300 8900 50  0001 C CNN "Manufacturer"
-	1    18300 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18300 8750 18300 8700
-$Comp
-L Device:R R?
-U 1 1 65CD087F
-P 18400 8900
-AR Path="/5BBE5CCD/65CD087F" Ref="R?"  Part="1" 
-AR Path="/65CD087F" Ref="R32"  Part="1" 
-AR Path="/5CF9559A/65CD087F" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/65CD087F" Ref="R?"  Part="1" 
-F 0 "R32" V 18350 9050 50  0000 C CNN
-F 1 "4K7" V 18400 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18330 8900 50  0001 C CNN
-F 3 "~" H 18400 8900 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18400 8900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18400 8900 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18400 8900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18400 8900 50  0001 C CNN "Manufacturer"
-	1    18400 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18400 8750 18400 8700
-$Comp
-L Device:R R?
-U 1 1 65DEFEFF
-P 18500 8900
-AR Path="/5BBE5CCD/65DEFEFF" Ref="R?"  Part="1" 
-AR Path="/65DEFEFF" Ref="R33"  Part="1" 
-AR Path="/5CF9559A/65DEFEFF" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/65DEFEFF" Ref="R?"  Part="1" 
-F 0 "R33" V 18450 9050 50  0000 C CNN
-F 1 "4K7" V 18500 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18430 8900 50  0001 C CNN
-F 3 "~" H 18500 8900 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18500 8900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18500 8900 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18500 8900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18500 8900 50  0001 C CNN "Manufacturer"
-	1    18500 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18500 8750 18500 8700
-$Comp
-L Device:R R?
-U 1 1 65F0FD69
-P 18600 8900
-AR Path="/5BBE5CCD/65F0FD69" Ref="R?"  Part="1" 
-AR Path="/65F0FD69" Ref="R34"  Part="1" 
-AR Path="/5CF9559A/65F0FD69" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/65F0FD69" Ref="R?"  Part="1" 
-F 0 "R34" V 18550 9050 50  0000 C CNN
-F 1 "4K7" V 18600 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18530 8900 50  0001 C CNN
-F 3 "~" H 18600 8900 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18600 8900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18600 8900 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18600 8900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18600 8900 50  0001 C CNN "Manufacturer"
-	1    18600 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18600 8750 18600 8700
-$Comp
-L Device:R R?
-U 1 1 6603025E
-P 18700 8900
-AR Path="/5BBE5CCD/6603025E" Ref="R?"  Part="1" 
-AR Path="/6603025E" Ref="R35"  Part="1" 
-AR Path="/5CF9559A/6603025E" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/6603025E" Ref="R?"  Part="1" 
-F 0 "R35" V 18650 9050 50  0000 C CNN
-F 1 "4K7" V 18700 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18630 8900 50  0001 C CNN
-F 3 "~" H 18700 8900 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18700 8900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18700 8900 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18700 8900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18700 8900 50  0001 C CNN "Manufacturer"
-	1    18700 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18700 8750 18700 8700
-$Comp
-L Device:R R?
-U 1 1 66275838
-P 18000 10300
-AR Path="/5BBE5CCD/66275838" Ref="R?"  Part="1" 
-AR Path="/66275838" Ref="R39"  Part="1" 
-AR Path="/5CF9559A/66275838" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/66275838" Ref="R?"  Part="1" 
-F 0 "R39" V 17950 10450 50  0000 C CNN
-F 1 "4K7" V 18000 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17930 10300 50  0001 C CNN
-F 3 "~" H 18000 10300 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18000 10300 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18000 10300 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18000 10300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18000 10300 50  0001 C CNN "Manufacturer"
-	1    18000 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6627583F
-P 18100 10300
-AR Path="/5BBE5CCD/6627583F" Ref="R?"  Part="1" 
-AR Path="/6627583F" Ref="R40"  Part="1" 
-AR Path="/5CF9559A/6627583F" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/6627583F" Ref="R?"  Part="1" 
-F 0 "R40" V 18050 10450 50  0000 C CNN
-F 1 "4K7" V 18100 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18030 10300 50  0001 C CNN
-F 3 "~" H 18100 10300 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18100 10300 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18100 10300 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18100 10300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18100 10300 50  0001 C CNN "Manufacturer"
-	1    18100 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 66275846
-P 18200 10300
-AR Path="/5BBE5CCD/66275846" Ref="R?"  Part="1" 
-AR Path="/66275846" Ref="R41"  Part="1" 
-AR Path="/5CF9559A/66275846" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/66275846" Ref="R?"  Part="1" 
-F 0 "R41" V 18150 10450 50  0000 C CNN
-F 1 "4K7" V 18200 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18130 10300 50  0001 C CNN
-F 3 "~" H 18200 10300 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18200 10300 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18200 10300 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18200 10300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18200 10300 50  0001 C CNN "Manufacturer"
-	1    18200 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6627584D
-P 18300 10300
-AR Path="/5BBE5CCD/6627584D" Ref="R?"  Part="1" 
-AR Path="/6627584D" Ref="R42"  Part="1" 
-AR Path="/5CF9559A/6627584D" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/6627584D" Ref="R?"  Part="1" 
-F 0 "R42" V 18250 10450 50  0000 C CNN
-F 1 "4K7" V 18300 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18230 10300 50  0001 C CNN
-F 3 "~" H 18300 10300 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18300 10300 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18300 10300 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18300 10300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18300 10300 50  0001 C CNN "Manufacturer"
-	1    18300 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 66275854
-P 18400 10300
-AR Path="/5BBE5CCD/66275854" Ref="R?"  Part="1" 
-AR Path="/66275854" Ref="R43"  Part="1" 
-AR Path="/5CF9559A/66275854" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/66275854" Ref="R?"  Part="1" 
-F 0 "R43" V 18350 10450 50  0000 C CNN
-F 1 "4K7" V 18400 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18330 10300 50  0001 C CNN
-F 3 "~" H 18400 10300 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18400 10300 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18400 10300 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18400 10300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18400 10300 50  0001 C CNN "Manufacturer"
-	1    18400 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6627585B
-P 18500 10300
-AR Path="/5BBE5CCD/6627585B" Ref="R?"  Part="1" 
-AR Path="/6627585B" Ref="R44"  Part="1" 
-AR Path="/5CF9559A/6627585B" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/6627585B" Ref="R?"  Part="1" 
-F 0 "R44" V 18450 10450 50  0000 C CNN
-F 1 "4K7" V 18500 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18430 10300 50  0001 C CNN
-F 3 "~" H 18500 10300 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18500 10300 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18500 10300 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18500 10300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18500 10300 50  0001 C CNN "Manufacturer"
-	1    18500 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 66275862
-P 18600 10300
-AR Path="/5BBE5CCD/66275862" Ref="R?"  Part="1" 
-AR Path="/66275862" Ref="R45"  Part="1" 
-AR Path="/5CF9559A/66275862" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/66275862" Ref="R?"  Part="1" 
-F 0 "R45" V 18550 10450 50  0000 C CNN
-F 1 "4K7" V 18600 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18530 10300 50  0001 C CNN
-F 3 "~" H 18600 10300 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18600 10300 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18600 10300 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18600 10300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18600 10300 50  0001 C CNN "Manufacturer"
-	1    18600 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 66275869
-P 18700 10300
-AR Path="/5BBE5CCD/66275869" Ref="R?"  Part="1" 
-AR Path="/66275869" Ref="R46"  Part="1" 
-AR Path="/5CF9559A/66275869" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/66275869" Ref="R?"  Part="1" 
-F 0 "R46" V 18650 10450 50  0000 C CNN
-F 1 "4K7" V 18700 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18630 10300 50  0001 C CNN
-F 3 "~" H 18700 10300 50  0001 C CNN
-F 4 "311-4.70KHRCT-ND" H 18700 10300 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18700 10300 50  0001 C CNN "Description"
-F 6 "RC0603FR-074K7L" H 18700 10300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 18700 10300 50  0001 C CNN "Manufacturer"
-	1    18700 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 66943B60
-P 19000 9850
-AR Path="/5F66828B/66943B60" Ref="C?"  Part="1" 
-AR Path="/66943B60" Ref="C51"  Part="1" 
-F 0 "C51" V 18950 9950 50  0000 L CNN
-F 1 ".1uF" V 18950 9650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19038 9700 50  0001 C CNN
-F 3 "~" H 19000 9850 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19000 9850 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19000 9850 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19000 9850 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19000 9850 50  0001 C CNN "Manufacturer"
-	1    19000 9850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6738AF42
-P 19450 9750
-AR Path="/5F66828B/6738AF42" Ref="C?"  Part="1" 
-AR Path="/6738AF42" Ref="C45"  Part="1" 
-F 0 "C45" V 19400 9850 50  0000 L CNN
-F 1 ".1uF" V 19400 9550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19488 9600 50  0001 C CNN
-F 3 "~" H 19450 9750 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19450 9750 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19450 9750 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19450 9750 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19450 9750 50  0001 C CNN "Manufacturer"
-	1    19450 9750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 675D9F4C
-P 19000 9650
-AR Path="/5F66828B/675D9F4C" Ref="C?"  Part="1" 
-AR Path="/675D9F4C" Ref="C44"  Part="1" 
-F 0 "C44" V 18950 9750 50  0000 L CNN
-F 1 ".1uF" V 18950 9450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19038 9500 50  0001 C CNN
-F 3 "~" H 19000 9650 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19000 9650 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19000 9650 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19000 9650 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19000 9650 50  0001 C CNN "Manufacturer"
-	1    19000 9650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 675D9F52
-P 19450 9550
-AR Path="/5F66828B/675D9F52" Ref="C?"  Part="1" 
-AR Path="/675D9F52" Ref="C43"  Part="1" 
-F 0 "C43" V 19400 9650 50  0000 L CNN
-F 1 ".1uF" V 19400 9350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19488 9400 50  0001 C CNN
-F 3 "~" H 19450 9550 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19450 9550 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19450 9550 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19450 9550 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19450 9550 50  0001 C CNN "Manufacturer"
-	1    19450 9550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 67DEE422
-P 19000 9450
-AR Path="/5F66828B/67DEE422" Ref="C?"  Part="1" 
-AR Path="/67DEE422" Ref="C42"  Part="1" 
-F 0 "C42" V 18950 9550 50  0000 L CNN
-F 1 ".1uF" V 18950 9250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19038 9300 50  0001 C CNN
-F 3 "~" H 19000 9450 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19000 9450 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19000 9450 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19000 9450 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19000 9450 50  0001 C CNN "Manufacturer"
-	1    19000 9450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 67DEE428
-P 19450 9350
-AR Path="/5F66828B/67DEE428" Ref="C?"  Part="1" 
-AR Path="/67DEE428" Ref="C41"  Part="1" 
-F 0 "C41" V 19400 9450 50  0000 L CNN
-F 1 ".1uF" V 19400 9150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19488 9200 50  0001 C CNN
-F 3 "~" H 19450 9350 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19450 9350 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19450 9350 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19450 9350 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19450 9350 50  0001 C CNN "Manufacturer"
-	1    19450 9350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 67DEE42E
-P 19000 9250
-AR Path="/5F66828B/67DEE42E" Ref="C?"  Part="1" 
-AR Path="/67DEE42E" Ref="C40"  Part="1" 
-F 0 "C40" V 18950 9350 50  0000 L CNN
-F 1 ".1uF" V 18950 9050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19038 9100 50  0001 C CNN
-F 3 "~" H 19000 9250 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19000 9250 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19000 9250 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19000 9250 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19000 9250 50  0001 C CNN "Manufacturer"
-	1    19000 9250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 67DEE434
-P 19450 9150
-AR Path="/5F66828B/67DEE434" Ref="C?"  Part="1" 
-AR Path="/67DEE434" Ref="C38"  Part="1" 
-F 0 "C38" V 19400 9250 50  0000 L CNN
-F 1 ".1uF" V 19400 8950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19488 9000 50  0001 C CNN
-F 3 "~" H 19450 9150 50  0001 C CNN
-F 4 "CAP CER 0.1UF 25V X5R 0603" H 19450 9150 50  0001 C CNN "Description"
-F 5 "445-6854-1-ND" H 19450 9150 50  0001 C CNN "Digi-Key_PN"
-F 6 "C1608X5R1E104K" H 19450 9150 50  0001 C CNN "MPN"
-F 7 "TDK Corporation" H 19450 9150 50  0001 C CNN "Manufacturer"
-	1    19450 9150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	19600 9150 19700 9150
 Wire Wire Line
@@ -7579,17 +4535,6 @@ Text Label 650  2200 0    50   ~ 0
 ADC_SO
 Wire Wire Line
 	650  2400 1250 2400
-$Comp
-L Connector_Generic:Conn_01x09 J20
-U 1 1 608376B7
-P 18300 8500
-F 0 "J20" V 18425 8496 50  0000 C CNN
-F 1 "Conn_01x09" V 18426 8496 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 18300 8500 50  0001 C CNN
-F 3 "~" H 18300 8500 50  0001 C CNN
-	1    18300 8500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	17700 7550 17700 8850
 Wire Wire Line
@@ -7757,21 +4702,6 @@ Wire Wire Line
 	11800 6700 12050 6700
 Wire Wire Line
 	10950 6700 11500 6700
-$Comp
-L jb-symbol:SN74LVC4245AN U14
-U 1 1 639B43BE
-P 11550 7300
-F 0 "U14" H 11850 6400 60  0000 C CNN
-F 1 "SN74LVC4245AN" V 11450 6900 60  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 11750 7500 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 11750 7600 60  0001 L CNN
-F 4 "1727-2878-ND" H 11750 7700 60  0001 L CNN "Digi-Key_PN"
-F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 11550 7300 50  0001 C CNN "Description"
-F 6 "74LVC4245APW,112" H 11550 7300 50  0001 C CNN "MPN"
-F 7 "Nexperia USA Inc." H 11550 7300 50  0001 C CNN "Manufacturer"
-	1    11550 7300
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 11350 7300
 NoConn ~ 11350 7400
 NoConn ~ 11350 7500
@@ -7818,17 +4748,6 @@ Wire Wire Line
 	12450 7500 12450 7600
 Wire Wire Line
 	11950 7600 12450 7600
-$Comp
-L Device:Net-Tie_2 NT1
-U 1 1 5F568374
-P 12550 7200
-F 0 "NT1" H 12550 7019 50  0000 C CNN
-F 1 "Net-Tie_2" H 12550 7110 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 12550 7200 50  0001 C CNN
-F 3 "~" H 12550 7200 50  0001 C CNN
-	1    12550 7200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	12450 7200 12450 7300
 Connection ~ 12450 7300
@@ -7845,42 +4764,8 @@ F 3 "" H 12650 7300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12650 7200 12650 7300
-$Comp
-L Device:LED_ALT D22
-U 1 1 5FB53195
-P 7500 12500
-F 0 "D22" H 7350 12550 50  0000 C CNN
-F 1 "LED_ALT" H 7493 12626 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 12500 50  0001 C CNN
-F 3 "~" H 7500 12500 50  0001 C CNN
-F 4 "LED GREEN DIFFUSED 0805 SMD" H 7500 12500 50  0001 C CNN "Description"
-F 5 "475-1410-1-ND" H 7500 12500 50  0001 C CNN "Digi-Key_PN"
-F 6 "LG R971-KN-1" H 7500 12500 50  0001 C CNN "MPN"
-F 7 "OSRAM Opto Semiconductors Inc." H 7500 12500 50  0001 C CNN "Manufacturer"
-	1    7500 12500
-	-1   0    0    1   
-$EndComp
 Text GLabel 6850 12500 0    50   Input ~ 0
 5V_PI
-$Comp
-L Device:R R?
-U 1 1 5FB72B9D
-P 7100 12500
-AR Path="/5BBE5CCD/5FB72B9D" Ref="R?"  Part="1" 
-AR Path="/5FB72B9D" Ref="R53"  Part="1" 
-AR Path="/5CF9559A/5FB72B9D" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5FB72B9D" Ref="R?"  Part="1" 
-F 0 "R53" V 7000 12500 50  0000 C CNN
-F 1 "1K" V 7100 12500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7030 12500 50  0001 C CNN
-F 3 "~" H 7100 12500 50  0001 C CNN
-F 4 "" H 7100 12500 50  0001 C CNN "Digi-Key_PN"
-F 5 "" H 7100 12500 50  0001 C CNN "Description"
-F 6 "" H 7100 12500 50  0001 C CNN "MPN"
-F 7 "Yageo" H 7100 12500 50  0001 C CNN "Manufacturer"
-	1    7100 12500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6850 12500 6950 12500
 Wire Wire Line
@@ -7907,48 +4792,8 @@ F 3 "" H 7900 12650 50  0001 C CNN
 $EndComp
 Text Notes 6750 12900 0    79   ~ 16
 Power Indicator
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 5ED207DB
-P 12400 4100
-AR Path="/5ECC13DB/5ED207DB" Ref="J?"  Part="1" 
-AR Path="/5ED207DB" Ref="J12"  Part="1" 
-F 0 "J12" H 12480 4092 50  0000 L CNN
-F 1 "Conn_01x04" H 12480 4001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12400 4100 50  0001 C CNN
-F 3 "~" H 12400 4100 50  0001 C CNN
-F 4 "2057-PH1-04-UA-ND" H 12400 4100 50  0001 C CNN "Digi-Key_PN"
-	1    12400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Polyfuse F12
-U 1 1 5F251BAC
-P 2450 15700
-F 0 "F12" V 2225 15700 50  0000 C CNN
-F 1 "Polyfuse" V 2316 15700 50  0000 C CNN
-F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 2500 15500 50  0001 L CNN
-F 3 "~" H 2450 15700 50  0001 C CNN
-	1    2450 15700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2600 15700 2900 15700
-$Comp
-L Device:Polyfuse F11
-U 1 1 5F904075
-P 6200 15200
-F 0 "F11" V 5975 15200 50  0000 C CNN
-F 1 ".5A" V 6066 15200 50  0000 C CNN
-F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 6250 15000 50  0001 L CNN
-F 3 "~" H 6200 15200 50  0001 C CNN
-F 4 "PTC RESET FUSE 60V 500MA 2920" H 6200 15200 50  0001 C CNN "Description"
-F 5 "F2866CT-ND" H 6200 15200 50  0001 C CNN "Digi-Key_PN"
-F 6 "2920L050DR" H 6200 15200 50  0001 C CNN "MPN"
-F 7 "Littelfuse Inc." H 6200 15200 50  0001 C CNN "Manufacturer"
-	1    6200 15200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5850 15200 6050 15200
 Wire Wire Line
@@ -8020,65 +4865,12 @@ Wire Wire Line
 Connection ~ 6650 15200
 Wire Wire Line
 	6650 15200 6700 15200
-$Comp
-L Connector_Generic:Conn_01x08 J15
-U 1 1 61B5C6B8
-P 17500 5150
-F 0 "J15" V 17500 4600 50  0000 C CNN
-F 1 "Conn_01x08" H 17418 4616 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 17500 5150 50  0001 C CNN
-F 3 "~" H 17500 5150 50  0001 C CNN
-	1    17500 5150
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	17700 4150 17700 4750
 Wire Wire Line
 	17700 4150 17650 4150
 Text GLabel 17650 4150 0    50   Input ~ 0
 VCC_SOL_24
-$Comp
-L Connector_Generic:Conn_01x08 J13
-U 1 1 61B5C6BE
-P 18000 5150
-F 0 "J13" V 18000 4550 50  0000 L CNN
-F 1 "Conn_01x08" H 18080 5051 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 18000 5150 50  0001 C CNN
-F 3 "~" H 18000 5150 50  0001 C CNN
-	1    18000 5150
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:Q_NPN_Darlington_BEC Q12
-U 1 1 5EFA1AE6
-P 10650 5650
-F 0 "Q12" H 10841 5696 50  0000 L CNN
-F 1 "BCV27" H 10841 5605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10850 5750 50  0001 C CNN
-F 3 "~" H 10650 5650 50  0001 C CNN
-F 4 "TRANS NPN DARL 30V 1.2A SOT23" H 10650 5650 50  0001 C CNN "Description"
-F 5 "BCV27CT-ND" H 10650 5650 50  0001 C CNN "Digi-Key_PN"
-F 6 "BCV27" H 10650 5650 50  0001 C CNN "MPN"
-F 7 "ON Semiconductor" H 10650 5650 50  0001 C CNN "Manufacturer"
-	1    10650 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5EFCC999
-P 10150 5650
-AR Path="/5BBE5CCD/5EFCC999" Ref="R?"  Part="1" 
-AR Path="/5EFCC999" Ref="R54"  Part="1" 
-AR Path="/5CF9559A/5EFCC999" Ref="R?"  Part="1" 
-AR Path="/5ECC13DB/5EFCC999" Ref="R?"  Part="1" 
-F 0 "R54" V 10050 5700 50  0000 C CNN
-F 1 "1K" V 10150 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10080 5650 50  0001 C CNN
-F 3 "~" H 10150 5650 50  0001 C CNN
-F 4 "" H 10150 5650 50  0001 C CNN "Digi-Key_PN"
-	1    10150 5650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10300 5650 10450 5650
 Wire Wire Line
@@ -8096,17 +4888,6 @@ F 3 "" H 10750 5900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10750 5850 10750 5900
-$Comp
-L Connector_Generic:Conn_01x02 J14
-U 1 1 5F3F5EBA
-P 11400 5250
-F 0 "J14" H 11480 5242 50  0000 L CNN
-F 1 "Conn_01x02" H 11480 5151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11400 5250 50  0001 C CNN
-F 3 "~" H 11400 5250 50  0001 C CNN
-	1    11400 5250
-	1    0    0    -1  
-$EndComp
 Text GLabel 10550 5250 0    50   Input ~ 0
 VCC_SOL_12
 Wire Wire Line
@@ -8123,21 +4904,6 @@ Text Label 650  3100 0    50   ~ 0
 FPGA_RSL
 Wire Wire Line
 	650  3100 1250 3100
-$Comp
-L Device:R_Pack08 RN4
-U 1 1 5F11FFCD
-P 11250 15550
-F 0 "RN4" V 11750 15550 50  0000 C CNN
-F 1 "10K" V 11650 15550 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 11725 15550 50  0001 C CNN
-F 3 "~" H 11250 15550 50  0001 C CNN
-F 4 "RES ARRAY 8 RES 330 OHM 1506" H 11250 15550 50  0001 C CNN "Description"
-F 5 "Y1331CT-ND" H 11250 15550 50  0001 C CNN "Digi-Key_PN"
-F 6 "EXB-2HV331JV" H 11250 15550 50  0001 C CNN "MPN"
-F 7 "Panasonic Electronic Components" H 11250 15550 50  0001 C CNN "Manufacturer"
-	1    11250 15550
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	11450 15250 11600 15250
 Wire Wire Line
@@ -8224,21 +4990,6 @@ Wire Wire Line
 Connection ~ 6400 7300
 Text GLabel 6450 7150 2    50   Input ~ 0
 VCC_IO
-$Comp
-L Device:R_Pack08 RN2
-U 1 1 60124C05
-P 5050 7600
-F 0 "RN2" V 5550 7600 50  0000 C CNN
-F 1 "10K" V 5450 7600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 5525 7600 50  0001 C CNN
-F 3 "~" H 5050 7600 50  0001 C CNN
-F 4 "RES ARRAY 8 RES 330 OHM 1506" H 5050 7600 50  0001 C CNN "Description"
-F 5 "Y1331CT-ND" H 5050 7600 50  0001 C CNN "Digi-Key_PN"
-F 6 "EXB-2HV331JV" H 5050 7600 50  0001 C CNN "MPN"
-F 7 "Panasonic Electronic Components" H 5050 7600 50  0001 C CNN "Manufacturer"
-	1    5050 7600
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	5250 7300 5400 7300
 Wire Wire Line
@@ -8282,21 +5033,6 @@ Wire Wire Line
 Connection ~ 5400 7300
 Text GLabel 5450 7150 2    50   Input ~ 0
 VCC_IO
-$Comp
-L Device:R_Pack08 RN1
-U 1 1 6047F478
-P 4000 7600
-F 0 "RN1" V 4500 7600 50  0000 C CNN
-F 1 "10K" V 4400 7600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 4475 7600 50  0001 C CNN
-F 3 "~" H 4000 7600 50  0001 C CNN
-F 4 "RES ARRAY 8 RES 330 OHM 1506" H 4000 7600 50  0001 C CNN "Description"
-F 5 "Y1331CT-ND" H 4000 7600 50  0001 C CNN "Digi-Key_PN"
-F 6 "EXB-2HV331JV" H 4000 7600 50  0001 C CNN "MPN"
-F 7 "Panasonic Electronic Components" H 4000 7600 50  0001 C CNN "Manufacturer"
-	1    4000 7600
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	4200 7300 4350 7300
 Wire Wire Line
@@ -8452,6 +5188,3434 @@ Wire Wire Line
 	10800 15350 11050 15350
 Wire Wire Line
 	10800 15250 11050 15250
+NoConn ~ 5850 7300
+NoConn ~ 5850 7400
+NoConn ~ 5850 7500
+NoConn ~ 5850 7600
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO11
+U 1 1 5ECC6939
+P 21250 15650
+F 0 "LOGO11" H 21250 15925 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 21250 15425 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 21250 15650 50  0001 C CNN
+F 3 "~" H 21250 15650 50  0001 C CNN
+F 4 "x" H 21250 15650 50  0001 C CNN "Description"
+F 5 "x" H 21250 15650 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 21250 15650 50  0001 C CNN "MPN"
+F 7 "x" H 21250 15650 50  0001 C CNN "Manufacturer"
+	1    21250 15650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED20822
+P 11200 4200
+AR Path="/5BBE5CCD/5ED20822" Ref="R?"  Part="1" 
+AR Path="/5ED20822" Ref="R23"  Part="1" 
+AR Path="/5CF9559A/5ED20822" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5ED20822" Ref="R?"  Part="1" 
+F 0 "R23" V 11150 4400 50  0000 C CNN
+F 1 "2K2" V 11200 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11130 4200 50  0001 C CNN
+F 3 "~" H 11200 4200 50  0001 C CNN
+F 4 "311-2.20KHRCT-ND" H 11200 4200 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 2.2K OHM 1% 1/10W 0603" H 11200 4200 50  0001 C CNN "Description"
+F 6 "RC0603FR-072K2L" H 11200 4200 50  0001 C CNN "MPN"
+F 7 "Yageo" H 11200 4200 50  0001 C CNN "Manufacturer"
+	1    11200 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED20829
+P 11200 4300
+AR Path="/5BBE5CCD/5ED20829" Ref="R?"  Part="1" 
+AR Path="/5ED20829" Ref="R24"  Part="1" 
+AR Path="/5CF9559A/5ED20829" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5ED20829" Ref="R?"  Part="1" 
+F 0 "R24" V 11150 4500 50  0000 C CNN
+F 1 "2K2" V 11200 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11130 4300 50  0001 C CNN
+F 3 "~" H 11200 4300 50  0001 C CNN
+F 4 "311-2.20KHRCT-ND" H 11200 4300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 2.2K OHM 1% 1/10W 0603" H 11200 4300 50  0001 C CNN "Description"
+F 6 "RC0603FR-072K2L" H 11200 4300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 11200 4300 50  0001 C CNN "Manufacturer"
+	1    11200 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED208E8
+P 17100 7750
+AR Path="/5BBE5CCD/5ED208E8" Ref="R?"  Part="1" 
+AR Path="/5ED208E8" Ref="R26"  Part="1" 
+AR Path="/5CF9559A/5ED208E8" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5ED208E8" Ref="R?"  Part="1" 
+F 0 "R26" V 17000 7750 50  0000 C CNN
+F 1 "3K3" V 17100 7750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17030 7750 50  0001 C CNN
+F 3 "~" H 17100 7750 50  0001 C CNN
+F 4 "311-3.30KHRCT-ND" H 17100 7750 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 3.3K OHM 1% 1/10W 0603" H 17100 7750 50  0001 C CNN "Description"
+F 6 "RC0603FR-073K3L" H 17100 7750 50  0001 C CNN "MPN"
+F 7 "Yageo" H 17100 7750 50  0001 C CNN "Manufacturer"
+	1    17100 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED208F2
+P 16700 7750
+AR Path="/5BBE5CCD/5ED208F2" Ref="R?"  Part="1" 
+AR Path="/5ED208F2" Ref="R25"  Part="1" 
+AR Path="/5CF9559A/5ED208F2" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5ED208F2" Ref="R?"  Part="1" 
+F 0 "R25" V 16600 7750 50  0000 C CNN
+F 1 "33K" V 16700 7750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16630 7750 50  0001 C CNN
+F 3 "~" H 16700 7750 50  0001 C CNN
+F 4 "311-33.0KHRCT-ND" H 16700 7750 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 33K OHM 1% 1/10W 0603" H 16700 7750 50  0001 C CNN "Description"
+F 6 "RC0603FR-0733KL" H 16700 7750 50  0001 C CNN "MPN"
+F 7 "Yageo" H 16700 7750 50  0001 C CNN "Manufacturer"
+	1    16700 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EDF97F2
+P 15750 16300
+AR Path="/5ECC13DB/5EDF97F2" Ref="H?"  Part="1" 
+AR Path="/5EDF97F2" Ref="H17"  Part="1" 
+F 0 "H17" H 15850 16346 50  0000 L CNN
+F 1 "MountingHole" H 15850 16255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 15750 16300 50  0001 C CNN
+F 3 "~" H 15750 16300 50  0001 C CNN
+F 4 "" H 15750 16300 50  0001 C CNN "Description"
+F 5 "" H 15750 16300 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 15750 16300 50  0001 C CNN "MPN"
+F 7 "" H 15750 16300 50  0001 C CNN "Manufacturer"
+	1    15750 16300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EDF97F8
+P 15750 16100
+AR Path="/5ECC13DB/5EDF97F8" Ref="H?"  Part="1" 
+AR Path="/5EDF97F8" Ref="H15"  Part="1" 
+F 0 "H15" H 15850 16146 50  0000 L CNN
+F 1 "MountingHole" H 15850 16055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 15750 16100 50  0001 C CNN
+F 3 "~" H 15750 16100 50  0001 C CNN
+F 4 "" H 15750 16100 50  0001 C CNN "Description"
+F 5 "" H 15750 16100 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 15750 16100 50  0001 C CNN "MPN"
+F 7 "" H 15750 16100 50  0001 C CNN "Manufacturer"
+	1    15750 16100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EDF97FE
+P 15750 15900
+AR Path="/5ECC13DB/5EDF97FE" Ref="H?"  Part="1" 
+AR Path="/5EDF97FE" Ref="H13"  Part="1" 
+F 0 "H13" H 15850 15946 50  0000 L CNN
+F 1 "MountingHole" H 15850 15855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 15750 15900 50  0001 C CNN
+F 3 "~" H 15750 15900 50  0001 C CNN
+F 4 "" H 15750 15900 50  0001 C CNN "Description"
+F 5 "" H 15750 15900 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 15750 15900 50  0001 C CNN "MPN"
+F 7 "" H 15750 15900 50  0001 C CNN "Manufacturer"
+	1    15750 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EDF9804
+P 15750 15700
+AR Path="/5ECC13DB/5EDF9804" Ref="H?"  Part="1" 
+AR Path="/5EDF9804" Ref="H11"  Part="1" 
+F 0 "H11" H 15850 15746 50  0000 L CNN
+F 1 "MountingHole" H 15850 15655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 15750 15700 50  0001 C CNN
+F 3 "~" H 15750 15700 50  0001 C CNN
+F 4 "" H 15750 15700 50  0001 C CNN "Description"
+F 5 "" H 15750 15700 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 15750 15700 50  0001 C CNN "MPN"
+F 7 "" H 15750 15700 50  0001 C CNN "Manufacturer"
+	1    15750 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EE36DD2
+P 16550 16300
+AR Path="/5ECC13DB/5EE36DD2" Ref="H?"  Part="1" 
+AR Path="/5EE36DD2" Ref="H18"  Part="1" 
+F 0 "H18" H 16650 16346 50  0000 L CNN
+F 1 "MountingHole" H 16650 16255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 16550 16300 50  0001 C CNN
+F 3 "~" H 16550 16300 50  0001 C CNN
+F 4 "" H 16550 16300 50  0001 C CNN "Description"
+F 5 "" H 16550 16300 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 16550 16300 50  0001 C CNN "MPN"
+F 7 "" H 16550 16300 50  0001 C CNN "Manufacturer"
+	1    16550 16300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EE36DD8
+P 16550 16100
+AR Path="/5ECC13DB/5EE36DD8" Ref="H?"  Part="1" 
+AR Path="/5EE36DD8" Ref="H16"  Part="1" 
+F 0 "H16" H 16650 16146 50  0000 L CNN
+F 1 "MountingHole" H 16650 16055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 16550 16100 50  0001 C CNN
+F 3 "~" H 16550 16100 50  0001 C CNN
+F 4 "" H 16550 16100 50  0001 C CNN "Description"
+F 5 "" H 16550 16100 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 16550 16100 50  0001 C CNN "MPN"
+F 7 "" H 16550 16100 50  0001 C CNN "Manufacturer"
+	1    16550 16100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EE36DDE
+P 16550 15900
+AR Path="/5ECC13DB/5EE36DDE" Ref="H?"  Part="1" 
+AR Path="/5EE36DDE" Ref="H14"  Part="1" 
+F 0 "H14" H 16650 15946 50  0000 L CNN
+F 1 "MountingHole" H 16650 15855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 16550 15900 50  0001 C CNN
+F 3 "~" H 16550 15900 50  0001 C CNN
+F 4 "" H 16550 15900 50  0001 C CNN "Description"
+F 5 "" H 16550 15900 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 16550 15900 50  0001 C CNN "MPN"
+F 7 "" H 16550 15900 50  0001 C CNN "Manufacturer"
+	1    16550 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EE36DE4
+P 16550 15700
+AR Path="/5ECC13DB/5EE36DE4" Ref="H?"  Part="1" 
+AR Path="/5EE36DE4" Ref="H12"  Part="1" 
+F 0 "H12" H 16650 15746 50  0000 L CNN
+F 1 "MountingHole" H 16650 15655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 16550 15700 50  0001 C CNN
+F 3 "~" H 16550 15700 50  0001 C CNN
+F 4 "" H 16550 15700 50  0001 C CNN "Description"
+F 5 "" H 16550 15700 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 16550 15700 50  0001 C CNN "MPN"
+F 7 "" H 16550 15700 50  0001 C CNN "Manufacturer"
+	1    16550 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 1 1 5FB178A5
+P 1750 2900
+AR Path="/5F66828B/5FB178A5" Ref="U?"  Part="1" 
+AR Path="/5FB178A5" Ref="U11"  Part="1" 
+F 0 "U11" H 1400 1350 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 1400 1250 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 2750 1000 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 750 5400 50  0001 C CNN
+F 4 "220-1572-ND" H 1750 2900 50  0001 C CNN "Digi-Key_PN"
+F 5 "ICE40HX4K-TQ144" H 1750 2900 50  0001 C CNN "MPN"
+F 6 "IC FPGA 107 I/O 144TQFP" H 1750 2900 50  0001 C CNN "Description"
+F 7 "Lattice Semiconductor Corporation" H 1750 2900 50  0001 C CNN "Manufacturer"
+	1    1750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 2 1 5FB178AD
+P 3150 2800
+AR Path="/5F66828B/5FB178AD" Ref="U?"  Part="2" 
+AR Path="/5FB178AD" Ref="U11"  Part="2" 
+F 0 "U11" H 2800 1150 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 2800 1050 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 4150 900 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 2150 5300 50  0001 C CNN
+F 4 "220-1572-ND" H 3150 2800 50  0001 C CNN "Digi-Key_PN"
+F 5 "ICE40HX4K-TQ144" H 3150 2800 50  0001 C CNN "MPN"
+F 6 "IC FPGA 107 I/O 144TQFP" H 3150 2800 50  0001 C CNN "Description"
+F 7 "Lattice Semiconductor Corporation" H 3150 2800 50  0001 C CNN "Manufacturer"
+	2    3150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 3 1 5FB178B5
+P 6100 3300
+AR Path="/5F66828B/5FB178B5" Ref="U?"  Part="3" 
+AR Path="/5FB178B5" Ref="U11"  Part="3" 
+F 0 "U11" H 5750 2150 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 5750 2050 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 7100 1400 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 5100 5800 50  0001 C CNN
+F 4 "220-1572-ND" H 6100 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "ICE40HX4K-TQ144" H 6100 3300 50  0001 C CNN "MPN"
+F 6 "IC FPGA 107 I/O 144TQFP" H 6100 3300 50  0001 C CNN "Description"
+F 7 "Lattice Semiconductor Corporation" H 6100 3300 50  0001 C CNN "Manufacturer"
+	3    6100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 4 1 5FB178BD
+P 4600 2800
+AR Path="/5F66828B/5FB178BD" Ref="U?"  Part="4" 
+AR Path="/5FB178BD" Ref="U11"  Part="4" 
+F 0 "U11" H 4250 1150 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 4250 1050 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 5600 900 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 3600 5300 50  0001 C CNN
+F 4 "220-1572-ND" H 4600 2800 50  0001 C CNN "Digi-Key_PN"
+F 5 "ICE40HX4K-TQ144" H 4600 2800 50  0001 C CNN "MPN"
+F 6 "IC FPGA 107 I/O 144TQFP" H 4600 2800 50  0001 C CNN "Description"
+F 7 "Lattice Semiconductor Corporation" H 4600 2800 50  0001 C CNN "Manufacturer"
+	4    4600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 5 1 5FB178C5
+P 8600 2700
+AR Path="/5F66828B/5FB178C5" Ref="U?"  Part="5" 
+AR Path="/5FB178C5" Ref="U11"  Part="5" 
+F 0 "U11" H 8100 2050 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 7800 1900 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 9600 800 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7600 5200 50  0001 C CNN
+F 4 "220-1572-ND" H 8600 2700 50  0001 C CNN "Digi-Key_PN"
+F 5 "ICE40HX4K-TQ144" H 8600 2700 50  0001 C CNN "MPN"
+F 6 "IC FPGA 107 I/O 144TQFP" H 8600 2700 50  0001 C CNN "Description"
+F 7 "Lattice Semiconductor Corporation" H 8600 2700 50  0001 C CNN "Manufacturer"
+	5    8600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB178E0
+P 2300 5400
+AR Path="/5F66828B/5FB178E0" Ref="C?"  Part="1" 
+AR Path="/5FB178E0" Ref="C18"  Part="1" 
+F 0 "C18" H 2415 5446 50  0000 L CNN
+F 1 ".1uF" H 2415 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 5250 50  0001 C CNN
+F 3 "~" H 2300 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 2300 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 2300 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 2300 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 2300 5400 50  0001 C CNN "Manufacturer"
+	1    2300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB178E6
+P 2700 5400
+AR Path="/5F66828B/5FB178E6" Ref="C?"  Part="1" 
+AR Path="/5FB178E6" Ref="C19"  Part="1" 
+F 0 "C19" H 2815 5446 50  0000 L CNN
+F 1 ".1uF" H 2815 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 5250 50  0001 C CNN
+F 3 "~" H 2700 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 2700 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 2700 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 2700 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 2700 5400 50  0001 C CNN "Manufacturer"
+	1    2700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB178EC
+P 3100 5400
+AR Path="/5F66828B/5FB178EC" Ref="C?"  Part="1" 
+AR Path="/5FB178EC" Ref="C20"  Part="1" 
+F 0 "C20" H 3215 5446 50  0000 L CNN
+F 1 ".1uF" H 3215 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3138 5250 50  0001 C CNN
+F 3 "~" H 3100 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 3100 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 3100 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 3100 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 3100 5400 50  0001 C CNN "Manufacturer"
+	1    3100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB178F2
+P 3500 5400
+AR Path="/5F66828B/5FB178F2" Ref="C?"  Part="1" 
+AR Path="/5FB178F2" Ref="C21"  Part="1" 
+F 0 "C21" H 3615 5446 50  0000 L CNN
+F 1 ".1uF" H 3615 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3538 5250 50  0001 C CNN
+F 3 "~" H 3500 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 3500 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 3500 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 3500 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 3500 5400 50  0001 C CNN "Manufacturer"
+	1    3500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB178F8
+P 3900 5400
+AR Path="/5F66828B/5FB178F8" Ref="C?"  Part="1" 
+AR Path="/5FB178F8" Ref="C22"  Part="1" 
+F 0 "C22" H 4015 5446 50  0000 L CNN
+F 1 ".1uF" H 4015 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3938 5250 50  0001 C CNN
+F 3 "~" H 3900 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 3900 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 3900 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 3900 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 3900 5400 50  0001 C CNN "Manufacturer"
+	1    3900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB178FE
+P 4300 5400
+AR Path="/5F66828B/5FB178FE" Ref="C?"  Part="1" 
+AR Path="/5FB178FE" Ref="C23"  Part="1" 
+F 0 "C23" H 4415 5446 50  0000 L CNN
+F 1 ".1uF" H 4415 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4338 5250 50  0001 C CNN
+F 3 "~" H 4300 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 4300 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 4300 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 4300 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 4300 5400 50  0001 C CNN "Manufacturer"
+	1    4300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17904
+P 4700 5400
+AR Path="/5F66828B/5FB17904" Ref="C?"  Part="1" 
+AR Path="/5FB17904" Ref="C24"  Part="1" 
+F 0 "C24" H 4815 5446 50  0000 L CNN
+F 1 ".1uF" H 4815 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4738 5250 50  0001 C CNN
+F 3 "~" H 4700 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 4700 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 4700 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 4700 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 4700 5400 50  0001 C CNN "Manufacturer"
+	1    4700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB1790A
+P 5100 5400
+AR Path="/5F66828B/5FB1790A" Ref="C?"  Part="1" 
+AR Path="/5FB1790A" Ref="C25"  Part="1" 
+F 0 "C25" H 5215 5446 50  0000 L CNN
+F 1 ".1uF" H 5215 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5138 5250 50  0001 C CNN
+F 3 "~" H 5100 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 5100 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 5100 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 5100 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 5100 5400 50  0001 C CNN "Manufacturer"
+	1    5100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5FB17911
+P 8700 1250
+AR Path="/5F66828B/5FB17911" Ref="D?"  Part="1" 
+AR Path="/5FB17911" Ref="D11"  Part="1" 
+F 0 "D11" V 8746 1171 50  0000 R CNN
+F 1 "1N4448WSF-7" V 8655 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 1250 50  0001 C CNN
+F 3 "~" H 8700 1250 50  0001 C CNN
+F 4 "DIODE GEN PURP 80V 250MA SOD323" H 8700 1250 50  0001 C CNN "Description"
+F 5 "1N4448HWS-FDICT-ND" H 8700 1250 50  0001 C CNN "Digi-Key_PN"
+F 6 "1N4448HWS-7-F" H 8700 1250 50  0001 C CNN "MPN"
+F 7 "Diodes Incorporated" H 8700 1250 50  0001 C CNN "Manufacturer"
+	1    8700 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB1791D
+P 9250 1350
+AR Path="/5F66828B/5FB1791D" Ref="C?"  Part="1" 
+AR Path="/5FB1791D" Ref="C11"  Part="1" 
+F 0 "C11" H 9365 1396 50  0000 L CNN
+F 1 ".1uF" H 9365 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9288 1200 50  0001 C CNN
+F 3 "~" H 9250 1350 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 9250 1350 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 9250 1350 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 9250 1350 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 9250 1350 50  0001 C CNN "Manufacturer"
+	1    9250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB1792A
+P 10100 2150
+AR Path="/5F66828B/5FB1792A" Ref="C?"  Part="1" 
+AR Path="/5FB1792A" Ref="C14"  Part="1" 
+F 0 "C14" H 10215 2196 50  0000 L CNN
+F 1 ".1uF" H 10215 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10138 2000 50  0001 C CNN
+F 3 "~" H 10100 2150 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 10100 2150 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 10100 2150 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 10100 2150 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 10100 2150 50  0001 C CNN "Manufacturer"
+	1    10100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17932
+P 10550 2150
+AR Path="/5F66828B/5FB17932" Ref="C?"  Part="1" 
+AR Path="/5FB17932" Ref="C15"  Part="1" 
+F 0 "C15" H 10665 2196 50  0000 L CNN
+F 1 "10uF" H 10665 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10588 2000 50  0001 C CNN
+F 3 "~" H 10550 2150 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 10550 2150 50  0001 C CNN "Digi-Key_PN"
+F 5 "CL10A106MQ8NNNC" H 10550 2150 50  0001 C CNN "MPN"
+F 6 "CAP CER 10UF 6.3V X5R 0603" H 10550 2150 50  0001 C CNN "Description"
+F 7 "Samsung Electro-Mechanics" H 10550 2150 50  0001 C CNN "Manufacturer"
+	1    10550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB17938
+P 11000 2000
+AR Path="/5F66828B/5FB17938" Ref="R?"  Part="1" 
+AR Path="/5FB17938" Ref="R14"  Part="1" 
+F 0 "R14" V 10900 2000 50  0000 C CNN
+F 1 "100" V 11000 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 2000 50  0001 C CNN
+F 3 "~" H 11000 2000 50  0001 C CNN
+F 4 "RES SMD 100 OHM 1% 1/10W 0603" H 11000 2000 50  0001 C CNN "Description"
+F 5 "311-100HRCT-ND" H 11000 2000 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0603FR-07100RL" H 11000 2000 50  0001 C CNN "MPN"
+F 7 "Yageo" H 11000 2000 50  0001 C CNN "Manufacturer"
+	1    11000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17943
+P 10100 1600
+AR Path="/5F66828B/5FB17943" Ref="C?"  Part="1" 
+AR Path="/5FB17943" Ref="C12"  Part="1" 
+F 0 "C12" H 10215 1646 50  0000 L CNN
+F 1 ".1uF" H 10215 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10138 1450 50  0001 C CNN
+F 3 "~" H 10100 1600 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 10100 1600 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 10100 1600 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 10100 1600 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 10100 1600 50  0001 C CNN "Manufacturer"
+	1    10100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB1794B
+P 10550 1600
+AR Path="/5F66828B/5FB1794B" Ref="C?"  Part="1" 
+AR Path="/5FB1794B" Ref="C13"  Part="1" 
+F 0 "C13" H 10665 1646 50  0000 L CNN
+F 1 "10uF" H 10665 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10588 1450 50  0001 C CNN
+F 3 "~" H 10550 1600 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 10550 1600 50  0001 C CNN "Digi-Key_PN"
+F 5 "CL10A106MQ8NNNC" H 10550 1600 50  0001 C CNN "MPN"
+F 6 "CAP CER 10UF 6.3V X5R 0603" H 10550 1600 50  0001 C CNN "Description"
+F 7 "Samsung Electro-Mechanics" H 10550 1600 50  0001 C CNN "Manufacturer"
+	1    10550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB17951
+P 11000 1450
+AR Path="/5F66828B/5FB17951" Ref="R?"  Part="1" 
+AR Path="/5FB17951" Ref="R11"  Part="1" 
+F 0 "R11" V 10900 1450 50  0000 C CNN
+F 1 "100" V 11000 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 1450 50  0001 C CNN
+F 3 "~" H 11000 1450 50  0001 C CNN
+F 4 "RES SMD 100 OHM 1% 1/10W 0603" H 11000 1450 50  0001 C CNN "Description"
+F 5 "311-100HRCT-ND" H 11000 1450 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0603FR-07100RL" H 11000 1450 50  0001 C CNN "MPN"
+F 7 "Yageo" H 11000 1450 50  0001 C CNN "Manufacturer"
+	1    11000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17978
+P 5900 5400
+AR Path="/5F66828B/5FB17978" Ref="C?"  Part="1" 
+AR Path="/5FB17978" Ref="C26"  Part="1" 
+F 0 "C26" H 6015 5446 50  0000 L CNN
+F 1 ".1uF" H 6015 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5938 5250 50  0001 C CNN
+F 3 "~" H 5900 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 5900 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 5900 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 5900 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 5900 5400 50  0001 C CNN "Manufacturer"
+	1    5900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB1797E
+P 6300 5400
+AR Path="/5F66828B/5FB1797E" Ref="C?"  Part="1" 
+AR Path="/5FB1797E" Ref="C27"  Part="1" 
+F 0 "C27" H 6415 5446 50  0000 L CNN
+F 1 ".1uF" H 6415 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6338 5250 50  0001 C CNN
+F 3 "~" H 6300 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 6300 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 6300 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 6300 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 6300 5400 50  0001 C CNN "Manufacturer"
+	1    6300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17984
+P 6700 5400
+AR Path="/5F66828B/5FB17984" Ref="C?"  Part="1" 
+AR Path="/5FB17984" Ref="C28"  Part="1" 
+F 0 "C28" H 6815 5446 50  0000 L CNN
+F 1 ".1uF" H 6815 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 5250 50  0001 C CNN
+F 3 "~" H 6700 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 6700 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 6700 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 6700 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 6700 5400 50  0001 C CNN "Manufacturer"
+	1    6700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB1798A
+P 7100 5400
+AR Path="/5F66828B/5FB1798A" Ref="C?"  Part="1" 
+AR Path="/5FB1798A" Ref="C29"  Part="1" 
+F 0 "C29" H 7215 5446 50  0000 L CNN
+F 1 ".1uF" H 7215 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7138 5250 50  0001 C CNN
+F 3 "~" H 7100 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 7100 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 7100 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 7100 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 7100 5400 50  0001 C CNN "Manufacturer"
+	1    7100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB179D4
+P 9800 2700
+AR Path="/5F66828B/5FB179D4" Ref="R?"  Part="1" 
+AR Path="/5FB179D4" Ref="R20"  Part="1" 
+F 0 "R20" V 9700 2700 50  0000 C CNN
+F 1 "10K" V 9800 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9730 2700 50  0001 C CNN
+F 3 "~" H 9800 2700 50  0001 C CNN
+F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 9800 2700 50  0001 C CNN "Description"
+F 5 "311-10.0KHRCT-ND" H 9800 2700 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0603FR-0710KL" H 9800 2700 50  0001 C CNN "MPN"
+F 7 "Yageo" H 9800 2700 50  0001 C CNN "Manufacturer"
+	1    9800 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Regulator_Linear:AZ1117-3.3 U?
+U 1 1 5FB17AD6
+P 7300 10550
+AR Path="/5D1A4D20/5FB17AD6" Ref="U?"  Part="1" 
+AR Path="/5FB17AD6" Ref="U18"  Part="1" 
+AR Path="/5CF9559A/5FB17AD6" Ref="U?"  Part="1" 
+AR Path="/5E2D04E3/5FB17AD6" Ref="U?"  Part="1" 
+AR Path="/5F66828B/5FB17AD6" Ref="U?"  Part="1" 
+F 0 "U18" H 7300 10800 50  0000 C CNN
+F 1 "AZ1117CH-3.3TRG1" H 7350 10700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7300 10800 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 7300 10550 50  0001 C CNN
+F 4 "AZ1117CH-3.3TRG1DICT-ND" H 7300 10550 50  0001 C CNN "Digi-Key_PN"
+F 5 "AZ1117CH-3.3TRG1" H 7300 10550 50  0001 C CNN "MPN"
+F 6 "IC REG LINEAR 3.3V 800MA SOT223" H 7300 10550 50  0001 C CNN "Description"
+F 7 "Diodes Incorporated" H 7300 10550 50  0001 C CNN "Manufacturer"
+	1    7300 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17ADE
+P 6700 10700
+AR Path="/5D1A4D20/5FB17ADE" Ref="C?"  Part="1" 
+AR Path="/5FB17ADE" Ref="C54"  Part="1" 
+AR Path="/5CF9559A/5FB17ADE" Ref="C?"  Part="1" 
+AR Path="/5E2D04E3/5FB17ADE" Ref="C?"  Part="1" 
+AR Path="/5F66828B/5FB17ADE" Ref="C?"  Part="1" 
+F 0 "C54" H 6815 10791 50  0000 L CNN
+F 1 "10uF" H 6815 10700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 10550 50  0001 C CNN
+F 3 "~" H 6700 10700 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 6700 10700 50  0001 C CNN "Digi-Key_PN"
+F 5 "CL10A106MQ8NNNC" H 6700 10700 50  0001 C CNN "MPN"
+F 6 "CAP CER 10UF 6.3V X5R 0603" H 6700 10700 50  0001 C CNN "Description"
+F 7 "Samsung Electro-Mechanics" H 6700 10700 50  0001 C CNN "Manufacturer"
+	1    6700 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17AE6
+P 7750 10700
+AR Path="/5D1A4D20/5FB17AE6" Ref="C?"  Part="1" 
+AR Path="/5FB17AE6" Ref="C55"  Part="1" 
+AR Path="/5CF9559A/5FB17AE6" Ref="C?"  Part="1" 
+AR Path="/5E2D04E3/5FB17AE6" Ref="C?"  Part="1" 
+AR Path="/5F66828B/5FB17AE6" Ref="C?"  Part="1" 
+F 0 "C55" H 7865 10791 50  0000 L CNN
+F 1 "22uF" H 7865 10700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 10550 50  0001 C CNN
+F 3 "~" H 7750 10700 50  0001 C CNN
+F 4 "1276-2868-1-ND" H 7750 10700 50  0001 C CNN "Digi-Key_PN"
+F 5 "CL10A226MQ8NRNE" H 7750 10700 50  0001 C CNN "MPN"
+F 6 "CAP CER 22UF 6.3V X5R 0603" H 7750 10700 50  0001 C CNN "Description"
+F 7 "Samsung Electro-Mechanics" H 7750 10700 50  0001 C CNN "Manufacturer"
+	1    7750 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AZ1117-3.3 U?
+U 1 1 5FB17B04
+P 7300 11250
+AR Path="/5D1A4D20/5FB17B04" Ref="U?"  Part="1" 
+AR Path="/5FB17B04" Ref="U19"  Part="1" 
+AR Path="/5CF9559A/5FB17B04" Ref="U?"  Part="1" 
+AR Path="/5E2D04E3/5FB17B04" Ref="U?"  Part="1" 
+AR Path="/5F66828B/5FB17B04" Ref="U?"  Part="1" 
+F 0 "U19" H 7300 11500 50  0000 C CNN
+F 1 "AZ1117CH-1.2" H 7350 11400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7300 11500 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 7300 11250 50  0001 C CNN
+F 4 "AZ1117CH-1.2TRG1DICT-ND" H 7300 11250 50  0001 C CNN "Digi-Key_PN"
+F 5 "AZ1117CH-1.2TRG1" H 7300 11250 50  0001 C CNN "MPN"
+F 6 "IC REG LINEAR 1.2V 800MA SOT223" H 7300 11250 50  0001 C CNN "Description"
+F 7 "Diodes Incorporated" H 7300 11250 50  0001 C CNN "Manufacturer"
+	1    7300 11250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17B0C
+P 6700 11400
+AR Path="/5D1A4D20/5FB17B0C" Ref="C?"  Part="1" 
+AR Path="/5FB17B0C" Ref="C56"  Part="1" 
+AR Path="/5CF9559A/5FB17B0C" Ref="C?"  Part="1" 
+AR Path="/5E2D04E3/5FB17B0C" Ref="C?"  Part="1" 
+AR Path="/5F66828B/5FB17B0C" Ref="C?"  Part="1" 
+F 0 "C56" H 6815 11491 50  0000 L CNN
+F 1 "10uF" H 6815 11400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 11250 50  0001 C CNN
+F 3 "~" H 6700 11400 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 6700 11400 50  0001 C CNN "Digi-Key_PN"
+F 5 "CL10A106MQ8NNNC" H 6700 11400 50  0001 C CNN "MPN"
+F 6 "CAP CER 10UF 6.3V X5R 0603" H 6700 11400 50  0001 C CNN "Description"
+F 7 "Samsung Electro-Mechanics" H 6700 11400 50  0001 C CNN "Manufacturer"
+	1    6700 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17B14
+P 7750 11400
+AR Path="/5D1A4D20/5FB17B14" Ref="C?"  Part="1" 
+AR Path="/5FB17B14" Ref="C57"  Part="1" 
+AR Path="/5CF9559A/5FB17B14" Ref="C?"  Part="1" 
+AR Path="/5E2D04E3/5FB17B14" Ref="C?"  Part="1" 
+AR Path="/5F66828B/5FB17B14" Ref="C?"  Part="1" 
+F 0 "C57" H 7865 11491 50  0000 L CNN
+F 1 "22uF" H 7865 11400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 11250 50  0001 C CNN
+F 3 "~" H 7750 11400 50  0001 C CNN
+F 4 "1276-2868-1-ND" H 7750 11400 50  0001 C CNN "Digi-Key_PN"
+F 5 "CL10A226MQ8NRNE" H 7750 11400 50  0001 C CNN "MPN"
+F 6 "CAP CER 22UF 6.3V X5R 0603" H 7750 11400 50  0001 C CNN "Description"
+F 7 "Samsung Electro-Mechanics" H 7750 11400 50  0001 C CNN "Manufacturer"
+	1    7750 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Oscillators:XLH536025_000000I Y?
+U 1 1 5FB17BF5
+P 6900 1150
+AR Path="/5F66828B/5FB17BF5" Ref="Y?"  Part="1" 
+AR Path="/5FB17BF5" Ref="Y11"  Part="1" 
+F 0 "Y11" H 7150 900 60  0000 L CNN
+F 1 "XLH536025_000000I" H 7150 800 60  0000 L CNN
+F 2 "jb-footprint:Oscillator_XLH536025.000000I" H 7100 1350 60  0001 L CNN
+F 3 "https://www.idt.com/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet" H 7100 1450 60  0001 L CNN
+F 4 "631-1156-1-ND" H 7100 1550 60  0001 L CNN "Digi-Key_PN"
+F 5 "XLH536025.000000I" H 7100 1650 60  0001 L CNN "MPN"
+F 6 "Crystals, Oscillators, Resonators" H 7100 1750 60  0001 L CNN "Category"
+F 7 "Oscillators" H 7100 1850 60  0001 L CNN "Family"
+F 8 "https://www.idt.com/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet" H 7100 1950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/idt-integrated-device-technology-inc/XLH536025.000000I/631-1156-1-ND/2074684" H 7100 2050 60  0001 L CNN "DK_Detail_Page"
+F 10 "XTAL OSC XO 25.0000MHZ HCMOS SMD" H 7100 2150 60  0001 L CNN "Description"
+F 11 "IDT, Integrated Device Technology Inc" H 7100 2250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7100 2350 60  0001 L CNN "Status"
+	1    6900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17C67
+P 1900 5400
+AR Path="/5F66828B/5FB17C67" Ref="C?"  Part="1" 
+AR Path="/5FB17C67" Ref="C17"  Part="1" 
+F 0 "C17" H 2015 5446 50  0000 L CNN
+F 1 ".1uF" H 2015 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 5250 50  0001 C CNN
+F 3 "~" H 1900 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 1900 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 1900 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 1900 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 1900 5400 50  0001 C CNN "Manufacturer"
+	1    1900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB17C86
+P 1500 5400
+AR Path="/5F66828B/5FB17C86" Ref="C?"  Part="1" 
+AR Path="/5FB17C86" Ref="C16"  Part="1" 
+F 0 "C16" H 1615 5446 50  0000 L CNN
+F 1 ".1uF" H 1615 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1538 5250 50  0001 C CNN
+F 3 "~" H 1500 5400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 1500 5400 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 1500 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 1500 5400 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 1500 5400 50  0001 C CNN "Manufacturer"
+	1    1500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L JWlib:RaspberryPI-B+header J?
+U 1 1 5FB17C9D
+P 16200 2050
+AR Path="/5F66828B/5FB17C9D" Ref="J?"  Part="1" 
+AR Path="/5FB17C9D" Ref="J11"  Part="1" 
+F 0 "J11" H 16200 3115 50  0000 C CNN
+F 1 "RaspberryPI-B+header" H 16200 3024 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 16200 2550 50  0001 C CNN
+F 3 "" H 16200 2550 50  0001 C CNN
+F 4 "" H 16200 2050 50  0001 C CNN "Description"
+F 5 "" H 16200 2050 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 16200 2050 50  0001 C CNN "MPN"
+F 7 "" H 16200 2050 50  0001 C CNN "Manufacturer"
+	1    16200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:1825910-6 S?
+U 1 1 5FB17EE9
+P 8500 4550
+AR Path="/5F66828B/5FB17EE9" Ref="S?"  Part="1" 
+AR Path="/5FB17EE9" Ref="S11"  Part="1" 
+F 0 "S11" H 8500 4897 60  0000 C CNN
+F 1 "1825910-6" H 8500 4791 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 8700 4750 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8700 4850 60  0001 L CNN
+F 4 "450-1650-ND" H 8700 4950 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-6" H 8700 5050 60  0001 L CNN "MPN"
+F 6 "Switches" H 8700 5150 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 8700 5250 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8700 5350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 8700 5450 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 8700 5550 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 8700 5650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8700 5750 60  0001 L CNN "Status"
+	1    8500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:1825910-6 S?
+U 1 1 5FB17EF8
+P 8500 5200
+AR Path="/5F66828B/5FB17EF8" Ref="S?"  Part="1" 
+AR Path="/5FB17EF8" Ref="S12"  Part="1" 
+F 0 "S12" H 8500 5547 60  0000 C CNN
+F 1 "1825910-6" H 8500 5441 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 8700 5400 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8700 5500 60  0001 L CNN
+F 4 "450-1650-ND" H 8700 5600 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-6" H 8700 5700 60  0001 L CNN "MPN"
+F 6 "Switches" H 8700 5800 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 8700 5900 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8700 6000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 8700 6100 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 8700 6200 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 8700 6300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8700 6400 60  0001 L CNN "Status"
+	1    8500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J21
+U 1 1 61B14A91
+P 20450 9500
+F 0 "J21" V 20450 9900 50  0000 L CNN
+F 1 "Conn_01x08" H 20530 9401 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 20450 9500 50  0001 C CNN
+F 3 "~" H 20450 9500 50  0001 C CNN
+F 4 "x" H 20450 9500 50  0001 C CNN "Description"
+F 5 "x" H 20450 9500 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 20450 9500 50  0001 C CNN "MPN"
+F 7 "x" H 20450 9500 50  0001 C CNN "Manufacturer"
+	1    20450 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J22
+U 1 1 61B1558E
+P 20850 9500
+F 0 "J22" V 20850 9900 50  0000 L CNN
+F 1 "Conn_01x08" H 20930 9401 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 20850 9500 50  0001 C CNN
+F 3 "~" H 20850 9500 50  0001 C CNN
+F 4 "x" H 20850 9500 50  0001 C CNN "Description"
+F 5 "x" H 20850 9500 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 20850 9500 50  0001 C CNN "MPN"
+F 7 "x" H 20850 9500 50  0001 C CNN "Manufacturer"
+	1    20850 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J16
+U 1 1 61BE85A8
+P 13500 7650
+F 0 "J16" V 13500 8150 50  0000 L CNN
+F 1 "Conn_01x10" H 13580 7551 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 13500 7650 50  0001 C CNN
+F 3 "~" H 13500 7650 50  0001 C CNN
+F 4 "" H 13500 7650 50  0001 C CNN "Description"
+F 5 "" H 13500 7650 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 13500 7650 50  0001 C CNN "MPN"
+F 7 "" H 13500 7650 50  0001 C CNN "Manufacturer"
+	1    13500 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J18
+U 1 1 61BE85AE
+P 14650 7650
+F 0 "J18" V 14650 8150 50  0000 L CNN
+F 1 "Conn_01x10" H 14730 7551 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 14650 7650 50  0001 C CNN
+F 3 "~" H 14650 7650 50  0001 C CNN
+F 4 "" H 14650 7650 50  0001 C CNN "Description"
+F 5 "" H 14650 7650 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 14650 7650 50  0001 C CNN "MPN"
+F 7 "" H 14650 7650 50  0001 C CNN "Manufacturer"
+	1    14650 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J19
+U 1 1 61BE85B4
+P 15050 7650
+F 0 "J19" V 15050 8150 50  0000 L CNN
+F 1 "Conn_01x10" H 15130 7551 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 15050 7650 50  0001 C CNN
+F 3 "~" H 15050 7650 50  0001 C CNN
+F 4 "" H 15050 7650 50  0001 C CNN "Description"
+F 5 "" H 15050 7650 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 15050 7650 50  0001 C CNN "MPN"
+F 7 "" H 15050 7650 50  0001 C CNN "Manufacturer"
+	1    15050 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J17
+U 1 1 61C64EDF
+P 14250 7650
+F 0 "J17" V 14250 8150 50  0000 L CNN
+F 1 "Conn_01x10" H 14330 7551 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 14250 7650 50  0001 C CNN
+F 3 "~" H 14250 7650 50  0001 C CNN
+F 4 "" H 14250 7650 50  0001 C CNN "Description"
+F 5 "" H 14250 7650 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 14250 7650 50  0001 C CNN "MPN"
+F 7 "" H 14250 7650 50  0001 C CNN "Manufacturer"
+	1    14250 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L jb-symbol:ULN2803ADWR Q?
+U 1 1 5ED208E1
+P 16550 5550
+AR Path="/5ECC13DB/5ED208E1" Ref="Q?"  Part="1" 
+AR Path="/5ED208E1" Ref="Q11"  Part="1" 
+F 0 "Q11" H 16200 6637 60  0000 C CNN
+F 1 "ULN2803ADWR" H 16200 6531 60  0000 C CNN
+F 2 "digikey-footprints:SOIC-18_W7.5mm" H 16750 5750 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fuln2803a" H 16750 5850 60  0001 L CNN
+F 4 "296-15777-1-ND" H 16750 5950 60  0001 L CNN "Digi-Key_PN"
+F 5 "ULN2803ADWR" H 16750 6050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 16750 6150 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Arrays" H 16750 6250 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fuln2803a" H 16750 6350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/ULN2803ADWR/296-15777-1-ND/598088" H 16750 6450 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS 8NPN DARL 50V 0.5A 18SO" H 16750 6550 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 16750 6650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 16750 6750 60  0001 L CNN "Status"
+	1    16550 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack08 RN13
+U 1 1 647E83C5
+P 9750 11150
+F 0 "RN13" V 10250 11150 50  0000 C CNN
+F 1 "330" V 10150 11150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 10225 11150 50  0001 C CNN
+F 3 "~" H 9750 11150 50  0001 C CNN
+F 4 "RES ARRAY 8 RES 330 OHM 1506" H 9750 11150 50  0001 C CNN "Description"
+F 5 "Y1331CT-ND" H 9750 11150 50  0001 C CNN "Digi-Key_PN"
+F 6 "EXB-2HV331JV" H 9750 11150 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 9750 11150 50  0001 C CNN "Manufacturer"
+	1    9750 11150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN12
+U 1 1 64D4C6BE
+P 9750 10050
+F 0 "RN12" V 10250 10050 50  0000 C CNN
+F 1 "330" V 10150 10050 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 10225 10050 50  0001 C CNN
+F 3 "~" H 9750 10050 50  0001 C CNN
+F 4 "RES ARRAY 8 RES 330 OHM 1506" H 9750 10050 50  0001 C CNN "Description"
+F 5 "Y1331CT-ND" H 9750 10050 50  0001 C CNN "Digi-Key_PN"
+F 6 "EXB-2HV331JV" H 9750 10050 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 9750 10050 50  0001 C CNN "Manufacturer"
+	1    9750 10050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601B6326
+P 3800 12450
+AR Path="/5BBE5CCD/601B6326" Ref="R?"  Part="1" 
+AR Path="/601B6326" Ref="R48"  Part="1" 
+AR Path="/5CF9559A/601B6326" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/601B6326" Ref="R?"  Part="1" 
+F 0 "R48" V 3700 12450 50  0000 C CNN
+F 1 "10K" V 3800 12450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 12450 50  0001 C CNN
+F 3 "~" H 3800 12450 50  0001 C CNN
+F 4 "311-10.0KHRCT-ND" H 3800 12450 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 10K OHM 1% 1/10W 0603" H 3800 12450 50  0001 C CNN "Description"
+F 6 "RC0603FR-0710KL" H 3800 12450 50  0001 C CNN "MPN"
+F 7 "Yageo" H 3800 12450 50  0001 C CNN "Manufacturer"
+	1    3800 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601B6549
+P 3800 12050
+AR Path="/5BBE5CCD/601B6549" Ref="R?"  Part="1" 
+AR Path="/601B6549" Ref="R47"  Part="1" 
+AR Path="/5CF9559A/601B6549" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/601B6549" Ref="R?"  Part="1" 
+F 0 "R47" V 3700 12050 50  0000 C CNN
+F 1 "73K2" V 3800 12050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 12050 50  0001 C CNN
+F 3 "~" H 3800 12050 50  0001 C CNN
+F 4 "311-73.2KHRCT-ND" H 3800 12050 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 73.2K OHM 1% 1/10W 0603" H 3800 12050 50  0001 C CNN "Description"
+F 6 "RC0603FR-0773K2L" H 3800 12050 50  0001 C CNN "MPN"
+F 7 "Yageo" H 3800 12050 50  0001 C CNN "Manufacturer"
+	1    3800 12050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604A6D8D
+P 4200 12150
+AR Path="/5BBE5CCD/604A6D8D" Ref="C?"  Part="1" 
+AR Path="/604A6D8D" Ref="C65"  Part="1" 
+AR Path="/5CF9559A/604A6D8D" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/604A6D8D" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/604A6D8D" Ref="C?"  Part="1" 
+AR Path="/5F51430C/604A6D8D" Ref="C?"  Part="1" 
+F 0 "C65" H 4315 12196 50  0000 L CNN
+F 1 "22uF" H 4315 12105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4238 12000 50  0001 C CNN
+F 3 "~" H 4200 12150 50  0001 C CNN
+F 4 "490-10746-1-ND" H 4600 11900 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 22UF 10V X5R 0805" H 4200 12150 50  0001 C CNN "Description"
+F 6 "GRM21BR61A226ME44L" H 4200 12150 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 4200 12150 50  0001 C CNN "Manufacturer"
+	1    4200 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L12
+U 1 1 605A5E7B
+P 3600 11750
+AR Path="/605A5E7B" Ref="L12"  Part="1" 
+AR Path="/5DFE66B1/605A5E7B" Ref="L?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/605A5E7B" Ref="L?"  Part="1" 
+AR Path="/5F51430C/605A5E7B" Ref="L?"  Part="1" 
+F 0 "L12" V 3800 11800 50  0000 C CNN
+F 1 "4.7uH" V 3700 11750 50  0000 C CNN
+F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 3600 11750 50  0001 C CNN
+F 3 "~" H 3600 11750 50  0001 C CNN
+F 4 "SRN6045TA-4R7MCT-ND" V 3700 11550 50  0001 C CNN "Digi-Key_PN"
+F 5 "SRN6045TA-4R7M" H 3600 11750 50  0001 C CNN "MPN"
+F 6 "FIXED IND 4.7UH 4.5A 26 MOHM SMD" H 3600 11750 50  0001 C CNN "Description"
+F 7 "Bourns Inc." H 3600 11750 50  0001 C CNN "Manufacturer"
+	1    3600 11750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JWlib:TPS563231 U20
+U 1 1 5EE748C2
+P 2400 11750
+F 0 "U20" H 2400 12117 50  0000 C CNN
+F 1 "TPS563231" H 2400 12026 50  0000 C CNN
+F 2 "jb-footprint:SOT-563" H 2450 11500 50  0001 L CNN
+F 3 "" H 2400 11750 50  0001 C CNN
+F 4 "Buck, 3A, 17V" H 2400 11750 50  0001 C CNN "Description"
+F 5 "296-TPS563231DRLRCT-ND" H 2400 11750 50  0001 C CNN "Digi-Key_PN"
+F 6 "TPS563231DRLR" H 2400 11750 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 2400 11750 50  0001 C CNN "Manufacturer"
+	1    2400 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F2DACB6
+P 4700 12150
+AR Path="/5BBE5CCD/5F2DACB6" Ref="C?"  Part="1" 
+AR Path="/5F2DACB6" Ref="C66"  Part="1" 
+AR Path="/5CF9559A/5F2DACB6" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/5F2DACB6" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/5F2DACB6" Ref="C?"  Part="1" 
+AR Path="/5F51430C/5F2DACB6" Ref="C?"  Part="1" 
+F 0 "C66" H 4815 12196 50  0000 L CNN
+F 1 "22uF" H 4815 12105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 12000 50  0001 C CNN
+F 3 "~" H 4700 12150 50  0001 C CNN
+F 4 "490-10746-1-ND" H 5100 11900 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 22UF 10V X5R 0805" H 4700 12150 50  0001 C CNN "Description"
+F 6 "GRM21BR61A226ME44L" H 4700 12150 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 4700 12150 50  0001 C CNN "Manufacturer"
+	1    4700 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F357E7D
+P 5200 12150
+AR Path="/5F66828B/5F357E7D" Ref="C?"  Part="1" 
+AR Path="/5F357E7D" Ref="C67"  Part="1" 
+F 0 "C67" H 5315 12196 50  0000 L CNN
+F 1 ".1uF" H 5315 12105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5238 12000 50  0001 C CNN
+F 3 "~" H 5200 12150 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 5200 12150 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 5200 12150 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 5200 12150 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 5200 12150 50  0001 C CNN "Manufacturer"
+	1    5200 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F457E3C
+P 3100 11600
+AR Path="/5F66828B/5F457E3C" Ref="C?"  Part="1" 
+AR Path="/5F457E3C" Ref="C58"  Part="1" 
+F 0 "C58" H 3215 11646 50  0000 L CNN
+F 1 ".1uF" H 3215 11555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3138 11450 50  0001 C CNN
+F 3 "~" H 3100 11600 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 3100 11600 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 3100 11600 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 3100 11600 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 3100 11600 50  0001 C CNN "Manufacturer"
+	1    3100 11600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F45962D
+P 1650 12150
+AR Path="/5BBE5CCD/5F45962D" Ref="C?"  Part="1" 
+AR Path="/5F45962D" Ref="C64"  Part="1" 
+AR Path="/5CF9559A/5F45962D" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/5F45962D" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/5F45962D" Ref="C?"  Part="1" 
+AR Path="/5F51430C/5F45962D" Ref="C?"  Part="1" 
+F 0 "C64" H 1765 12196 50  0000 L CNN
+F 1 "10uF" H 1765 12105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1688 12000 50  0001 C CNN
+F 3 "~" H 1650 12150 50  0001 C CNN
+F 4 "587-2985-1-ND" H 2050 11900 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 10UF 25V X5R 0805" H 1650 12150 50  0001 C CNN "Description"
+F 6 "TMK212BBJ106KG-T" H 1650 12150 50  0001 C CNN "MPN"
+F 7 "Taiyo Yuden" H 1650 12150 50  0001 C CNN "Manufacturer"
+	1    1650 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F646C66
+P 1200 12150
+AR Path="/5F66828B/5F646C66" Ref="C?"  Part="1" 
+AR Path="/5F646C66" Ref="C63"  Part="1" 
+F 0 "C63" H 1315 12196 50  0000 L CNN
+F 1 ".1uF" H 1315 12105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1238 12000 50  0001 C CNN
+F 3 "~" H 1200 12150 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 1200 12150 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 1200 12150 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 1200 12150 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 1200 12150 50  0001 C CNN "Manufacturer"
+	1    1200 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L JWlib:TBL001-500-02GY-2GY J?
+U 1 1 5F7564DB
+P 1400 15750
+AR Path="/5F51430C/5F7564DB" Ref="J?"  Part="1" 
+AR Path="/5F7564DB" Ref="J35"  Part="1" 
+F 0 "J35" H 1450 15250 50  0000 C CNN
+F 1 "TBL001-500-02GY-2GY" H 1400 15350 50  0000 C CNN
+F 2 "jb-footprint:TBL001-500-02GY-2GY" H 1300 16550 50  0001 C CNN
+F 3 "" H 1300 16550 50  0001 C CNN
+F 4 "102-6360-ND" H 1400 15750 50  0001 C CNN "Digi-Key_PN"
+F 5 "TERMINAL BLOCK, SCREWLESS, 5.00" H 1400 15750 50  0001 C CNN "Description"
+F 6 "TBL001-500-02GY-2GY" H 1400 15750 50  0001 C CNN "MPN"
+F 7 "CUI Devices" H 1400 15750 50  0001 C CNN "Manufacturer"
+	1    1400 15750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5F7564F1
+P 2100 15700
+AR Path="/5F51430C/5F7564F1" Ref="D?"  Part="1" 
+AR Path="/5F7564F1" Ref="D21"  Part="1" 
+F 0 "D21" H 2100 15550 50  0000 C CNN
+F 1 "D_ALT" H 2100 15575 50  0001 C CNN
+F 2 "Diode_SMD:D_SMC" H 2100 15700 50  0001 C CNN
+F 3 "~" H 2100 15700 50  0001 C CNN
+F 4 "S10KCV7GCT-ND " H 2100 15700 50  0001 C CNN "Digi-Key_PN"
+F 5 "DIODE GEN PURP 800V 10A DO214AB" H 2100 15700 50  0001 C CNN "Description"
+F 6 "S10KC V7G" H 2100 15700 50  0001 C CNN "MPN"
+F 7 "Taiwan Semiconductor Corporation" H 2100 15700 50  0001 C CNN "Manufacturer"
+	1    2100 15700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EE09C9C
+P 3850 14400
+AR Path="/5BBE5CCD/5EE09C9C" Ref="R?"  Part="1" 
+AR Path="/5EE09C9C" Ref="R50"  Part="1" 
+AR Path="/5CF9559A/5EE09C9C" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5EE09C9C" Ref="R?"  Part="1" 
+F 0 "R50" V 3750 14400 50  0000 C CNN
+F 1 "10K" V 3850 14400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 14400 50  0001 C CNN
+F 3 "~" H 3850 14400 50  0001 C CNN
+F 4 "311-10.0KHRCT-ND" H 3850 14400 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 10K OHM 1% 1/10W 0603" H 3850 14400 50  0001 C CNN "Description"
+F 6 "RC0603FR-0710KL" H 3850 14400 50  0001 C CNN "MPN"
+F 7 "Yageo" H 3850 14400 50  0001 C CNN "Manufacturer"
+	1    3850 14400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EE09CA3
+P 3850 14000
+AR Path="/5BBE5CCD/5EE09CA3" Ref="R?"  Part="1" 
+AR Path="/5EE09CA3" Ref="R49"  Part="1" 
+AR Path="/5CF9559A/5EE09CA3" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5EE09CA3" Ref="R?"  Part="1" 
+F 0 "R49" V 3750 14000 50  0000 C CNN
+F 1 "90K" V 3850 14000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 14000 50  0001 C CNN
+F 3 "~" H 3850 14000 50  0001 C CNN
+F 4 "RMCF0603FT90K9CT-ND" H 3850 14000 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES 90.9K OHM 1% 1/10W 0603" H 3850 14000 50  0001 C CNN "Description"
+F 6 "RMCF0603FT90K9" H 3850 14000 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 3850 14000 50  0001 C CNN "Manufacturer"
+	1    3850 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE09CB3
+P 4250 14100
+AR Path="/5BBE5CCD/5EE09CB3" Ref="C?"  Part="1" 
+AR Path="/5EE09CB3" Ref="C75"  Part="1" 
+AR Path="/5CF9559A/5EE09CB3" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/5EE09CB3" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/5EE09CB3" Ref="C?"  Part="1" 
+AR Path="/5F51430C/5EE09CB3" Ref="C?"  Part="1" 
+F 0 "C75" H 4365 14146 50  0000 L CNN
+F 1 "22uF" H 4365 14055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4288 13950 50  0001 C CNN
+F 3 "~" H 4250 14100 50  0001 C CNN
+F 4 "490-10746-1-ND" H 4650 13850 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 22UF 10V X5R 0805" H 4250 14100 50  0001 C CNN "Description"
+F 6 "GRM21BR61A226ME44L" H 4250 14100 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 4250 14100 50  0001 C CNN "Manufacturer"
+	1    4250 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L13
+U 1 1 5EE09CC5
+P 3650 13700
+AR Path="/5EE09CC5" Ref="L13"  Part="1" 
+AR Path="/5DFE66B1/5EE09CC5" Ref="L?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/5EE09CC5" Ref="L?"  Part="1" 
+AR Path="/5F51430C/5EE09CC5" Ref="L?"  Part="1" 
+F 0 "L13" V 3850 13750 50  0000 C CNN
+F 1 "4.7uH" V 3750 13700 50  0000 C CNN
+F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 3650 13700 50  0001 C CNN
+F 3 "~" H 3650 13700 50  0001 C CNN
+F 4 "SRN6045TA-4R7MCT-ND" V 3750 13500 50  0001 C CNN "Digi-Key_PN"
+F 5 "SRN6045TA-4R7M" H 3650 13700 50  0001 C CNN "MPN"
+F 6 "FIXED IND 4.7UH 4.5A 26 MOHM SMD" H 3650 13700 50  0001 C CNN "Description"
+F 7 "Bourns Inc." H 3650 13700 50  0001 C CNN "Manufacturer"
+	1    3650 13700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JWlib:TPS563231 U25
+U 1 1 5EE09CCD
+P 2450 13700
+F 0 "U25" H 2450 14067 50  0000 C CNN
+F 1 "TPS563231" H 2450 13976 50  0000 C CNN
+F 2 "jb-footprint:SOT-563" H 2500 13450 50  0001 L CNN
+F 3 "" H 2450 13700 50  0001 C CNN
+F 4 "Buck, 3A, 17V" H 2450 13700 50  0001 C CNN "Description"
+F 5 "296-TPS563231DRLRCT-ND" H 2450 13700 50  0001 C CNN "Digi-Key_PN"
+F 6 "TPS563231DRLR" H 2450 13700 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 2450 13700 50  0001 C CNN "Manufacturer"
+	1    2450 13700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE09CE4
+P 4750 14100
+AR Path="/5BBE5CCD/5EE09CE4" Ref="C?"  Part="1" 
+AR Path="/5EE09CE4" Ref="C76"  Part="1" 
+AR Path="/5CF9559A/5EE09CE4" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/5EE09CE4" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/5EE09CE4" Ref="C?"  Part="1" 
+AR Path="/5F51430C/5EE09CE4" Ref="C?"  Part="1" 
+F 0 "C76" H 4865 14146 50  0000 L CNN
+F 1 "22uF" H 4865 14055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 13950 50  0001 C CNN
+F 3 "~" H 4750 14100 50  0001 C CNN
+F 4 "490-10746-1-ND" H 5150 13850 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 22UF 10V X5R 0805" H 4750 14100 50  0001 C CNN "Description"
+F 6 "GRM21BR61A226ME44L" H 4750 14100 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 4750 14100 50  0001 C CNN "Manufacturer"
+	1    4750 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE09CF2
+P 5250 14100
+AR Path="/5F66828B/5EE09CF2" Ref="C?"  Part="1" 
+AR Path="/5EE09CF2" Ref="C77"  Part="1" 
+F 0 "C77" H 5365 14146 50  0000 L CNN
+F 1 ".1uF" H 5365 14055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5288 13950 50  0001 C CNN
+F 3 "~" H 5250 14100 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 5250 14100 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 5250 14100 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 5250 14100 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 5250 14100 50  0001 C CNN "Manufacturer"
+	1    5250 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE09D04
+P 3150 13550
+AR Path="/5F66828B/5EE09D04" Ref="C?"  Part="1" 
+AR Path="/5EE09D04" Ref="C72"  Part="1" 
+F 0 "C72" H 3265 13596 50  0000 L CNN
+F 1 ".1uF" H 3265 13505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3188 13400 50  0001 C CNN
+F 3 "~" H 3150 13550 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 3150 13550 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 3150 13550 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 3150 13550 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 3150 13550 50  0001 C CNN "Manufacturer"
+	1    3150 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE09D0E
+P 1700 14100
+AR Path="/5BBE5CCD/5EE09D0E" Ref="C?"  Part="1" 
+AR Path="/5EE09D0E" Ref="C74"  Part="1" 
+AR Path="/5CF9559A/5EE09D0E" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/5EE09D0E" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/5EE09D0E" Ref="C?"  Part="1" 
+AR Path="/5F51430C/5EE09D0E" Ref="C?"  Part="1" 
+F 0 "C74" H 1815 14146 50  0000 L CNN
+F 1 "10uF" H 1815 14055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1738 13950 50  0001 C CNN
+F 3 "~" H 1700 14100 50  0001 C CNN
+F 4 "587-2985-1-ND" H 2100 13850 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 10UF 25V X5R 0805" H 1700 14100 50  0001 C CNN "Description"
+F 6 "TMK212BBJ106KG-T" H 1700 14100 50  0001 C CNN "MPN"
+F 7 "Taiyo Yuden" H 1700 14100 50  0001 C CNN "Manufacturer"
+	1    1700 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE09D1E
+P 1250 14100
+AR Path="/5F66828B/5EE09D1E" Ref="C?"  Part="1" 
+AR Path="/5EE09D1E" Ref="C73"  Part="1" 
+F 0 "C73" H 1365 14146 50  0000 L CNN
+F 1 ".1uF" H 1365 14055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1288 13950 50  0001 C CNN
+F 3 "~" H 1250 14100 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 1250 14100 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 1250 14100 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 1250 14100 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 1250 14100 50  0001 C CNN "Manufacturer"
+	1    1250 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D12
+U 1 1 5F1AC810
+P 2200 5850
+F 0 "D12" H 2050 5900 50  0000 C CNN
+F 1 "LED_ALT" H 2193 5976 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 5850 50  0001 C CNN
+F 3 "~" H 2200 5850 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 2200 5850 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 2200 5850 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 2200 5850 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 2200 5850 50  0001 C CNN "Manufacturer"
+	1    2200 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D13
+U 1 1 5F22F715
+P 2500 5950
+F 0 "D13" H 2400 6000 50  0000 C CNN
+F 1 "LED_ALT" H 2493 6076 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 5950 50  0001 C CNN
+F 3 "~" H 2500 5950 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 2500 5950 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 2500 5950 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 2500 5950 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 2500 5950 50  0001 C CNN "Manufacturer"
+	1    2500 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D14
+U 1 1 5F230819
+P 2200 6050
+F 0 "D14" H 2100 6100 50  0000 C CNN
+F 1 "LED_ALT" H 2193 6176 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 6050 50  0001 C CNN
+F 3 "~" H 2200 6050 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 2200 6050 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 2200 6050 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 2200 6050 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 2200 6050 50  0001 C CNN "Manufacturer"
+	1    2200 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D15
+U 1 1 5F230F1F
+P 2500 6150
+F 0 "D15" H 2400 6200 50  0000 C CNN
+F 1 "LED_ALT" H 2493 6276 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 6150 50  0001 C CNN
+F 3 "~" H 2500 6150 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 2500 6150 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 2500 6150 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 2500 6150 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 2500 6150 50  0001 C CNN "Manufacturer"
+	1    2500 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D16
+U 1 1 5F2318B0
+P 2200 6250
+F 0 "D16" H 2100 6300 50  0000 C CNN
+F 1 "LED_ALT" H 2193 6376 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 6250 50  0001 C CNN
+F 3 "~" H 2200 6250 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 2200 6250 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 2200 6250 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 2200 6250 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 2200 6250 50  0001 C CNN "Manufacturer"
+	1    2200 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D17
+U 1 1 5F231DF3
+P 2500 6350
+F 0 "D17" H 2400 6400 50  0000 C CNN
+F 1 "LED_ALT" H 2493 6476 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 6350 50  0001 C CNN
+F 3 "~" H 2500 6350 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 2500 6350 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 2500 6350 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 2500 6350 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 2500 6350 50  0001 C CNN "Manufacturer"
+	1    2500 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D18
+U 1 1 5F23355D
+P 2200 6450
+F 0 "D18" H 2100 6500 50  0000 C CNN
+F 1 "LED_ALT" H 2193 6576 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 6450 50  0001 C CNN
+F 3 "~" H 2200 6450 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 2200 6450 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 2200 6450 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 2200 6450 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 2200 6450 50  0001 C CNN "Manufacturer"
+	1    2200 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D19
+U 1 1 5F233C70
+P 2500 6550
+F 0 "D19" H 2400 6600 50  0000 C CNN
+F 1 "LED_ALT" H 2493 6676 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 6550 50  0001 C CNN
+F 3 "~" H 2500 6550 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 2500 6550 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 2500 6550 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 2500 6550 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 2500 6550 50  0001 C CNN "Manufacturer"
+	1    2500 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack08 RN11
+U 1 1 636D3EC2
+P 3050 6250
+F 0 "RN11" V 2433 6250 50  0000 C CNN
+F 1 "330" V 2524 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 3525 6250 50  0001 C CNN
+F 3 "~" H 3050 6250 50  0001 C CNN
+F 4 "RES ARRAY 8 RES 330 OHM 1506" H 3050 6250 50  0001 C CNN "Description"
+F 5 "Y1331CT-ND" H 3050 6250 50  0001 C CNN "Digi-Key_PN"
+F 6 "EXB-2HV331JV" H 3050 6250 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 3050 6250 50  0001 C CNN "Manufacturer"
+	1    3050 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L jb-symbol:SN74LVC4245AN U22
+U 1 1 61DBD3C3
+P 18700 12500
+F 0 "U22" H 18300 12850 60  0000 C CNN
+F 1 "SN74LVC4245AN" V 18600 12100 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 18900 12700 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 18900 12800 60  0001 L CNN
+F 4 "1727-2878-ND" H 18900 12900 60  0001 L CNN "Digi-Key_PN"
+F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 18700 12500 50  0001 C CNN "Description"
+F 6 "74LVC4245APW,112" H 18700 12500 50  0001 C CNN "MPN"
+F 7 "Nexperia USA Inc." H 18700 12500 50  0001 C CNN "Manufacturer"
+	1    18700 12500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 623CC549
+P 18100 12050
+AR Path="/5F66828B/623CC549" Ref="C?"  Part="1" 
+AR Path="/623CC549" Ref="C61"  Part="1" 
+F 0 "C61" H 18215 12096 50  0000 L CNN
+F 1 ".1uF" H 18215 12005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18138 11900 50  0001 C CNN
+F 3 "~" H 18100 12050 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 18100 12050 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 18100 12050 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 18100 12050 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 18100 12050 50  0001 C CNN "Manufacturer"
+	1    18100 12050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 623CCCE6
+P 19350 12050
+AR Path="/5F66828B/623CCCE6" Ref="C?"  Part="1" 
+AR Path="/623CCCE6" Ref="C62"  Part="1" 
+F 0 "C62" H 19465 12096 50  0000 L CNN
+F 1 ".1uF" H 19465 12005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19388 11900 50  0001 C CNN
+F 3 "~" H 19350 12050 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19350 12050 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19350 12050 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19350 12050 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19350 12050 50  0001 C CNN "Manufacturer"
+	1    19350 12050
+	1    0    0    -1  
+$EndComp
+$Comp
+L jb-symbol:SN74LVC4245AN U13
+U 1 1 62FD7AB8
+P 9500 7300
+F 0 "U13" H 9800 6400 60  0000 C CNN
+F 1 "SN74LVC4245AN" V 9400 6900 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 9700 7500 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 9700 7600 60  0001 L CNN
+F 4 "1727-2878-ND" H 9700 7700 60  0001 L CNN "Digi-Key_PN"
+F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 9500 7300 50  0001 C CNN "Description"
+F 6 "74LVC4245APW,112" H 9500 7300 50  0001 C CNN "MPN"
+F 7 "Nexperia USA Inc." H 9500 7300 50  0001 C CNN "Manufacturer"
+	1    9500 7300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62FD7AC6
+P 8900 6850
+AR Path="/5F66828B/62FD7AC6" Ref="C?"  Part="1" 
+AR Path="/62FD7AC6" Ref="C32"  Part="1" 
+F 0 "C32" H 9015 6896 50  0000 L CNN
+F 1 ".1uF" H 9015 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8938 6700 50  0001 C CNN
+F 3 "~" H 8900 6850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 8900 6850 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 8900 6850 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 8900 6850 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 8900 6850 50  0001 C CNN "Manufacturer"
+	1    8900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62FD7ACC
+P 10150 6850
+AR Path="/5F66828B/62FD7ACC" Ref="C?"  Part="1" 
+AR Path="/62FD7ACC" Ref="C33"  Part="1" 
+F 0 "C33" H 10265 6896 50  0000 L CNN
+F 1 ".1uF" H 10265 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10188 6700 50  0001 C CNN
+F 3 "~" H 10150 6850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 10150 6850 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 10150 6850 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 10150 6850 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 10150 6850 50  0001 C CNN "Manufacturer"
+	1    10150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L jb-symbol:SN74LVC4245AN U12
+U 1 1 63081012
+P 7550 7300
+F 0 "U12" H 7900 6400 60  0000 C CNN
+F 1 "SN74LVC4245AN" V 7450 6900 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7750 7500 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 7750 7600 60  0001 L CNN
+F 4 "1727-2878-ND" H 7750 7700 60  0001 L CNN "Digi-Key_PN"
+F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 7550 7300 50  0001 C CNN "Description"
+F 6 "74LVC4245APW,112" H 7550 7300 50  0001 C CNN "MPN"
+F 7 "Nexperia USA Inc." H 7550 7300 50  0001 C CNN "Manufacturer"
+	1    7550 7300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63081020
+P 6950 6850
+AR Path="/5F66828B/63081020" Ref="C?"  Part="1" 
+AR Path="/63081020" Ref="C30"  Part="1" 
+F 0 "C30" H 7065 6896 50  0000 L CNN
+F 1 ".1uF" H 7065 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6988 6700 50  0001 C CNN
+F 3 "~" H 6950 6850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 6950 6850 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 6950 6850 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 6950 6850 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 6950 6850 50  0001 C CNN "Manufacturer"
+	1    6950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63081026
+P 8200 6850
+AR Path="/5F66828B/63081026" Ref="C?"  Part="1" 
+AR Path="/63081026" Ref="C31"  Part="1" 
+F 0 "C31" H 8315 6896 50  0000 L CNN
+F 1 ".1uF" H 8315 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8238 6700 50  0001 C CNN
+F 3 "~" H 8200 6850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 8200 6850 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 8200 6850 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 8200 6850 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 8200 6850 50  0001 C CNN "Manufacturer"
+	1    8200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 639B43CC
+P 10950 6850
+AR Path="/5F66828B/639B43CC" Ref="C?"  Part="1" 
+AR Path="/639B43CC" Ref="C34"  Part="1" 
+F 0 "C34" H 11065 6896 50  0000 L CNN
+F 1 ".1uF" H 11065 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10988 6700 50  0001 C CNN
+F 3 "~" H 10950 6850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 10950 6850 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 10950 6850 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 10950 6850 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 10950 6850 50  0001 C CNN "Manufacturer"
+	1    10950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 639B43D2
+P 12200 6850
+AR Path="/5F66828B/639B43D2" Ref="C?"  Part="1" 
+AR Path="/639B43D2" Ref="C35"  Part="1" 
+F 0 "C35" H 12315 6896 50  0000 L CNN
+F 1 ".1uF" H 12315 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12238 6700 50  0001 C CNN
+F 3 "~" H 12200 6850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 12200 6850 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 12200 6850 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 12200 6850 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 12200 6850 50  0001 C CNN "Manufacturer"
+	1    12200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 63C02E3E
+P 16550 8650
+AR Path="/5BBE5CCD/63C02E3E" Ref="R?"  Part="1" 
+AR Path="/63C02E3E" Ref="R27"  Part="1" 
+AR Path="/5CF9559A/63C02E3E" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/63C02E3E" Ref="R?"  Part="1" 
+F 0 "R27" V 16450 8650 50  0000 C CNN
+F 1 "2K2" V 16550 8650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16480 8650 50  0001 C CNN
+F 3 "~" H 16550 8650 50  0001 C CNN
+F 4 "311-2.20KHRCT-ND" H 16550 8650 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 2.2K OHM 1% 1/10W 0603" H 16550 8650 50  0001 C CNN "Description"
+F 6 "RC0603FR-072K2L" H 16550 8650 50  0001 C CNN "MPN"
+F 7 "Yageo" H 16550 8650 50  0001 C CNN "Manufacturer"
+	1    16550 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63CC8E1E
+P 15850 9000
+AR Path="/5F66828B/63CC8E1E" Ref="C?"  Part="1" 
+AR Path="/63CC8E1E" Ref="C37"  Part="1" 
+F 0 "C37" H 15965 9046 50  0000 L CNN
+F 1 ".1uF" H 15965 8955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15888 8850 50  0001 C CNN
+F 3 "~" H 15850 9000 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 15850 9000 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 15850 9000 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 15850 9000 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 15850 9000 50  0001 C CNN "Manufacturer"
+	1    15850 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63E57916
+P 17400 8800
+AR Path="/5F66828B/63E57916" Ref="C?"  Part="1" 
+AR Path="/63E57916" Ref="C36"  Part="1" 
+F 0 "C36" H 17515 8846 50  0000 L CNN
+F 1 "1uF" H 17515 8755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17438 8650 50  0001 C CNN
+F 3 "~" H 17400 8800 50  0001 C CNN
+F 4 "CAP CER 1UF 25V X5R 0603" H 17400 8800 50  0001 C CNN "Description"
+F 5 "1276-1102-1-ND" H 17400 8800 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL10A105KA8NNNC" H 17400 8800 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 17400 8800 50  0001 C CNN "Manufacturer"
+	1    17400 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L jb-symbol:SN74LVC4245AN U21
+U 1 1 645611A8
+P 16700 12500
+F 0 "U21" H 16300 12850 60  0000 C CNN
+F 1 "SN74LVC4245AN" V 16600 12100 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 16900 12700 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 16900 12800 60  0001 L CNN
+F 4 "1727-2878-ND" H 16900 12900 60  0001 L CNN "Digi-Key_PN"
+F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 16700 12500 50  0001 C CNN "Description"
+F 6 "74LVC4245APW,112" H 16700 12500 50  0001 C CNN "MPN"
+F 7 "Nexperia USA Inc." H 16700 12500 50  0001 C CNN "Manufacturer"
+	1    16700 12500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 645611B7
+P 16100 12050
+AR Path="/5F66828B/645611B7" Ref="C?"  Part="1" 
+AR Path="/645611B7" Ref="C59"  Part="1" 
+F 0 "C59" H 16215 12096 50  0000 L CNN
+F 1 ".1uF" H 16215 12005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 16138 11900 50  0001 C CNN
+F 3 "~" H 16100 12050 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 16100 12050 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 16100 12050 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 16100 12050 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 16100 12050 50  0001 C CNN "Manufacturer"
+	1    16100 12050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 645611BD
+P 17350 12050
+AR Path="/5F66828B/645611BD" Ref="C?"  Part="1" 
+AR Path="/645611BD" Ref="C60"  Part="1" 
+F 0 "C60" H 17465 12096 50  0000 L CNN
+F 1 ".1uF" H 17465 12005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17388 11900 50  0001 C CNN
+F 3 "~" H 17350 12050 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 17350 12050 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 17350 12050 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 17350 12050 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 17350 12050 50  0001 C CNN "Manufacturer"
+	1    17350 12050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 653C2950
+P 3750 10100
+AR Path="/5BBE5CCD/653C2950" Ref="R?"  Part="1" 
+AR Path="/653C2950" Ref="R37"  Part="1" 
+AR Path="/5CF9559A/653C2950" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/653C2950" Ref="R?"  Part="1" 
+F 0 "R37" V 3650 10100 50  0000 C CNN
+F 1 "10K" V 3750 10100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3680 10100 50  0001 C CNN
+F 3 "~" H 3750 10100 50  0001 C CNN
+F 4 "311-10.0KHRCT-ND" H 3750 10100 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 10K OHM 1% 1/10W 0603" H 3750 10100 50  0001 C CNN "Description"
+F 6 "RC0603FR-0710KL" H 3750 10100 50  0001 C CNN "MPN"
+F 7 "Yageo" H 3750 10100 50  0001 C CNN "Manufacturer"
+	1    3750 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 653C2957
+P 3750 9700
+AR Path="/5BBE5CCD/653C2957" Ref="R?"  Part="1" 
+AR Path="/653C2957" Ref="R36"  Part="1" 
+AR Path="/5CF9559A/653C2957" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/653C2957" Ref="R?"  Part="1" 
+F 0 "R36" V 3650 9700 50  0000 C CNN
+F 1 "45K3" V 3750 9700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3680 9700 50  0001 C CNN
+F 3 "~" H 3750 9700 50  0001 C CNN
+F 4 "RMCF0603FT45K3CT-ND" H 3750 9700 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES 45.3K OHM 1% 1/10W 0603" H 3750 9700 50  0001 C CNN "Description"
+F 6 "RMCF0603FT45K3" H 3750 9700 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 3750 9700 50  0001 C CNN "Manufacturer"
+	1    3750 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 653C2967
+P 4150 9800
+AR Path="/5BBE5CCD/653C2967" Ref="C?"  Part="1" 
+AR Path="/653C2967" Ref="C48"  Part="1" 
+AR Path="/5CF9559A/653C2967" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/653C2967" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/653C2967" Ref="C?"  Part="1" 
+AR Path="/5F51430C/653C2967" Ref="C?"  Part="1" 
+F 0 "C48" H 4265 9846 50  0000 L CNN
+F 1 "22uF" H 4265 9755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4188 9650 50  0001 C CNN
+F 3 "~" H 4150 9800 50  0001 C CNN
+F 4 "490-10746-1-ND" H 4550 9550 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 22UF 10V X5R 0805" H 4150 9800 50  0001 C CNN "Description"
+F 6 "GRM21BR61A226ME44L" H 4150 9800 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 4150 9800 50  0001 C CNN "Manufacturer"
+	1    4150 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L11
+U 1 1 653C2978
+P 3550 9400
+AR Path="/653C2978" Ref="L11"  Part="1" 
+AR Path="/5DFE66B1/653C2978" Ref="L?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/653C2978" Ref="L?"  Part="1" 
+AR Path="/5F51430C/653C2978" Ref="L?"  Part="1" 
+F 0 "L11" V 3750 9450 50  0000 C CNN
+F 1 "4.7uH" V 3650 9400 50  0000 C CNN
+F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 3550 9400 50  0001 C CNN
+F 3 "~" H 3550 9400 50  0001 C CNN
+F 4 "SRN6045TA-4R7MCT-ND" V 3650 9200 50  0001 C CNN "Digi-Key_PN"
+F 5 "SRN6045TA-4R7M" H 3550 9400 50  0001 C CNN "MPN"
+F 6 "FIXED IND 4.7UH 4.5A 26 MOHM SMD" H 3550 9400 50  0001 C CNN "Description"
+F 7 "Bourns Inc." H 3550 9400 50  0001 C CNN "Manufacturer"
+	1    3550 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JWlib:TPS563231 U15
+U 1 1 653C2980
+P 2350 9400
+F 0 "U15" H 2350 9767 50  0000 C CNN
+F 1 "TPS563231" H 2350 9676 50  0000 C CNN
+F 2 "jb-footprint:SOT-563" H 2400 9150 50  0001 L CNN
+F 3 "" H 2350 9400 50  0001 C CNN
+F 4 "Buck, 3A, 17V" H 2350 9400 50  0001 C CNN "Description"
+F 5 "296-TPS563231DRLRCT-ND" H 2350 9400 50  0001 C CNN "Digi-Key_PN"
+F 6 "TPS563231DRLR" H 2350 9400 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 2350 9400 50  0001 C CNN "Manufacturer"
+	1    2350 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 653C2997
+P 4650 9800
+AR Path="/5BBE5CCD/653C2997" Ref="C?"  Part="1" 
+AR Path="/653C2997" Ref="C49"  Part="1" 
+AR Path="/5CF9559A/653C2997" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/653C2997" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/653C2997" Ref="C?"  Part="1" 
+AR Path="/5F51430C/653C2997" Ref="C?"  Part="1" 
+F 0 "C49" H 4765 9846 50  0000 L CNN
+F 1 "22uF" H 4765 9755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 9650 50  0001 C CNN
+F 3 "~" H 4650 9800 50  0001 C CNN
+F 4 "490-10746-1-ND" H 5050 9550 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 22UF 10V X5R 0805" H 4650 9800 50  0001 C CNN "Description"
+F 6 "GRM21BR61A226ME44L" H 4650 9800 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 4650 9800 50  0001 C CNN "Manufacturer"
+	1    4650 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 653C29A5
+P 5150 9800
+AR Path="/5F66828B/653C29A5" Ref="C?"  Part="1" 
+AR Path="/653C29A5" Ref="C50"  Part="1" 
+F 0 "C50" H 5265 9846 50  0000 L CNN
+F 1 ".1uF" H 5265 9755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5188 9650 50  0001 C CNN
+F 3 "~" H 5150 9800 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 5150 9800 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 5150 9800 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 5150 9800 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 5150 9800 50  0001 C CNN "Manufacturer"
+	1    5150 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 653C29B7
+P 3050 9250
+AR Path="/5F66828B/653C29B7" Ref="C?"  Part="1" 
+AR Path="/653C29B7" Ref="C39"  Part="1" 
+F 0 "C39" H 3165 9296 50  0000 L CNN
+F 1 ".1uF" H 3165 9205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 9100 50  0001 C CNN
+F 3 "~" H 3050 9250 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 3050 9250 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 3050 9250 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 3050 9250 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 3050 9250 50  0001 C CNN "Manufacturer"
+	1    3050 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 653C29C1
+P 1600 9800
+AR Path="/5BBE5CCD/653C29C1" Ref="C?"  Part="1" 
+AR Path="/653C29C1" Ref="C47"  Part="1" 
+AR Path="/5CF9559A/653C29C1" Ref="C?"  Part="1" 
+AR Path="/5DFE66B1/653C29C1" Ref="C?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/653C29C1" Ref="C?"  Part="1" 
+AR Path="/5F51430C/653C29C1" Ref="C?"  Part="1" 
+F 0 "C47" H 1715 9846 50  0000 L CNN
+F 1 "10uF" H 1715 9755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1638 9650 50  0001 C CNN
+F 3 "~" H 1600 9800 50  0001 C CNN
+F 4 "587-2985-1-ND" H 2000 9550 50  0001 C CNN "Digi-Key_PN"
+F 5 "CAP CER 10UF 25V X5R 0805" H 1600 9800 50  0001 C CNN "Description"
+F 6 "TMK212BBJ106KG-T" H 1600 9800 50  0001 C CNN "MPN"
+F 7 "Taiyo Yuden" H 1600 9800 50  0001 C CNN "Manufacturer"
+	1    1600 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 653C29D1
+P 1150 9800
+AR Path="/5F66828B/653C29D1" Ref="C?"  Part="1" 
+AR Path="/653C29D1" Ref="C46"  Part="1" 
+F 0 "C46" H 1265 9846 50  0000 L CNN
+F 1 ".1uF" H 1265 9755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1188 9650 50  0001 C CNN
+F 3 "~" H 1150 9800 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 1150 9800 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 1150 9800 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 1150 9800 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 1150 9800 50  0001 C CNN "Manufacturer"
+	1    1150 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65C5BEC4
+P 3950 10100
+AR Path="/5BBE5CCD/65C5BEC4" Ref="R?"  Part="1" 
+AR Path="/65C5BEC4" Ref="R38"  Part="1" 
+AR Path="/5CF9559A/65C5BEC4" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/65C5BEC4" Ref="R?"  Part="1" 
+F 0 "R38" V 3850 10100 50  0000 C CNN
+F 1 "16K2" V 3950 10100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3880 10100 50  0001 C CNN
+F 3 "~" H 3950 10100 50  0001 C CNN
+F 4 "RMCF0603FT16K2CT-ND" H 3950 10100 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES 16.2K OHM 1% 1/10W 0603" H 3950 10100 50  0001 C CNN "Description"
+F 6 "RMCF0603FT16K2" H 3950 10100 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 3950 10100 50  0001 C CNN "Manufacturer"
+	1    3950 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J27
+U 1 1 65E4CFEC
+P 4250 10700
+F 0 "J27" H 4200 10800 50  0000 L CNN
+F 1 "Conn_01x02" H 4330 10601 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4250 10700 50  0001 C CNN
+F 3 "~" H 4250 10700 50  0001 C CNN
+F 4 "x" H 4250 10700 50  0001 C CNN "Description"
+F 5 "x" H 4250 10700 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 4250 10700 50  0001 C CNN "MPN"
+F 7 "x" H 4250 10700 50  0001 C CNN "Manufacturer"
+	1    4250 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J33
+U 1 1 66B25361
+P 11250 13350
+F 0 "J33" V 11250 13700 50  0000 L CNN
+F 1 "Conn_01x08" H 11330 13251 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11250 13350 50  0001 C CNN
+F 3 "~" H 11250 13350 50  0001 C CNN
+F 4 "x" H 11250 13350 50  0001 C CNN "Description"
+F 5 "x" H 11250 13350 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 11250 13350 50  0001 C CNN "MPN"
+F 7 "x" H 11250 13350 50  0001 C CNN "Manufacturer"
+	1    11250 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J34
+U 1 1 66C1ACDD
+P 13650 13350
+F 0 "J34" V 13650 13700 50  0000 L CNN
+F 1 "Conn_01x08" H 13730 13251 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 13650 13350 50  0001 C CNN
+F 3 "~" H 13650 13350 50  0001 C CNN
+F 4 "x" H 13650 13350 50  0001 C CNN "Description"
+F 5 "x" H 13650 13350 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 13650 13350 50  0001 C CNN "MPN"
+F 7 "x" H 13650 13350 50  0001 C CNN "Manufacturer"
+	1    13650 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J24
+U 1 1 66C1BA45
+P 12550 10500
+F 0 "J24" V 12550 10850 50  0000 L CNN
+F 1 "Conn_01x08" H 12630 10401 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 12550 10500 50  0001 C CNN
+F 3 "~" H 12550 10500 50  0001 C CNN
+F 4 "x" H 12550 10500 50  0001 C CNN "Description"
+F 5 "x" H 12550 10500 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 12550 10500 50  0001 C CNN "MPN"
+F 7 "x" H 12550 10500 50  0001 C CNN "Manufacturer"
+	1    12550 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J25
+U 1 1 66D029D9
+P 12950 10500
+F 0 "J25" V 12950 10850 50  0000 L CNN
+F 1 "Conn_01x08" H 13030 10401 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 12950 10500 50  0001 C CNN
+F 3 "~" H 12950 10500 50  0001 C CNN
+F 4 "x" H 12950 10500 50  0001 C CNN "Description"
+F 5 "x" H 12950 10500 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 12950 10500 50  0001 C CNN "MPN"
+F 7 "x" H 12950 10500 50  0001 C CNN "Manufacturer"
+	1    12950 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J31
+U 1 1 66DEC1D3
+P 14700 13300
+F 0 "J31" V 14700 13650 50  0000 L CNN
+F 1 "Conn_01x08" H 14780 13201 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 14700 13300 50  0001 C CNN
+F 3 "~" H 14700 13300 50  0001 C CNN
+F 4 "x" H 14700 13300 50  0001 C CNN "Description"
+F 5 "x" H 14700 13300 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 14700 13300 50  0001 C CNN "MPN"
+F 7 "x" H 14700 13300 50  0001 C CNN "Manufacturer"
+	1    14700 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J26
+U 1 1 66ED8104
+P 13350 10500
+F 0 "J26" V 13350 10850 50  0000 L CNN
+F 1 "Conn_01x08" H 13430 10401 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 13350 10500 50  0001 C CNN
+F 3 "~" H 13350 10500 50  0001 C CNN
+F 4 "x" H 13350 10500 50  0001 C CNN "Description"
+F 5 "x" H 13350 10500 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 13350 10500 50  0001 C CNN "MPN"
+F 7 "x" H 13350 10500 50  0001 C CNN "Manufacturer"
+	1    13350 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J32
+U 1 1 66ED8AF0
+P 15100 13300
+F 0 "J32" V 15100 13650 50  0000 L CNN
+F 1 "Conn_01x08" H 15180 13201 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 15100 13300 50  0001 C CNN
+F 3 "~" H 15100 13300 50  0001 C CNN
+F 4 "x" H 15100 13300 50  0001 C CNN "Description"
+F 5 "x" H 15100 13300 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 15100 13300 50  0001 C CNN "MPN"
+F 7 "x" H 15100 13300 50  0001 C CNN "Manufacturer"
+	1    15100 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L jb-symbol:SN74LVC4245AN U24
+U 1 1 67293961
+P 12700 13050
+F 0 "U24" H 12300 13400 60  0000 C CNN
+F 1 "SN74LVC4245AN" V 12600 12650 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 12900 13250 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 12900 13350 60  0001 L CNN
+F 4 "1727-2878-ND" H 12900 13450 60  0001 L CNN "Digi-Key_PN"
+F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 12700 13050 50  0001 C CNN "Description"
+F 6 "74LVC4245APW,112" H 12700 13050 50  0001 C CNN "MPN"
+F 7 "Nexperia USA Inc." H 12700 13050 50  0001 C CNN "Manufacturer"
+	1    12700 13050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67293970
+P 12100 12600
+AR Path="/5F66828B/67293970" Ref="C?"  Part="1" 
+AR Path="/67293970" Ref="C70"  Part="1" 
+F 0 "C70" H 12215 12646 50  0000 L CNN
+F 1 ".1uF" H 12215 12555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12138 12450 50  0001 C CNN
+F 3 "~" H 12100 12600 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 12100 12600 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 12100 12600 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 12100 12600 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 12100 12600 50  0001 C CNN "Manufacturer"
+	1    12100 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67293976
+P 13350 12600
+AR Path="/5F66828B/67293976" Ref="C?"  Part="1" 
+AR Path="/67293976" Ref="C71"  Part="1" 
+F 0 "C71" H 13465 12646 50  0000 L CNN
+F 1 ".1uF" H 13465 12555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13388 12450 50  0001 C CNN
+F 3 "~" H 13350 12600 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 13350 12600 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 13350 12600 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 13350 12600 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 13350 12600 50  0001 C CNN "Manufacturer"
+	1    13350 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L jb-symbol:SN74LVC4245AN U23
+U 1 1 68220B40
+P 10250 13050
+F 0 "U23" H 9900 13400 60  0000 C CNN
+F 1 "SN74LVC4245AN" V 10150 12650 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 10450 13250 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 10450 13350 60  0001 L CNN
+F 4 "1727-2878-ND" H 10450 13450 60  0001 L CNN "Digi-Key_PN"
+F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 10250 13050 50  0001 C CNN "Description"
+F 6 "74LVC4245APW,112" H 10250 13050 50  0001 C CNN "MPN"
+F 7 "Nexperia USA Inc." H 10250 13050 50  0001 C CNN "Manufacturer"
+	1    10250 13050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 68220B4E
+P 9650 12600
+AR Path="/5F66828B/68220B4E" Ref="C?"  Part="1" 
+AR Path="/68220B4E" Ref="C68"  Part="1" 
+F 0 "C68" H 9765 12646 50  0000 L CNN
+F 1 ".1uF" H 9765 12555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9688 12450 50  0001 C CNN
+F 3 "~" H 9650 12600 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 9650 12600 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 9650 12600 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 9650 12600 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 9650 12600 50  0001 C CNN "Manufacturer"
+	1    9650 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 68220B54
+P 10900 12600
+AR Path="/5F66828B/68220B54" Ref="C?"  Part="1" 
+AR Path="/68220B54" Ref="C69"  Part="1" 
+F 0 "C69" H 11015 12646 50  0000 L CNN
+F 1 ".1uF" H 11015 12555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10938 12450 50  0001 C CNN
+F 3 "~" H 10900 12600 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 10900 12600 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 10900 12600 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 10900 12600 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 10900 12600 50  0001 C CNN "Manufacturer"
+	1    10900 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AZ1117-3.3 U?
+U 1 1 6AAF5324
+P 7300 9850
+AR Path="/5D1A4D20/6AAF5324" Ref="U?"  Part="1" 
+AR Path="/6AAF5324" Ref="U17"  Part="1" 
+AR Path="/5CF9559A/6AAF5324" Ref="U?"  Part="1" 
+AR Path="/5E2D04E3/6AAF5324" Ref="U?"  Part="1" 
+AR Path="/5F66828B/6AAF5324" Ref="U?"  Part="1" 
+F 0 "U17" H 7300 10100 50  0000 C CNN
+F 1 "AZ1117CH-3.3TRG1" H 7350 10000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7300 10100 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 7300 9850 50  0001 C CNN
+F 4 "AZ1117CH-3.3TRG1DICT-ND" H 7300 9850 50  0001 C CNN "Digi-Key_PN"
+F 5 "AZ1117CH-3.3TRG1" H 7300 9850 50  0001 C CNN "MPN"
+F 6 "IC REG LINEAR 3.3V 800MA SOT223" H 7300 9850 50  0001 C CNN "Description"
+F 7 "Diodes Incorporated" H 7300 9850 50  0001 C CNN "Manufacturer"
+	1    7300 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6AAF532C
+P 6700 10000
+AR Path="/5D1A4D20/6AAF532C" Ref="C?"  Part="1" 
+AR Path="/6AAF532C" Ref="C52"  Part="1" 
+AR Path="/5CF9559A/6AAF532C" Ref="C?"  Part="1" 
+AR Path="/5E2D04E3/6AAF532C" Ref="C?"  Part="1" 
+AR Path="/5F66828B/6AAF532C" Ref="C?"  Part="1" 
+F 0 "C52" H 6815 10091 50  0000 L CNN
+F 1 "10uF" H 6815 10000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 9850 50  0001 C CNN
+F 3 "~" H 6700 10000 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 6700 10000 50  0001 C CNN "Digi-Key_PN"
+F 5 "CL10A106MQ8NNNC" H 6700 10000 50  0001 C CNN "MPN"
+F 6 "CAP CER 10UF 6.3V X5R 0603" H 6700 10000 50  0001 C CNN "Description"
+F 7 "Samsung Electro-Mechanics" H 6700 10000 50  0001 C CNN "Manufacturer"
+	1    6700 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6AAF5334
+P 7750 10000
+AR Path="/5D1A4D20/6AAF5334" Ref="C?"  Part="1" 
+AR Path="/6AAF5334" Ref="C53"  Part="1" 
+AR Path="/5CF9559A/6AAF5334" Ref="C?"  Part="1" 
+AR Path="/5E2D04E3/6AAF5334" Ref="C?"  Part="1" 
+AR Path="/5F66828B/6AAF5334" Ref="C?"  Part="1" 
+F 0 "C53" H 7865 10091 50  0000 L CNN
+F 1 "22uF" H 7865 10000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 9850 50  0001 C CNN
+F 3 "~" H 7750 10000 50  0001 C CNN
+F 4 "1276-2868-1-ND" H 7750 10000 50  0001 C CNN "Digi-Key_PN"
+F 5 "CL10A226MQ8NRNE" H 7750 10000 50  0001 C CNN "MPN"
+F 6 "CAP CER 22UF 6.3V X5R 0603" H 7750 10000 50  0001 C CNN "Description"
+F 7 "Samsung Electro-Mechanics" H 7750 10000 50  0001 C CNN "Manufacturer"
+	1    7750 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L jb-symbol:AP3012 U26
+U 1 1 6D34B75C
+P 7400 15200
+F 0 "U26" H 7400 15525 50  0000 C CNN
+F 1 "AP3012" H 7400 15434 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7200 15450 50  0001 C CNN
+F 3 "" H 7200 15450 50  0001 C CNN
+F 4 "IC REG BOOST ADJ 500MA SOT23-5" H 7400 15200 50  0001 C CNN "Description"
+F 5 "AP3012KTR-G1DICT-ND" H 7400 15200 50  0001 C CNN "Digi-Key_PN"
+F 6 "AP3012KTR-G1" H 7400 15200 50  0001 C CNN "MPN"
+F 7 "Diodes Incorporated" H 7400 15200 50  0001 C CNN "Manufacturer"
+	1    7400 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6D34EE42
+P 6700 15450
+AR Path="/5F66828B/6D34EE42" Ref="C?"  Part="1" 
+AR Path="/6D34EE42" Ref="C78"  Part="1" 
+F 0 "C78" H 6815 15496 50  0000 L CNN
+F 1 "1uF" H 6815 15405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 15300 50  0001 C CNN
+F 3 "~" H 6700 15450 50  0001 C CNN
+F 4 "CAP CER 1UF 25V X5R 0603" H 6700 15450 50  0001 C CNN "Description"
+F 5 "1276-1102-1-ND" H 6700 15450 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL10A105KA8NNNC" H 6700 15450 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 6700 15450 50  0001 C CNN "Manufacturer"
+	1    6700 15450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L14
+U 1 1 6D72FFA2
+P 7450 14800
+AR Path="/6D72FFA2" Ref="L14"  Part="1" 
+AR Path="/5DFE66B1/6D72FFA2" Ref="L?"  Part="1" 
+AR Path="/5ECC13DB/5DFE66B1/6D72FFA2" Ref="L?"  Part="1" 
+AR Path="/5F51430C/6D72FFA2" Ref="L?"  Part="1" 
+F 0 "L14" V 7650 14850 50  0000 C CNN
+F 1 "10uH" V 7550 14800 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-40xx_HandSoldering" H 7450 14800 50  0001 C CNN
+F 3 "~" H 7450 14800 50  0001 C CNN
+F 4 "587-2376-1-ND" V 7550 14600 50  0001 C CNN "Digi-Key_PN"
+F 5 "NRG4026T100M" H 7450 14800 50  0001 C CNN "MPN"
+F 6 "FIXED IND 10UH 1.3A 85 MOHM SMD" H 7450 14800 50  0001 C CNN "Description"
+F 7 "Taiyo Yuden" H 7450 14800 50  0001 C CNN "Manufacturer"
+	1    7450 14800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_ALT D20
+U 1 1 6DA29F88
+P 8350 15100
+F 0 "D20" H 8350 14850 50  0000 C CNN
+F 1 "DB2460600L" H 8350 14950 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-128" H 8350 15100 50  0001 C CNN
+F 3 "~" H 8350 15100 50  0001 C CNN
+F 4 "DIODE SCHOTTKY 60V 3A TMINIP2" H 8350 15100 50  0001 C CNN "Description"
+F 5 "DB2460600LCT-ND" H 8350 15100 50  0001 C CNN "Digi-Key_PN"
+F 6 "DB2460600L" H 8350 15100 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 8350 15100 50  0001 C CNN "Manufacturer"
+	1    8350 15100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6DE228ED
+P 8750 15650
+AR Path="/5BBE5CCD/6DE228ED" Ref="R?"  Part="1" 
+AR Path="/6DE228ED" Ref="R52"  Part="1" 
+AR Path="/5CF9559A/6DE228ED" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/6DE228ED" Ref="R?"  Part="1" 
+F 0 "R52" V 8650 15650 50  0000 C CNN
+F 1 "5K1" V 8750 15650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8680 15650 50  0001 C CNN
+F 3 "~" H 8750 15650 50  0001 C CNN
+F 4 "CR0603-FX-5101ELFCT-ND" H 8750 15650 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 5.1K OHM 1% 1/10W 0603" H 8750 15650 50  0001 C CNN "Description"
+F 6 "CR0603-FX-5101ELF" H 8750 15650 50  0001 C CNN "MPN"
+F 7 "Bourns Inc." H 8750 15650 50  0001 C CNN "Manufacturer"
+	1    8750 15650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6DE228F4
+P 8750 15250
+AR Path="/5BBE5CCD/6DE228F4" Ref="R?"  Part="1" 
+AR Path="/6DE228F4" Ref="R51"  Part="1" 
+AR Path="/5CF9559A/6DE228F4" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/6DE228F4" Ref="R?"  Part="1" 
+F 0 "R51" V 8650 15250 50  0000 C CNN
+F 1 "92K82" V 8750 15250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8680 15250 50  0001 C CNN
+F 3 "~" H 8750 15250 50  0001 C CNN
+F 4 "RMCF0603FT90K9CT-ND" H 8750 15250 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES 90.9K OHM 1% 1/10W 0603" H 8750 15250 50  0001 C CNN "Description"
+F 6 "RMCF0603FT90K9" H 8750 15250 50  0001 C CNN "MPN"
+	1    8750 15250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6E428459
+P 9000 15450
+AR Path="/5F66828B/6E428459" Ref="C?"  Part="1" 
+AR Path="/6E428459" Ref="C79"  Part="1" 
+F 0 "C79" H 9115 15496 50  0000 L CNN
+F 1 "1uF" H 9115 15405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9038 15300 50  0001 C CNN
+F 3 "~" H 9000 15450 50  0001 C CNN
+F 4 "CAP CER 1UF 25V X5R 0603" H 9000 15450 50  0001 C CNN "Description"
+F 5 "1276-1102-1-ND" H 9000 15450 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL10A105KA8NNNC" H 9000 15450 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 9000 15450 50  0001 C CNN "Manufacturer"
+	1    9000 15450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1C0EAD
+P 14550 2150
+AR Path="/5BBE5CCD/5F1C0EAD" Ref="R?"  Part="1" 
+AR Path="/5F1C0EAD" Ref="R16"  Part="1" 
+AR Path="/5CF9559A/5F1C0EAD" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5F1C0EAD" Ref="R?"  Part="1" 
+F 0 "R16" V 14500 2350 50  0000 C CNN
+F 1 "33" V 14550 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14480 2150 50  0001 C CNN
+F 3 "~" H 14550 2150 50  0001 C CNN
+F 4 "311-33.0HRCT-ND" H 14550 2150 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 14550 2150 50  0001 C CNN "Description"
+F 6 "RC0603FR-0733RL" H 14550 2150 50  0001 C CNN "MPN"
+F 7 "Yageo" H 14550 2150 50  0001 C CNN "Manufacturer"
+	1    14550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1C7710
+P 14550 2250
+AR Path="/5BBE5CCD/5F1C7710" Ref="R?"  Part="1" 
+AR Path="/5F1C7710" Ref="R17"  Part="1" 
+AR Path="/5CF9559A/5F1C7710" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5F1C7710" Ref="R?"  Part="1" 
+F 0 "R17" V 14500 2450 50  0000 C CNN
+F 1 "33" V 14550 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14480 2250 50  0001 C CNN
+F 3 "~" H 14550 2250 50  0001 C CNN
+F 4 "311-33.0HRCT-ND" H 14550 2250 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 14550 2250 50  0001 C CNN "Description"
+F 6 "RC0603FR-0733RL" H 14550 2250 50  0001 C CNN "MPN"
+F 7 "Yageo" H 14550 2250 50  0001 C CNN "Manufacturer"
+	1    14550 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1C79E5
+P 14550 2350
+AR Path="/5BBE5CCD/5F1C79E5" Ref="R?"  Part="1" 
+AR Path="/5F1C79E5" Ref="R18"  Part="1" 
+AR Path="/5CF9559A/5F1C79E5" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5F1C79E5" Ref="R?"  Part="1" 
+F 0 "R18" V 14500 2550 50  0000 C CNN
+F 1 "33" V 14550 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14480 2350 50  0001 C CNN
+F 3 "~" H 14550 2350 50  0001 C CNN
+F 4 "311-33.0HRCT-ND" H 14550 2350 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 14550 2350 50  0001 C CNN "Description"
+F 6 "RC0603FR-0733RL" H 14550 2350 50  0001 C CNN "MPN"
+F 7 "Yageo" H 14550 2350 50  0001 C CNN "Manufacturer"
+	1    14550 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9D6AF9
+P 17650 2350
+AR Path="/5BBE5CCD/5F9D6AF9" Ref="R?"  Part="1" 
+AR Path="/5F9D6AF9" Ref="R19"  Part="1" 
+AR Path="/5CF9559A/5F9D6AF9" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5F9D6AF9" Ref="R?"  Part="1" 
+F 0 "R19" V 17600 2550 50  0000 C CNN
+F 1 "33" V 17650 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 2350 50  0001 C CNN
+F 3 "~" H 17650 2350 50  0001 C CNN
+F 4 "311-33.0HRCT-ND" H 17650 2350 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 17650 2350 50  0001 C CNN "Description"
+F 6 "RC0603FR-0733RL" H 17650 2350 50  0001 C CNN "MPN"
+F 7 "Yageo" H 17650 2350 50  0001 C CNN "Manufacturer"
+	1    17650 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9D6526
+P 14550 1950
+AR Path="/5BBE5CCD/5F9D6526" Ref="R?"  Part="1" 
+AR Path="/5F9D6526" Ref="R12"  Part="1" 
+AR Path="/5CF9559A/5F9D6526" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5F9D6526" Ref="R?"  Part="1" 
+F 0 "R12" V 14600 1750 50  0000 C CNN
+F 1 "33" V 14550 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14480 1950 50  0001 C CNN
+F 3 "~" H 14550 1950 50  0001 C CNN
+F 4 "311-33.0HRCT-ND" H 14550 1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 14550 1950 50  0001 C CNN "Description"
+F 6 "RC0603FR-0733RL" H 14550 1950 50  0001 C CNN "MPN"
+F 7 "Yageo" H 14550 1950 50  0001 C CNN "Manufacturer"
+	1    14550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB179DA
+P 7300 3200
+AR Path="/5F66828B/5FB179DA" Ref="R?"  Part="1" 
+AR Path="/5FB179DA" Ref="R21"  Part="1" 
+F 0 "R21" V 7200 3200 50  0000 C CNN
+F 1 "10K" V 7300 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7230 3200 50  0001 C CNN
+F 3 "~" H 7300 3200 50  0001 C CNN
+F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 7300 3200 50  0001 C CNN "Description"
+F 5 "311-10.0KHRCT-ND" H 7300 3200 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0603FR-0710KL" H 7300 3200 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7300 3200 50  0001 C CNN "Manufacturer"
+	1    7300 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB17AC4
+P 6750 3350
+AR Path="/5F66828B/5FB17AC4" Ref="R?"  Part="1" 
+AR Path="/5FB17AC4" Ref="R22"  Part="1" 
+F 0 "R22" V 6650 3350 50  0000 C CNN
+F 1 "10K" V 6750 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 3350 50  0001 C CNN
+F 3 "~" H 6750 3350 50  0001 C CNN
+F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 6750 3350 50  0001 C CNN "Description"
+F 5 "311-10.0KHRCT-ND" H 6750 3350 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0603FR-0710KL" H 6750 3350 50  0001 C CNN "MPN"
+F 7 "Yageo" H 6750 3350 50  0001 C CNN "Manufacturer"
+	1    6750 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9D63AD
+P 17650 2050
+AR Path="/5BBE5CCD/5F9D63AD" Ref="R?"  Part="1" 
+AR Path="/5F9D63AD" Ref="R15"  Part="1" 
+AR Path="/5CF9559A/5F9D63AD" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5F9D63AD" Ref="R?"  Part="1" 
+F 0 "R15" V 17600 2250 50  0000 C CNN
+F 1 "33" V 17650 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 2050 50  0001 C CNN
+F 3 "~" H 17650 2050 50  0001 C CNN
+F 4 "311-33.0HRCT-ND" H 17650 2050 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 17650 2050 50  0001 C CNN "Description"
+F 6 "RC0603FR-0733RL" H 17650 2050 50  0001 C CNN "MPN"
+F 7 "Yageo" H 17650 2050 50  0001 C CNN "Manufacturer"
+	1    17650 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9D5A62
+P 17650 1950
+AR Path="/5BBE5CCD/5F9D5A62" Ref="R?"  Part="1" 
+AR Path="/5F9D5A62" Ref="R13"  Part="1" 
+AR Path="/5CF9559A/5F9D5A62" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5F9D5A62" Ref="R?"  Part="1" 
+F 0 "R13" V 17600 2150 50  0000 C CNN
+F 1 "33" V 17650 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 1950 50  0001 C CNN
+F 3 "~" H 17650 1950 50  0001 C CNN
+F 4 "311-33.0HRCT-ND" H 17650 1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 33 OHM 1% 1/10W 0603" H 17650 1950 50  0001 C CNN "Description"
+F 6 "RC0603FR-0733RL" H 17650 1950 50  0001 C CNN "MPN"
+F 7 "Yageo" H 17650 1950 50  0001 C CNN "Manufacturer"
+	1    17650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J30
+U 1 1 60FE6676
+P 21150 13200
+F 0 "J30" V 21150 14000 50  0000 L CNN
+F 1 "Conn_01x16" H 21230 13101 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 21150 13200 50  0001 C CNN
+F 3 "~" H 21150 13200 50  0001 C CNN
+F 4 "x" H 21150 13200 50  0001 C CNN "Description"
+F 5 "x" H 21150 13200 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 21150 13200 50  0001 C CNN "MPN"
+F 7 "x" H 21150 13200 50  0001 C CNN "Manufacturer"
+	1    21150 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J29
+U 1 1 60FE9CAA
+P 20550 13200
+F 0 "J29" V 20550 14000 50  0000 L CNN
+F 1 "Conn_01x16" H 20630 13101 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 20550 13200 50  0001 C CNN
+F 3 "~" H 20550 13200 50  0001 C CNN
+F 4 "x" H 20550 13200 50  0001 C CNN "Description"
+F 5 "x" H 20550 13200 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 20550 13200 50  0001 C CNN "MPN"
+F 7 "x" H 20550 13200 50  0001 C CNN "Manufacturer"
+	1    20550 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J28
+U 1 1 60FEA76D
+P 19850 13200
+F 0 "J28" V 19850 14000 50  0000 L CNN
+F 1 "Conn_01x16" H 19930 13101 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 19850 13200 50  0001 C CNN
+F 3 "~" H 19850 13200 50  0001 C CNN
+F 4 "x" H 19850 13200 50  0001 C CNN "Description"
+F 5 "x" H 19850 13200 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 19850 13200 50  0001 C CNN "MPN"
+F 7 "x" H 19850 13200 50  0001 C CNN "Manufacturer"
+	1    19850 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J23
+U 1 1 66A34264
+P 11750 10500
+F 0 "J23" V 11750 10900 50  0000 L CNN
+F 1 "Conn_01x08" H 11830 10401 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11750 10500 50  0001 C CNN
+F 3 "~" H 11750 10500 50  0001 C CNN
+F 4 "x" H 11750 10500 50  0001 C CNN "Description"
+F 5 "x" H 11750 10500 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 11750 10500 50  0001 C CNN "MPN"
+F 7 "x" H 11750 10500 50  0001 C CNN "Manufacturer"
+	1    11750 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x08 SW?
+U 1 1 5F3F6326
+P 2400 7700
+AR Path="/5ECC13DB/5F3F6326" Ref="SW?"  Part="1" 
+AR Path="/5F3F6326" Ref="SW11"  Part="1" 
+F 0 "SW11" H 2400 8367 50  0000 C CNN
+F 1 "SW_DIP_x08" H 2400 8276 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W7.62mm_P2.54mm_LowProfile" H 2400 7700 50  0001 C CNN
+F 3 "~" H 2400 7700 50  0001 C CNN
+F 4 "CT2108MS-ND" H 2400 7700 50  0001 C CNN "Digi-Key_PN"
+F 5 "SWITCH SLIDE DIP SPST 100MA 20V" H 2400 7700 50  0001 C CNN "Description"
+F 6 "210-8MS" H 2400 7700 50  0001 C CNN "MPN"
+F 7 "CTS Electrocomponents" H 2400 7700 50  0001 C CNN "Manufacturer"
+	1    2400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_ADC:MCP3008 U16
+U 1 1 6349BCA7
+P 16600 9600
+F 0 "U16" H 16200 10200 50  0000 C CNN
+F 1 "MCP3008" H 16200 10100 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 16700 9700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 16700 9700 50  0001 C CNN
+F 4 "IC ADC 10BIT SAR 16SOIC" H 16600 9600 50  0001 C CNN "Description"
+F 5 "MCP3008-I/SL-ND" H 16600 9600 50  0001 C CNN "Digi-Key_PN"
+F 6 "MCP3008-I/SL" H 16600 9600 50  0001 C CNN "MPN"
+F 7 "Microchip Technology" H 16600 9600 50  0001 C CNN "Manufacturer"
+	1    16600 9600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6584C8AD
+P 18000 8900
+AR Path="/5BBE5CCD/6584C8AD" Ref="R?"  Part="1" 
+AR Path="/6584C8AD" Ref="R28"  Part="1" 
+AR Path="/5CF9559A/6584C8AD" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/6584C8AD" Ref="R?"  Part="1" 
+F 0 "R28" V 17950 9050 50  0000 C CNN
+F 1 "4K7" V 18000 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17930 8900 50  0001 C CNN
+F 3 "~" H 18000 8900 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18000 8900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18000 8900 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18000 8900 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18000 8900 50  0001 C CNN "Manufacturer"
+	1    18000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 659753B2
+P 18100 8900
+AR Path="/5BBE5CCD/659753B2" Ref="R?"  Part="1" 
+AR Path="/659753B2" Ref="R29"  Part="1" 
+AR Path="/5CF9559A/659753B2" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/659753B2" Ref="R?"  Part="1" 
+F 0 "R29" V 18050 9050 50  0000 C CNN
+F 1 "4K7" V 18100 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18030 8900 50  0001 C CNN
+F 3 "~" H 18100 8900 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18100 8900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18100 8900 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18100 8900 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18100 8900 50  0001 C CNN "Manufacturer"
+	1    18100 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65A93156
+P 18200 8900
+AR Path="/5BBE5CCD/65A93156" Ref="R?"  Part="1" 
+AR Path="/65A93156" Ref="R30"  Part="1" 
+AR Path="/5CF9559A/65A93156" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/65A93156" Ref="R?"  Part="1" 
+F 0 "R30" V 18150 9050 50  0000 C CNN
+F 1 "4K7" V 18200 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18130 8900 50  0001 C CNN
+F 3 "~" H 18200 8900 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18200 8900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18200 8900 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18200 8900 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18200 8900 50  0001 C CNN "Manufacturer"
+	1    18200 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65BB1A7D
+P 18300 8900
+AR Path="/5BBE5CCD/65BB1A7D" Ref="R?"  Part="1" 
+AR Path="/65BB1A7D" Ref="R31"  Part="1" 
+AR Path="/5CF9559A/65BB1A7D" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/65BB1A7D" Ref="R?"  Part="1" 
+F 0 "R31" V 18250 9050 50  0000 C CNN
+F 1 "4K7" V 18300 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18230 8900 50  0001 C CNN
+F 3 "~" H 18300 8900 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18300 8900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18300 8900 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18300 8900 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18300 8900 50  0001 C CNN "Manufacturer"
+	1    18300 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65CD087F
+P 18400 8900
+AR Path="/5BBE5CCD/65CD087F" Ref="R?"  Part="1" 
+AR Path="/65CD087F" Ref="R32"  Part="1" 
+AR Path="/5CF9559A/65CD087F" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/65CD087F" Ref="R?"  Part="1" 
+F 0 "R32" V 18350 9050 50  0000 C CNN
+F 1 "4K7" V 18400 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18330 8900 50  0001 C CNN
+F 3 "~" H 18400 8900 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18400 8900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18400 8900 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18400 8900 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18400 8900 50  0001 C CNN "Manufacturer"
+	1    18400 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65DEFEFF
+P 18500 8900
+AR Path="/5BBE5CCD/65DEFEFF" Ref="R?"  Part="1" 
+AR Path="/65DEFEFF" Ref="R33"  Part="1" 
+AR Path="/5CF9559A/65DEFEFF" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/65DEFEFF" Ref="R?"  Part="1" 
+F 0 "R33" V 18450 9050 50  0000 C CNN
+F 1 "4K7" V 18500 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18430 8900 50  0001 C CNN
+F 3 "~" H 18500 8900 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18500 8900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18500 8900 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18500 8900 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18500 8900 50  0001 C CNN "Manufacturer"
+	1    18500 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65F0FD69
+P 18600 8900
+AR Path="/5BBE5CCD/65F0FD69" Ref="R?"  Part="1" 
+AR Path="/65F0FD69" Ref="R34"  Part="1" 
+AR Path="/5CF9559A/65F0FD69" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/65F0FD69" Ref="R?"  Part="1" 
+F 0 "R34" V 18550 9050 50  0000 C CNN
+F 1 "4K7" V 18600 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18530 8900 50  0001 C CNN
+F 3 "~" H 18600 8900 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18600 8900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18600 8900 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18600 8900 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18600 8900 50  0001 C CNN "Manufacturer"
+	1    18600 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6603025E
+P 18700 8900
+AR Path="/5BBE5CCD/6603025E" Ref="R?"  Part="1" 
+AR Path="/6603025E" Ref="R35"  Part="1" 
+AR Path="/5CF9559A/6603025E" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/6603025E" Ref="R?"  Part="1" 
+F 0 "R35" V 18650 9050 50  0000 C CNN
+F 1 "4K7" V 18700 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18630 8900 50  0001 C CNN
+F 3 "~" H 18700 8900 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18700 8900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18700 8900 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18700 8900 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18700 8900 50  0001 C CNN "Manufacturer"
+	1    18700 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 66275838
+P 18000 10300
+AR Path="/5BBE5CCD/66275838" Ref="R?"  Part="1" 
+AR Path="/66275838" Ref="R39"  Part="1" 
+AR Path="/5CF9559A/66275838" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/66275838" Ref="R?"  Part="1" 
+F 0 "R39" V 17950 10450 50  0000 C CNN
+F 1 "4K7" V 18000 10300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17930 10300 50  0001 C CNN
+F 3 "~" H 18000 10300 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18000 10300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18000 10300 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18000 10300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18000 10300 50  0001 C CNN "Manufacturer"
+	1    18000 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6627583F
+P 18100 10300
+AR Path="/5BBE5CCD/6627583F" Ref="R?"  Part="1" 
+AR Path="/6627583F" Ref="R40"  Part="1" 
+AR Path="/5CF9559A/6627583F" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/6627583F" Ref="R?"  Part="1" 
+F 0 "R40" V 18050 10450 50  0000 C CNN
+F 1 "4K7" V 18100 10300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18030 10300 50  0001 C CNN
+F 3 "~" H 18100 10300 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18100 10300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18100 10300 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18100 10300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18100 10300 50  0001 C CNN "Manufacturer"
+	1    18100 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 66275846
+P 18200 10300
+AR Path="/5BBE5CCD/66275846" Ref="R?"  Part="1" 
+AR Path="/66275846" Ref="R41"  Part="1" 
+AR Path="/5CF9559A/66275846" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/66275846" Ref="R?"  Part="1" 
+F 0 "R41" V 18150 10450 50  0000 C CNN
+F 1 "4K7" V 18200 10300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18130 10300 50  0001 C CNN
+F 3 "~" H 18200 10300 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18200 10300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18200 10300 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18200 10300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18200 10300 50  0001 C CNN "Manufacturer"
+	1    18200 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6627584D
+P 18300 10300
+AR Path="/5BBE5CCD/6627584D" Ref="R?"  Part="1" 
+AR Path="/6627584D" Ref="R42"  Part="1" 
+AR Path="/5CF9559A/6627584D" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/6627584D" Ref="R?"  Part="1" 
+F 0 "R42" V 18250 10450 50  0000 C CNN
+F 1 "4K7" V 18300 10300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18230 10300 50  0001 C CNN
+F 3 "~" H 18300 10300 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18300 10300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18300 10300 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18300 10300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18300 10300 50  0001 C CNN "Manufacturer"
+	1    18300 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 66275854
+P 18400 10300
+AR Path="/5BBE5CCD/66275854" Ref="R?"  Part="1" 
+AR Path="/66275854" Ref="R43"  Part="1" 
+AR Path="/5CF9559A/66275854" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/66275854" Ref="R?"  Part="1" 
+F 0 "R43" V 18350 10450 50  0000 C CNN
+F 1 "4K7" V 18400 10300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18330 10300 50  0001 C CNN
+F 3 "~" H 18400 10300 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18400 10300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18400 10300 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18400 10300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18400 10300 50  0001 C CNN "Manufacturer"
+	1    18400 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6627585B
+P 18500 10300
+AR Path="/5BBE5CCD/6627585B" Ref="R?"  Part="1" 
+AR Path="/6627585B" Ref="R44"  Part="1" 
+AR Path="/5CF9559A/6627585B" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/6627585B" Ref="R?"  Part="1" 
+F 0 "R44" V 18450 10450 50  0000 C CNN
+F 1 "4K7" V 18500 10300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18430 10300 50  0001 C CNN
+F 3 "~" H 18500 10300 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18500 10300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18500 10300 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18500 10300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18500 10300 50  0001 C CNN "Manufacturer"
+	1    18500 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 66275862
+P 18600 10300
+AR Path="/5BBE5CCD/66275862" Ref="R?"  Part="1" 
+AR Path="/66275862" Ref="R45"  Part="1" 
+AR Path="/5CF9559A/66275862" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/66275862" Ref="R?"  Part="1" 
+F 0 "R45" V 18550 10450 50  0000 C CNN
+F 1 "4K7" V 18600 10300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18530 10300 50  0001 C CNN
+F 3 "~" H 18600 10300 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18600 10300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18600 10300 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18600 10300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18600 10300 50  0001 C CNN "Manufacturer"
+	1    18600 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 66275869
+P 18700 10300
+AR Path="/5BBE5CCD/66275869" Ref="R?"  Part="1" 
+AR Path="/66275869" Ref="R46"  Part="1" 
+AR Path="/5CF9559A/66275869" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/66275869" Ref="R?"  Part="1" 
+F 0 "R46" V 18650 10450 50  0000 C CNN
+F 1 "4K7" V 18700 10300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18630 10300 50  0001 C CNN
+F 3 "~" H 18700 10300 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" H 18700 10300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 18700 10300 50  0001 C CNN "Description"
+F 6 "RC0603FR-074K7L" H 18700 10300 50  0001 C CNN "MPN"
+F 7 "Yageo" H 18700 10300 50  0001 C CNN "Manufacturer"
+	1    18700 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 66943B60
+P 19000 9850
+AR Path="/5F66828B/66943B60" Ref="C?"  Part="1" 
+AR Path="/66943B60" Ref="C51"  Part="1" 
+F 0 "C51" V 18950 9950 50  0000 L CNN
+F 1 ".1uF" V 18950 9650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19038 9700 50  0001 C CNN
+F 3 "~" H 19000 9850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19000 9850 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19000 9850 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19000 9850 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19000 9850 50  0001 C CNN "Manufacturer"
+	1    19000 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6738AF42
+P 19450 9750
+AR Path="/5F66828B/6738AF42" Ref="C?"  Part="1" 
+AR Path="/6738AF42" Ref="C45"  Part="1" 
+F 0 "C45" V 19400 9850 50  0000 L CNN
+F 1 ".1uF" V 19400 9550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19488 9600 50  0001 C CNN
+F 3 "~" H 19450 9750 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19450 9750 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19450 9750 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19450 9750 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19450 9750 50  0001 C CNN "Manufacturer"
+	1    19450 9750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 675D9F4C
+P 19000 9650
+AR Path="/5F66828B/675D9F4C" Ref="C?"  Part="1" 
+AR Path="/675D9F4C" Ref="C44"  Part="1" 
+F 0 "C44" V 18950 9750 50  0000 L CNN
+F 1 ".1uF" V 18950 9450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19038 9500 50  0001 C CNN
+F 3 "~" H 19000 9650 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19000 9650 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19000 9650 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19000 9650 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19000 9650 50  0001 C CNN "Manufacturer"
+	1    19000 9650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 675D9F52
+P 19450 9550
+AR Path="/5F66828B/675D9F52" Ref="C?"  Part="1" 
+AR Path="/675D9F52" Ref="C43"  Part="1" 
+F 0 "C43" V 19400 9650 50  0000 L CNN
+F 1 ".1uF" V 19400 9350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19488 9400 50  0001 C CNN
+F 3 "~" H 19450 9550 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19450 9550 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19450 9550 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19450 9550 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19450 9550 50  0001 C CNN "Manufacturer"
+	1    19450 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67DEE422
+P 19000 9450
+AR Path="/5F66828B/67DEE422" Ref="C?"  Part="1" 
+AR Path="/67DEE422" Ref="C42"  Part="1" 
+F 0 "C42" V 18950 9550 50  0000 L CNN
+F 1 ".1uF" V 18950 9250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19038 9300 50  0001 C CNN
+F 3 "~" H 19000 9450 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19000 9450 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19000 9450 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19000 9450 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19000 9450 50  0001 C CNN "Manufacturer"
+	1    19000 9450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67DEE428
+P 19450 9350
+AR Path="/5F66828B/67DEE428" Ref="C?"  Part="1" 
+AR Path="/67DEE428" Ref="C41"  Part="1" 
+F 0 "C41" V 19400 9450 50  0000 L CNN
+F 1 ".1uF" V 19400 9150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19488 9200 50  0001 C CNN
+F 3 "~" H 19450 9350 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19450 9350 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19450 9350 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19450 9350 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19450 9350 50  0001 C CNN "Manufacturer"
+	1    19450 9350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67DEE42E
+P 19000 9250
+AR Path="/5F66828B/67DEE42E" Ref="C?"  Part="1" 
+AR Path="/67DEE42E" Ref="C40"  Part="1" 
+F 0 "C40" V 18950 9350 50  0000 L CNN
+F 1 ".1uF" V 18950 9050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19038 9100 50  0001 C CNN
+F 3 "~" H 19000 9250 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19000 9250 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19000 9250 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19000 9250 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19000 9250 50  0001 C CNN "Manufacturer"
+	1    19000 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67DEE434
+P 19450 9150
+AR Path="/5F66828B/67DEE434" Ref="C?"  Part="1" 
+AR Path="/67DEE434" Ref="C38"  Part="1" 
+F 0 "C38" V 19400 9250 50  0000 L CNN
+F 1 ".1uF" V 19400 8950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 19488 9000 50  0001 C CNN
+F 3 "~" H 19450 9150 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X5R 0603" H 19450 9150 50  0001 C CNN "Description"
+F 5 "445-6854-1-ND" H 19450 9150 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1608X5R1E104K" H 19450 9150 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 19450 9150 50  0001 C CNN "Manufacturer"
+	1    19450 9150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J20
+U 1 1 608376B7
+P 18300 8500
+F 0 "J20" V 18425 8496 50  0000 C CNN
+F 1 "Conn_01x09" V 18426 8496 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 18300 8500 50  0001 C CNN
+F 3 "~" H 18300 8500 50  0001 C CNN
+F 4 "x" H 18300 8500 50  0001 C CNN "Description"
+F 5 "x" H 18300 8500 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 18300 8500 50  0001 C CNN "MPN"
+F 7 "x" H 18300 8500 50  0001 C CNN "Manufacturer"
+	1    18300 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jb-symbol:SN74LVC4245AN U14
+U 1 1 639B43BE
+P 11550 7300
+F 0 "U14" H 11850 6400 60  0000 C CNN
+F 1 "SN74LVC4245AN" V 11450 6900 60  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 11750 7500 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf" H 11750 7600 60  0001 L CNN
+F 4 "1727-2878-ND" H 11750 7700 60  0001 L CNN "Digi-Key_PN"
+F 5 "IC TRNSLTR BIDIRECTIONAL 24TSSOP" H 11550 7300 50  0001 C CNN "Description"
+F 6 "74LVC4245APW,112" H 11550 7300 50  0001 C CNN "MPN"
+F 7 "Nexperia USA Inc." H 11550 7300 50  0001 C CNN "Manufacturer"
+	1    11550 7300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5F568374
+P 12550 7200
+F 0 "NT1" H 12550 7019 50  0000 C CNN
+F 1 "Net-Tie_2" H 12550 7110 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 12550 7200 50  0001 C CNN
+F 3 "~" H 12550 7200 50  0001 C CNN
+F 4 "x" H 12550 7200 50  0001 C CNN "Description"
+F 5 "x" H 12550 7200 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 12550 7200 50  0001 C CNN "MPN"
+F 7 "x" H 12550 7200 50  0001 C CNN "Manufacturer"
+	1    12550 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D22
+U 1 1 5FB53195
+P 7500 12500
+F 0 "D22" H 7350 12550 50  0000 C CNN
+F 1 "LED_ALT" H 7493 12626 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 12500 50  0001 C CNN
+F 3 "~" H 7500 12500 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0805 SMD" H 7500 12500 50  0001 C CNN "Description"
+F 5 "475-1410-1-ND" H 7500 12500 50  0001 C CNN "Digi-Key_PN"
+F 6 "LG R971-KN-1" H 7500 12500 50  0001 C CNN "MPN"
+F 7 "OSRAM Opto Semiconductors Inc." H 7500 12500 50  0001 C CNN "Manufacturer"
+	1    7500 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB72B9D
+P 7100 12500
+AR Path="/5BBE5CCD/5FB72B9D" Ref="R?"  Part="1" 
+AR Path="/5FB72B9D" Ref="R53"  Part="1" 
+AR Path="/5CF9559A/5FB72B9D" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5FB72B9D" Ref="R?"  Part="1" 
+F 0 "R53" V 7000 12500 50  0000 C CNN
+F 1 "1K" V 7100 12500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7030 12500 50  0001 C CNN
+F 3 "~" H 7100 12500 50  0001 C CNN
+F 4 "311-1.00KHRCT-ND" H 7100 12500 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 1K OHM 1% 1/10W 0603" H 7100 12500 50  0001 C CNN "Description"
+F 6 "RC0603FR-071KL" H 7100 12500 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7100 12500 50  0001 C CNN "Manufacturer"
+	1    7100 12500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5ED207DB
+P 12400 4100
+AR Path="/5ECC13DB/5ED207DB" Ref="J?"  Part="1" 
+AR Path="/5ED207DB" Ref="J12"  Part="1" 
+F 0 "J12" H 12480 4092 50  0000 L CNN
+F 1 "Conn_01x04" H 12480 4001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12400 4100 50  0001 C CNN
+F 3 "~" H 12400 4100 50  0001 C CNN
+F 4 "" H 12400 4100 50  0001 C CNN "Digi-Key_PN"
+F 5 "" H 12400 4100 50  0001 C CNN "Description"
+F 6 "" H 12400 4100 50  0001 C CNN "MPN"
+F 7 "" H 12400 4100 50  0001 C CNN "Manufacturer"
+	1    12400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F12
+U 1 1 5F251BAC
+P 2450 15700
+F 0 "F12" V 2225 15700 50  0000 C CNN
+F 1 "6A" V 2316 15700 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 2500 15500 50  0001 L CNN
+F 3 "~" H 2450 15700 50  0001 C CNN
+F 4 "PTC RESET FUSE 12V 6A 2920" H 2450 15700 50  0001 C CNN "Description"
+F 5 "F8137CT-ND" H 2450 15700 50  0001 C CNN "Digi-Key_PN"
+F 6 "2920L600/12MR" H 2450 15700 50  0001 C CNN "MPN"
+F 7 "Littelfuse Inc." H 2450 15700 50  0001 C CNN "Manufacturer"
+	1    2450 15700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F11
+U 1 1 5F904075
+P 6200 15200
+F 0 "F11" V 5975 15200 50  0000 C CNN
+F 1 ".5A" V 6066 15200 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 6250 15000 50  0001 L CNN
+F 3 "~" H 6200 15200 50  0001 C CNN
+F 4 "PTC RESET FUSE 60V 500MA 2920" H 6200 15200 50  0001 C CNN "Description"
+F 5 "F2866CT-ND" H 6200 15200 50  0001 C CNN "Digi-Key_PN"
+F 6 "2920L050DR" H 6200 15200 50  0001 C CNN "MPN"
+F 7 "Littelfuse Inc." H 6200 15200 50  0001 C CNN "Manufacturer"
+	1    6200 15200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J15
+U 1 1 61B5C6B8
+P 17500 5150
+F 0 "J15" V 17500 4600 50  0000 C CNN
+F 1 "Conn_01x08" H 17418 4616 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 17500 5150 50  0001 C CNN
+F 3 "~" H 17500 5150 50  0001 C CNN
+F 4 "x" H 17500 5150 50  0001 C CNN "Description"
+F 5 "x" H 17500 5150 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 17500 5150 50  0001 C CNN "MPN"
+F 7 "x" H 17500 5150 50  0001 C CNN "Manufacturer"
+	1    17500 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J13
+U 1 1 61B5C6BE
+P 18000 5150
+F 0 "J13" V 18000 4550 50  0000 L CNN
+F 1 "Conn_01x08" H 18080 5051 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 18000 5150 50  0001 C CNN
+F 3 "~" H 18000 5150 50  0001 C CNN
+F 4 "x" H 18000 5150 50  0001 C CNN "Description"
+F 5 "x" H 18000 5150 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 18000 5150 50  0001 C CNN "MPN"
+F 7 "x" H 18000 5150 50  0001 C CNN "Manufacturer"
+	1    18000 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_Darlington_BEC Q12
+U 1 1 5EFA1AE6
+P 10650 5650
+F 0 "Q12" H 10841 5696 50  0000 L CNN
+F 1 "BCV27" H 10841 5605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10850 5750 50  0001 C CNN
+F 3 "~" H 10650 5650 50  0001 C CNN
+F 4 "TRANS NPN DARL 30V 1.2A SOT23" H 10650 5650 50  0001 C CNN "Description"
+F 5 "BCV27CT-ND" H 10650 5650 50  0001 C CNN "Digi-Key_PN"
+F 6 "BCV27" H 10650 5650 50  0001 C CNN "MPN"
+F 7 "ON Semiconductor" H 10650 5650 50  0001 C CNN "Manufacturer"
+	1    10650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EFCC999
+P 10150 5650
+AR Path="/5BBE5CCD/5EFCC999" Ref="R?"  Part="1" 
+AR Path="/5EFCC999" Ref="R54"  Part="1" 
+AR Path="/5CF9559A/5EFCC999" Ref="R?"  Part="1" 
+AR Path="/5ECC13DB/5EFCC999" Ref="R?"  Part="1" 
+F 0 "R54" V 10050 5700 50  0000 C CNN
+F 1 "1K" V 10150 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10080 5650 50  0001 C CNN
+F 3 "~" H 10150 5650 50  0001 C CNN
+F 4 "311-1.00KHRCT-ND" H 10150 5650 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 1K OHM 1% 1/10W 0603" H 10150 5650 50  0001 C CNN "Description"
+F 6 "RC0603FR-071KL" H 10150 5650 50  0001 C CNN "MPN"
+F 7 "Yageo" H 10150 5650 50  0001 C CNN "Manufacturer"
+	1    10150 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5F3F5EBA
+P 11400 5250
+F 0 "J14" H 11480 5242 50  0000 L CNN
+F 1 "Conn_01x02" H 11480 5151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11400 5250 50  0001 C CNN
+F 3 "~" H 11400 5250 50  0001 C CNN
+F 4 "x" H 11400 5250 50  0001 C CNN "Description"
+F 5 "x" H 11400 5250 50  0001 C CNN "Digi-Key_PN"
+F 6 "x" H 11400 5250 50  0001 C CNN "MPN"
+F 7 "x" H 11400 5250 50  0001 C CNN "Manufacturer"
+	1    11400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack08 RN4
+U 1 1 5F11FFCD
+P 11250 15550
+F 0 "RN4" V 11750 15550 50  0000 C CNN
+F 1 "10K" V 11650 15550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 11725 15550 50  0001 C CNN
+F 3 "~" H 11250 15550 50  0001 C CNN
+F 4 "RES ARRAY 8 RES 10K OHM 1506" H 11250 15550 50  0001 C CNN "Description"
+F 5 "Y1103CT-ND" H 11250 15550 50  0001 C CNN "Digi-Key_PN"
+F 6 "EXB-2HV103JV" H 11250 15550 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 11250 15550 50  0001 C CNN "Manufacturer"
+	1    11250 15550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN2
+U 1 1 60124C05
+P 5050 7600
+F 0 "RN2" V 5550 7600 50  0000 C CNN
+F 1 "10K" V 5450 7600 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 5525 7600 50  0001 C CNN
+F 3 "~" H 5050 7600 50  0001 C CNN
+F 4 "RES ARRAY 8 RES 10K OHM 1506" H 5050 7600 50  0001 C CNN "Description"
+F 5 "Y1103CT-ND" H 5050 7600 50  0001 C CNN "Digi-Key_PN"
+F 6 "EXB-2HV103JV" H 5050 7600 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 5050 7600 50  0001 C CNN "Manufacturer"
+	1    5050 7600
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN1
+U 1 1 6047F478
+P 4000 7600
+F 0 "RN1" V 4500 7600 50  0000 C CNN
+F 1 "10K" V 4400 7600 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 4475 7600 50  0001 C CNN
+F 3 "~" H 4000 7600 50  0001 C CNN
+F 4 "RES ARRAY 8 RES 10K OHM 1506" H 4000 7600 50  0001 C CNN "Description"
+F 5 "Y1103CT-ND" H 4000 7600 50  0001 C CNN "Digi-Key_PN"
+F 6 "EXB-2HV103JV" H 4000 7600 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 4000 7600 50  0001 C CNN "Manufacturer"
+	1    4000 7600
+	0    1    -1   0   
+$EndComp
 $Comp
 L Device:R_Pack08 RN3
 U 1 1 5FF8C3DD
@@ -8460,15 +8624,11 @@ F 0 "RN3" V 6550 7600 50  0000 C CNN
 F 1 "10K" V 6450 7600 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_8x0602" V 6525 7600 50  0001 C CNN
 F 3 "~" H 6050 7600 50  0001 C CNN
-F 4 "RES ARRAY 8 RES 330 OHM 1506" H 6050 7600 50  0001 C CNN "Description"
-F 5 "Y1331CT-ND" H 6050 7600 50  0001 C CNN "Digi-Key_PN"
-F 6 "EXB-2HV331JV" H 6050 7600 50  0001 C CNN "MPN"
+F 4 "RES ARRAY 8 RES 10K OHM 1506" H 6050 7600 50  0001 C CNN "Description"
+F 5 "Y1103CT-ND" H 6050 7600 50  0001 C CNN "Digi-Key_PN"
+F 6 "EXB-2HV103JV" H 6050 7600 50  0001 C CNN "MPN"
 F 7 "Panasonic Electronic Components" H 6050 7600 50  0001 C CNN "Manufacturer"
 	1    6050 7600
 	0    1    -1   0   
 $EndComp
-NoConn ~ 5850 7300
-NoConn ~ 5850 7400
-NoConn ~ 5850 7500
-NoConn ~ 5850 7600
 $EndSCHEMATC
