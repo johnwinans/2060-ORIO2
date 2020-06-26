@@ -6971,12 +6971,12 @@ AR Path="/63C02E3E" Ref="R27"  Part="1"
 AR Path="/5CF9559A/63C02E3E" Ref="R?"  Part="1" 
 AR Path="/5ECC13DB/63C02E3E" Ref="R?"  Part="1" 
 F 0 "R27" V 16450 8650 50  0000 C CNN
-F 1 "2K2" V 16550 8650 50  0000 C CNN
+F 1 "100" V 16550 8650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16480 8650 50  0001 C CNN
 F 3 "~" H 16550 8650 50  0001 C CNN
-F 4 "311-2.20KHRCT-ND" H 16550 8650 50  0001 C CNN "Digi-Key_PN"
-F 5 "RES SMD 2.2K OHM 1% 1/10W 0603" H 16550 8650 50  0001 C CNN "Description"
-F 6 "RC0603FR-072K2L" H 16550 8650 50  0001 C CNN "MPN"
+F 4 "311-100HRCT-ND" H 16550 8650 50  0001 C CNN "Digi-Key_PN"
+F 5 "RES SMD 100 OHM 1% 1/10W 0603" H 16550 8650 50  0001 C CNN "Description"
+F 6 "RC0603FR-07100RL" H 16550 8650 50  0001 C CNN "MPN"
 F 7 "Yageo" H 16550 8650 50  0001 C CNN "Manufacturer"
 	1    16550 8650
 	0    1    1    0   
@@ -8631,4 +8631,8 @@ F 7 "Panasonic Electronic Components" H 6050 7600 50  0001 C CNN "Manufacturer"
 	1    6050 7600
 	0    1    -1   0   
 $EndComp
+Text Notes 17600 7550 0    50   ~ 0
+(* 28.777 with ADC divider for raw voltage)
+Text Notes 16200 10750 0    50   ~ 0
+(* .006444 as drawn for raw voltage)
 $EndSCHEMATC
